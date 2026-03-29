@@ -1,88 +1,144 @@
-<!DOC>
+<!DOCTY>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCI Dashboard - Full Width 16:9</title>
+    <title>SCI Dashboard - Format Feuille PPT</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        /* Reset complet pour occuper tout l'écran */
+        /* Optimisation pour Format Feuille 16:9 sans scroll */
         * { box-sizing: border-box; }
-        html, body { 
-            height: 100%; width: 100%; margin: 0; padding: 0; 
-            overflow: hidden; /* Empêche le scroll pour rester en mode présentation */
+        body, html { 
+            height: 100vh; width: 100vw; margin: 0; padding: 0; 
+            overflow: hidden; /* Important pour l'intégration PPT sans barre de défilement */
             font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5;
+            transform-origin: top center;
+            transition: transform 0.2s ease-in-out;
         }
-
-        /* Conteneur principal qui réagit au zoom */
-        #page-wrapper {
-            display: flex;
-            flex-direction: column;
+        
+        /* Conteneur principal simulant une "feuille A4 paysage" */
+        .presentation-container {
+            display: grid;
+            grid-template-rows: auto auto 1fr;
             height: 100vh;
             width: 100vw;
-            padding: 15px;
-            gap: 10px;
-            transition: zoom 0.2s ease; /* Transition fluide */
+            padding: 1vw; /* Padding proportionnel à la largeur de l'écran */
+            gap: 1vh; /* Gap proportionnel à la hauteur de l'écran */
         }
 
         header {
-            background: #1a365d; color: white; padding: 10px 20px;
-            border-radius: 8px; display: flex; justify-content: space-between; align-items: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1a365d;
+            color: white;
+            padding: 0.8vh 2vw; /* Condensé */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-        .card { 
-            background: white; padding: 10px; border-radius: 8px; text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-bottom: 4px solid #3182ce;
+        /* Titre réduit */
+        h1 { margin: 0; font-size: 1.2rem; } /* Taille de police réduite */
+
+        /* KPI Cards */
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1vw;
+            margin-bottom: 0.5vh;
         }
-        .card span { font-size: 0.75em; color: #718096; text-transform: uppercase; font-weight: bold; }
-        .card b { display: block; font-size: 1.5em; color: #2d3748; }
 
-        /* Disposition 16:9 */
-        .main-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 10px; flex: 1; min-height: 0; }
-        .chart-box { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; flex-direction: column; }
-        .details-box { display: grid; grid-template-rows: 1fr 1.2fr; gap: 10px; }
-        .sub-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); overflow: hidden; }
+        .card {
+            background: white;
+            padding: 0.8vh 1vw; /* Condensé */
+            border-radius: 6px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-bottom: 3px solid #3182ce; /* Bordure affinée */
+        }
 
-        table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+        .card span { font-size: 0.7rem; color: #718096; text-transform: uppercase; font-weight: bold; }
+        .card b { display: block; font-size: 1.3rem; color: #2d3748; margin-top: 2px; }
+
+        /* Zone principale : Graphique + Détails */
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1vw;
+            min-height: 0;
+            flex: 1; /* Pour occuper tout l'espace restant */
+        }
+
+        .chart-box {
+            background: white;
+            padding: 1vw;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Important pour maintainAspectRatio */
+        }
+
+        .details-box {
+            display: grid;
+            grid-template-rows: 1fr 1.2fr;
+            gap: 1vh;
+            height: 100%;
+        }
+
+        .sub-card {
+            background: white;
+            padding: 1vw;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 5px; font-size: 0.8rem; }
         th, td { text-align: left; padding: 6px; border-bottom: 1px solid #edf2f7; }
+        th { color: #718096; }
 
-        /* Contrôles de Zoom fixés en bas à droite pour ne pas gêner */
-        .zoom-controls {
-            position: fixed; bottom: 20px; right: 20px; z-index: 9999;
-            background: white; padding: 5px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        .renta-badge {
+            background: #ebf8ff;
+            color: #3182ce;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-weight: bold;
         }
-        .zoom-controls button {
-            padding: 8px 15px; border: none; background: #1a365d; color: white;
-            border-radius: 20px; cursor: pointer; font-weight: bold; margin: 2px;
-        }
-        .zoom-controls button:hover { background: #3182ce; }
     </style>
 </head>
 <body>
 
-<div class="zoom-controls">
-  <button onclick="changeZoom(0.1)">Zoom +</button>
-  <button onclick="changeZoom(-0.1)">Zoom -</button>
-  <button onclick="resetZoom()">100%</button>
-</div>
-
-<div id="page-wrapper">
+<div class="presentation-container">
     <header>
-        <h1 style="margin:0; font-size: 1.4em;">SCI Patrimoine - Présentation 16:9</h1>
-        <div style="font-size: 0.9em; background: rgba(255,255,255,0.1); padding: 5px 15px; border-radius: 20px;">Investissement : 121 000 €</div>
+        <h1>Performance SCI Biens A+B</h1>
+        <div style="font-size: 0.8rem; opacity: 0.8;">Simulation sur 10 ans (Indexation 2%/an)</div>
     </header>
 
     <div class="kpi-row">
-        <div class="card"><span>Revenu Mensuel</span><b>808 €</b></div>
-        <div class="card" style="border-color: #38a169;"><span>Renta. Nette</span><b>8.01 %</b></div>
-        <div class="card" style="border-color: #d69e2e;"><span>Cumul 10 ans</span><b id="kpiCumul">0 €</b></div>
-        <div class="card" style="border-color: #805ad5;"><span>Performance</span><b>+22% sur 10 ans</b></div>
+        <div class="card">
+            <span>Investissement</span>
+            <b>121 000 €</b>
+        </div>
+        <div class="card" style="border-color: #38a169;">
+            <span>Revenu Net Mensuel</span>
+            <b>808 €</b>
+        </div>
+        <div class="card" style="border-color: #d69e2e;">
+            <span>Renta. Nette Initiale</span>
+            <b>8.01 %</b>
+        </div>
+        <div class="card" style="border-color: #805ad5;">
+            <span>Cash-flow 10 ans</span>
+            <b id="totalCumule">0 €</b>
+        </div>
     </div>
 
-    <div class="main-layout">
+    <div class="main-content">
         <div class="chart-box">
-            <h3 style="margin:0 0 10px 0; font-size: 1em; color: #1a365d;">Évolution : Rentabilité & Cumul Cash-flow</h3>
+            <h3 style="margin:0 0 5px 0; font-size: 0.9rem; color: #1a365d;">Évolution : Rentabilité & Cumul Cash-flow</h3>
             <div style="flex:1; min-height: 0;">
                 <canvas id="sciChart"></canvas>
             </div>
@@ -90,18 +146,19 @@
 
         <div class="details-box">
             <div class="sub-card">
-                <h3 style="margin:0 0 10px 0; font-size: 0.9em;">Composition</h3>
+                <span style="font-weight: bold; color: #1a365d; font-size: 0.85rem;">Composition Patrimoine Initial</span>
                 <table>
-                    <tr style="background: #f8fafc"><th>Bien</th><th>Achat</th><th>Loyer</th><th>Renta.</th></tr>
-                    <tr><td>Appartement A</td><td>73 000 €</td><td>550 €</td><td style="color: #3182ce; font-weight: bold;">9.04%</td></tr>
-                    <tr><td>Appartement B</td><td>48 000 €</td><td>258 €</td><td style="color: #3182ce; font-weight: bold;">6.45%</td></tr>
+                    <tr><th>Bien</th><th>Valeur</th><th>Loyer Net</th><th>Renta.</th></tr>
+                    <tr><td>Bien A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-badge">9.04%</span></td></tr>
+                    <tr><td>Bien B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-badge">6.45%</span></td></tr>
                 </table>
             </div>
             <div class="sub-card">
-                <h3 style="margin:0 0 10px 0; font-size: 0.9em;">Flux de Trésorerie (Projection 10 ans)</h3>
-                <table id="fluxTable">
-                    <thead><tr style="background: #f8fafc"><th>Année</th><th>Annuel</th><th>Cumulé</th></tr></thead>
-                    <tbody id="fluxBody"></tbody>
+                <span style="font-weight: bold; color: #1a365d; font-size: 0.85rem;">Projection Clé (Année 10)</span>
+                <table>
+                    <tr><td>Revenu annuel An 10</td><td style="text-align: right; font-weight: bold;">11 588 €</td></tr>
+                    <tr><td>Rentabilité / coût An 10</td><td style="text-align: right; font-weight: bold;">9.58 %</td></tr>
+                    <tr><td>Plus-value latente (+2%/an)</td><td style="text-align: right; font-weight: bold;">+26 500 €</td></tr>
                 </table>
             </div>
         </div>
@@ -109,65 +166,63 @@
 </div>
 
 <script>
-    let currentZoom = 1.0;
-    const wrapper = document.getElementById('page-wrapper');
-
-    function changeZoom(delta) {
-        currentZoom += delta;
-        wrapper.style.zoom = currentZoom;
-    }
-
-    function resetZoom() {
-        currentZoom = 1.0;
-        wrapper.style.zoom = 1;
-    }
-
-    // Données SCI
     const totalPatrimoine = 121000;
-    let loyerMensuel = 808;
+    let loyerAnnuel = 9696;
     let cumul = 0;
+
     const labels = [];
     const dataRenta = [];
     const dataCumule = [];
-    const fluxBody = document.getElementById('fluxBody');
 
     for (let i = 1; i <= 10; i++) {
-        let loyerAnnuel = loyerMensuel * 12;
+        labels.push("An " + i);
         let renta = (loyerAnnuel / totalPatrimoine) * 100;
         cumul += loyerAnnuel;
-
-        labels.push("An " + i);
+        
         dataRenta.push(renta.toFixed(2));
         dataCumule.push(Math.round(cumul));
-
-        // Remplissage tableau (Seulement quelques lignes pour garder la place)
-        if (i === 1 || i === 5 || i === 10) {
-            fluxBody.innerHTML += `<tr><td>An ${i}</td><td>${Math.round(loyerAnnuel).toLocaleString()} €</td><td style="font-weight:bold;">${Math.round(cumul).toLocaleString()} €</td></tr>`;
-        }
-
-        loyerMensuel *= 1.02; // Indexation
+        
+        loyerAnnuel *= 1.02; // Indexation 2%
     }
 
-    document.getElementById('kpiCumul').innerText = Math.round(cumul).toLocaleString() + " €";
+    document.getElementById('totalCumule').innerText = Math.round(cumul).toLocaleString() + " €";
 
-    // Chart.js
     const ctx = document.getElementById('sciChart').getContext('2d');
     new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
             datasets: [
-                { label: 'Cumul (€)', data: dataCumule, borderColor: '#d69e2e', backgroundColor: 'rgba(214,158,46,0.1)', fill: true, yAxisID: 'y1', pointRadius: 4 },
-                { label: 'Renta (%)', data: dataRenta, borderColor: '#3182ce', tension: 0.3, yAxisID: 'y', pointRadius: 4 }
+                {
+                    label: 'Revenu Cumulé (€)',
+                    data: dataCumule,
+                    borderColor: '#d69e2e',
+                    backgroundColor: 'rgba(214, 158, 46, 0.1)',
+                    fill: true,
+                    yAxisID: 'y1',
+                    order: 1,
+                    tension: 0.3
+                },
+                {
+                    label: 'Rentabilité (%)',
+                    data: dataRenta,
+                    borderColor: '#3182ce',
+                    borderWidth: 3,
+                    yAxisID: 'y',
+                    order: 2,
+                    tension: 0.3
+                }
             ]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: { legend: { position: 'top', labels: { boxWidth: 10, font: { size: 11 } } } },
+            plugins: {
+                legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } }
+            },
             scales: {
-                y: { position: 'left', title: { display: true, text: 'Renta %' } },
-                y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Cumul Cash' } }
+                y: { position: 'left', title: { display: true, text: 'Renta %', font: { size: 10 } } },
+                y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Cumul Cash (€)', font: { size: 10 } } }
             }
         }
     });
