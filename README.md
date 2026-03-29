@@ -1,9 +1,9 @@
-<!THE SHADY GROVE>
+<THE SHADY GROVE-SCI !>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyse SCI - Double Graphique</title>
+    <title>Analyse SCI - Double Courbe</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { 
@@ -30,9 +30,8 @@
         .card span { font-size: 0.7rem; color: #718096; font-weight: bold; text-transform: uppercase; }
         .card b { display: block; font-size: 1.3rem; color: #2d3748; margin-top: 5px; }
 
-        /* Style des graphiques */
-        .chart-main { height: 350px; margin-bottom: 20px; }
-        .chart-sub { height: 200px; margin-bottom: 25px; padding: 10px; background: #fcfcfc; border-radius: 8px; border: 1px solid #eee; }
+        .chart-main { height: 350px; margin-bottom: 25px; }
+        .chart-sub { height: 220px; margin-bottom: 25px; padding: 15px; background: #fcfcfc; border-radius: 8px; border: 1px solid #eee; }
         
         h2 { font-size: 0.95rem; color: #1a365d; margin-bottom: 10px; border-left: 3px solid #3182ce; padding-left: 10px; }
 
@@ -69,19 +68,19 @@
         <div class="card" style="border-top-color: #e53e3e;"><span>ROI Global</span><b id="txtRoi">0 %</b></div>
     </div>
 
-    <h2>Évolution de la richesse (Cumul & ROI)</h2>
+    <h2>Projection de Richesse (Euros & ROI %)</h2>
     <div class="chart-main">
         <canvas id="chartCumul"></canvas>
     </div>
 
-    <h2>Évolution de la rentabilité annuelle nette</h2>
+    <h2>Progression de la Rentabilité Annuelle (%)</h2>
     <div class="chart-sub">
-        <canvas id="chartRenta"></canvas>
+        <canvas id="chartRentaLine"></canvas>
     </div>
 
     <div class="details-section">
         <div class="sub-card">
-            <h3 style="margin-top:0; font-size: 0.9rem;">Détail Actifs Individuels</h3>
+            <h3 style="margin-top:0; font-size: 0.9rem;">Performance par Actif</h3>
             <table>
                 <thead>
                     <tr><th>Bien</th><th>Prix</th><th>Loyer</th><th>Renta.</th></tr>
@@ -94,11 +93,11 @@
         </div>
         
         <div class="sub-card">
-            <h3 style="margin-top:0; font-size: 0.9rem;">Projection à 10 ans</h3>
+            <h3 style="margin-top:0; font-size: 0.9rem;">Résumé à 10 ans</h3>
             <p style="font-size: 0.8rem; line-height: 1.5; color: #4a5568;">
                 • Indexation : <b>2% / an</b><br>
-                • Revenu Année 10 : <b id="rentaAn10">0 €</b><br>
-                • Valorisation estimée : <b>~147 500 €</b>
+                • Revenu mensuel final : <b id="rentaAn10">0 €</b><br>
+                • Capital récupéré : <b id="pctRecup">0 %</b>
             </p>
         </div>
     </div>
@@ -130,19 +129,20 @@
         if(i === 10) {
             document.getElementById('txtCumul').innerText = Math.round(cumulCash).toLocaleString() + " €";
             document.getElementById('txtRoi').innerText = roiCumule.toFixed(2) + " %";
-            document.getElementById('rentaAn10').innerText = Math.round(loyerAnnuel / 12) + " €/mois";
+            document.getElementById('rentaAn10').innerText = Math.round(loyerAnnuel / 12) + " €/m";
+            document.getElementById('pctRecup').innerText = roiCumule.toFixed(1) + " %";
         }
         loyerAnnuel *= 1.02;
     }
 
-    // Graphique 1 : Cumul et ROI
+    // Graphique 1 : Cumul
     new Chart(document.getElementById('chartCumul'), {
         type: 'line',
         data: {
             labels: labels,
             datasets: [
                 { label: 'ROI Cumulé (%)', data: dataRoiCumule, borderColor: '#e53e3e', backgroundColor: 'rgba(229, 62, 62, 0.1)', fill: true, yAxisID: 'y' },
-                { label: 'Cash-flow cumulé (€)', data: dataCumulEuros, borderColor: '#d69e2e', yAxisID: 'y1' }
+                { label: 'Cash-flow cumulé (€)', data: dataCumulEuros, borderColor: '#d69e2e', yAxisID: 'y1', pointRadius: 0 }
             ]
         },
         options: {
@@ -154,22 +154,32 @@
         }
     });
 
-    // Graphique 2 : Rentabilité Annuelle (Plus petit)
-    new Chart(document.getElementById('chartRenta'), {
-        type: 'bar',
+    // Graphique 2 : Rentabilité Annuelle (En LIGNE désormais)
+    new Chart(document.getElementById('chartRentaLine'), {
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{
-                label: 'Rentabilité annuelle nette (%)',
+                label: 'Rentabilité annuelle (%)',
                 data: dataRentaAnnuelle,
-                backgroundColor: '#3182ce',
-                borderRadius: 4
+                borderColor: '#3182ce',
+                backgroundColor: 'rgba(49, 130, 206, 0.2)',
+                borderWidth: 3,
+                tension: 0.4,
+                fill: true,
+                pointRadius: 4,
+                pointBackgroundColor: '#fff'
             }]
         },
         options: {
             responsive: true, maintainAspectRatio: false,
             scales: {
-                y: { min: 7, title: { display: true, text: '%' } }
+                y: { 
+                    min: 8, 
+                    max: 10,
+                    ticks: { stepSize: 0.5 },
+                    title: { display: true, text: 'Renta %' } 
+                }
             },
             plugins: {
                 legend: { display: false }
