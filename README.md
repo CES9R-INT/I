@@ -3,136 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCI - Évolution 10 ans</title>
+    <title>Dashboard SCI - Présentation 16:9</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background: #f4f7f9; margin: 0; padding: 20px; color: #2d3748; transition: transform 0.2s; transform-origin: top center; }
-        .main-wrapper { max-width: 1200px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
-        h1, h2 { text-align: center; color: #1a365d; }
-        .sci-summary { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 25px; }
-        .stat-card { background: #edf2f7; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #e2e8f0; }
-        .stat-card b { display: block; font-size: 1.4em; color: #2b6cb0; }
-        .chart-container { position: relative; height: 400px; width: 100%; margin-top: 20px; }
-        .zoom-controls { position: fixed; top: 10px; right: 10px; z-index: 9999; }
-        .zoom-controls button { padding: 5px 10px; cursor: pointer; border: 1px solid #cbd5e0; background: white; border-radius: 5px; font-weight: bold; }
+        /* Optimisation pour le format 16:9 sans scroll */
+        * { box-sizing: border-box; }
+        body, html { 
+            height: 100%; margin: 0; padding: 0; overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+        }
+        
+        .presentation-container {
+            display: grid;
+            grid-template-rows: auto 1fr;
+            height: 100vh;
+            padding: 15px;
+            gap: 15px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1a365d;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 { margin: 0; font-size: 1.6em; }
+
+        /* KPI Cards en haut */
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-bottom: 4px solid #3182ce;
+        }
+
+        .card span { font-size: 0.8em; color: #718096; text-transform: uppercase; font-weight: bold; }
+        .card b { display: block; font-size: 1.5em; color: #2d3748; margin-top: 5px; }
+
+        /* Zone principale : Graphique + Détails */
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 15px;
+            min-height: 0; /* Important pour le scroll interne si besoin */
+        }
+
+        .chart-box {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details-box {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .sub-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85em; }
+        th, td { text-align: left; padding: 8px; border-bottom: 1px solid #edf2f7; }
+        th { color: #718096; }
+
+        .renta-badge {
+            background: #ebf8ff;
+            color: #3182ce;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-<div class="zoom-controls">
-  <button onclick="ajusterZoom(0.1)">Zoom +</button>
-  <button onclick="ajusterZoom(-0.1)">Zoom -</button>
-</div>
+<div class="presentation-container">
+    <header>
+        <h1>Analyse Patrimoniale SCI : Biens A & B</h1>
+        <div style="font-size: 0.9em; opacity: 0.8;">Simulation sur 10 ans (Indexation 2%/an)</div>
+    </header>
 
-<div class="main-wrapper">
-    <h1>Analyse de la SCI (Biens A + B)</h1>
-    
-    <div class="sci-summary">
-        <div class="stat-card">
-            <label>Valeur Totale Patrimoine</label>
+    <div class="kpi-row">
+        <div class="card">
+            <span>Investissement Total</span>
             <b>121 000 €</b>
         </div>
-        <div class="stat-card">
-            <label>Revenu Net Mensuel (An 1)</label>
+        <div class="card" style="border-color: #38a169;">
+            <span>Revenu Net Mensuel</span>
             <b>808 €</b>
         </div>
-        <div class="stat-card">
-            <label>Rentabilité Nette Départ</label>
-            <b id="rentaInitiale">8.01 %</b>
+        <div class="card" style="border-color: #d69e2e;">
+            <span>Rentabilité Nette</span>
+            <b>8.01 %</b>
+        </div>
+        <div class="card" style="border-color: #805ad5;">
+            <span>Cash-flow 10 ans</span>
+            <b id="totalCumule">106 169 €</b>
         </div>
     </div>
 
-    <h2>Évolution de la Rentabilité sur 10 ans</h2>
-    <p style="text-align:center; font-size: 0.9em; color: #718096;">Hypothèse : Indexation des loyers de +2% par an</p>
-    
-    <div class="chart-container">
-        <canvas id="sciChart"></canvas>
+    <div class="main-content">
+        <div class="chart-box">
+            <canvas id="sciChart"></canvas>
+        </div>
+
+        <div class="details-box">
+            <div class="sub-card">
+                <span style="font-weight: bold; color: #1a365d;">Composition du Patrimoine</span>
+                <table>
+                    <tr><th>Bien</th><th>Valeur</th><th>Loyer Net</th><th>Renta.</th></tr>
+                    <tr><td>Bien A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-badge">9.04%</span></td></tr>
+                    <tr><td>Bien B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-badge">6.45%</span></td></tr>
+                </table>
+            </div>
+            <div class="sub-card">
+                <span style="font-weight: bold; color: #1a365d;">Projection à l'année 10</span>
+                <table>
+                    <tr><td>Revenu annuel An 10</td><td style="text-align: right; font-weight: bold;">11 588 €</td></tr>
+                    <tr><td>Rentabilité sur coût An 10</td><td style="text-align: right; font-weight: bold;">9.58 %</td></tr>
+                    <tr><td>Plus-value estimée (2%)</td><td style="text-align: right; font-weight: bold;">+26 500 €</td></tr>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
 
 <script>
-    let currentZoom = 1.0;
-    function ajusterZoom(delta) {
-        currentZoom += delta;
-        document.body.style.transform = `scale(${currentZoom})`;
-    }
-
-    // Données de base
-    const valeurA = 73000;
-    const valeurB = 48000;
-    const totalPatrimoine = valeurA + valeurB; // 121 000 €
-
-    const loyerNetMensuelA = 550;
-    const loyerNetMensuelB = 258;
-    let loyerAnnuelTotal = (loyerNetMensuelA + loyerNetMensuelB) * 12; // 9696 €
+    const totalPatrimoine = 121000;
+    let loyerAnnuel = 9696;
+    let cumul = 0;
 
     const labels = [];
     const dataRenta = [];
-    const dataCashflow = [];
+    const dataAnnuel = [];
+    const dataCumule = [];
 
-    // Calcul sur 10 ans
-    for (let annee = 1; annee <= 10; annee++) {
-        labels.push("Année " + annee);
+    for (let i = 1; i <= 10; i++) {
+        labels.push("Année " + i);
+        let renta = (loyerAnnuel / totalPatrimoine) * 100;
+        cumul += loyerAnnuel;
         
-        // Calcul de la rentabilité pour l'année N
-        let rentaAnnuelle = (loyerAnnuelTotal / totalPatrimoine) * 100;
-        dataRenta.push(rentaAnnuelle.toFixed(2));
-        dataCashflow.push(Math.round(loyerAnnuelTotal));
-
-        // On augmente le loyer de 2% pour l'année suivante (indexation)
-        loyerAnnuelTotal *= 1.02;
+        dataRenta.push(renta.toFixed(2));
+        dataAnnuel.push(Math.round(loyerAnnuel));
+        dataCumule.push(Math.round(cumul));
+        
+        loyerAnnuel *= 1.02; // Indexation 2%
     }
+
+    document.getElementById('totalCumule').innerText = Math.round(cumul).toLocaleString() + " €";
 
     const ctx = document.getElementById('sciChart').getContext('2d');
     new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
-            datasets: [{
-                label: 'Rentabilité Nette (%)',
-                data: dataRenta,
-                borderColor: '#3182ce',
-                backgroundColor: 'rgba(49, 130, 206, 0.1)',
-                fill: true,
-                tension: 0.4,
-                yAxisID: 'y',
-            },
-            {
-                label: 'Cash-flow Net Annuel (€)',
-                data: dataCashflow,
-                borderColor: '#38a169',
-                borderDash: [5, 5],
-                tension: 0.4,
-                yAxisID: 'y1',
-            }]
+            datasets: [
+                {
+                    label: 'Revenu Cumulé (€)',
+                    data: dataCumule,
+                    borderColor: '#d69e2e',
+                    backgroundColor: 'rgba(214, 158, 46, 0.1)',
+                    fill: true,
+                    yAxisID: 'y1',
+                    tension: 0.3
+                },
+                {
+                    label: 'Rentabilité (%)',
+                    data: dataRenta,
+                    borderColor: '#3182ce',
+                    yAxisID: 'y',
+                    tension: 0.3
+                }
+            ]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            scales: {
-                y: {
-                    type: 'linear',
-                    display: true,
-                    position: 'left',
-                    title: { display: true, text: 'Rentabilité (%)' }
-                },
-                y1: {
-                    type: 'linear',
-                    display: true,
-                    position: 'right',
-                    grid: { drawOnChartArea: false },
-                    title: { display: true, text: 'Revenus (€/an)' }
-                }
-            },
             plugins: {
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            if (context.datasetIndex === 0) return context.parsed.y + ' %';
-                            return context.parsed.y.toLocaleString() + ' € / an';
-                        }
-                    }
-                }
+                legend: { position: 'bottom' }
+            },
+            scales: {
+                y: { position: 'left', title: { display: true, text: 'Rentabilité (%)' } },
+                y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Cumul (€)' } }
             }
         }
     });
