@@ -1,223 +1,183 @@
-<SCI THE SHADY GROVE>
+<!SCI THE SHADY GROVE>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard SCI - Format Présentation</title>
+    <title>SCI Dashboard - Navigation Latérale</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { box-sizing: border-box; }
         body, html { 
-            margin: 0; padding: 0; 
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f0f2f5;
-            overflow-x: hidden; /* Empêche le défilement horizontal lors du zoom */
+            height: 100%; margin: 0; padding: 0; overflow: hidden;
+            font-family: 'Segoe UI', sans-serif; background-color: #f0f2f5;
         }
         
-        /* Conteneur principal adaptable */
-        #zoom-target {
+        /* Conteneur pour le balayage latéral */
+        .viewport {
             display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            padding: 10px 20px;
-            gap: 10px;
-            transform-origin: top center;
-            transition: transform 0.2s ease-in-out;
+            width: 200vw; /* 2 vues de large */
+            height: calc(100vh - 60px); /* Moins la barre de nav */
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
+        .slide {
+            width: 100vw;
+            height: 100%;
+            padding: 20px;
+            display: grid;
+            gap: 15px;
+        }
+
+        /* --- STYLE DES COMPOSANTS --- */
         header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #1a365d;
-            color: white;
-            padding: 8px 20px;
-            border-radius: 8px;
+            background: #1a365d; color: white; padding: 10px 25px;
+            border-radius: 10px; display: flex; justify-content: space-between; align-items: center;
         }
 
-        h1 { margin: 0; font-size: 1.4em; }
+        .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        .card { 
+            background: white; padding: 15px; border-radius: 8px; text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-bottom: 4px solid #3182ce;
+        }
+        .card b { display: block; font-size: 1.8em; color: #2d3748; }
 
-        /* Boutons de Zoom */
-        .zoom-controls { 
-            position: fixed; top: 15px; right: 20px; z-index: 9999; 
-            background: rgba(255,255,255,0.9); padding: 5px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .zoom-controls button { 
-            padding: 5px 12px; margin-left: 2px; cursor: pointer; 
-            border: 1px solid #cbd5e0; background: white; border-radius: 4px; 
-            font-weight: bold; font-size: 12px;
-        }
-        .zoom-controls button:hover { background: #edf2f7; }
+        .main-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 15px; min-height: 0; }
+        .chart-box, .sub-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
 
-        /* KPI Cards */
-        .kpi-row {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-        }
-        .card {
-            background: white; padding: 10px; border-radius: 8px; text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-bottom: 3px solid #3182ce;
-        }
-        .card span { font-size: 0.7em; color: #718096; text-transform: uppercase; }
-        .card b { display: block; font-size: 1.3em; color: #2d3748; margin-top: 2px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #edf2f7; }
 
-        /* Main Content */
-        .main-content {
-            display: grid;
-            grid-template-columns: 1.8fr 1fr;
-            gap: 10px;
-            flex: 1; /* Prend l'espace restant */
+        /* --- BARRE DE NAVIGATION BAS --- */
+        .nav-bar {
+            height: 60px; background: #1a365d; display: flex;
+            justify-content: center; align-items: center; gap: 20px;
+            position: fixed; bottom: 0; width: 100%; z-index: 1000;
         }
-
-        .chart-box {
-            background: white; padding: 10px; border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            display: flex; flex-direction: column;
-            min-height: 350px;
+        .nav-btn {
+            padding: 8px 20px; background: rgba(255,255,255,0.1); color: white;
+            border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; cursor: pointer;
+            transition: 0.3s; font-weight: bold;
         }
-
-        .details-box {
-            display: flex; flex-direction: column; gap: 10px;
-        }
-
-        .sub-card {
-            background: white; padding: 12px; border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex: 1;
-        }
-
-        table { width: 100%; border-collapse: collapse; font-size: 0.8em; }
-        th, td { text-align: left; padding: 6px; border-bottom: 1px solid #edf2f7; }
-        .renta-badge { background: #ebf8ff; color: #3182ce; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+        .nav-btn.active { background: #3182ce; border-color: #3182ce; }
+        .nav-btn:hover { background: rgba(255,255,255,0.2); }
     </style>
 </head>
 <body>
 
-<div class="zoom-controls">
-  <button onclick="ajusterZoom(0.05)">Zoom +</button>
-  <button onclick="ajusterZoom(-0.05)">Zoom -</button>
-  <button onclick="resetZoom()">100%</button>
-</div>
-
-<div id="zoom-target">
-    <header>
-        <h1>Tableau de Bord SCI : Performance 10 ans</h1>
-        <div style="font-size: 0.8em; opacity: 0.9;">Simulation Biens A & B (Valeur 121k€)</div>
-    </header>
-
-    <div class="kpi-row">
-        <div class="card">
-            <span>Capital Engagé</span>
-            <b>121 000 €</b>
-        </div>
-        <div class="card" style="border-color: #38a169;">
-            <span>Loyer Net Mensuel</span>
-            <b>808 €</b>
-        </div>
-        <div class="card" style="border-color: #d69e2e;">
-            <span>Rentabilité Nette</span>
-            <b>8.01 %</b>
-        </div>
-        <div class="card" style="border-color: #805ad5;">
-            <span>Revenus Cumulés (10 ans)</span>
-            <b id="totalCumule">0 €</b>
-        </div>
-    </div>
-
-    <div class="main-content">
-        <div class="chart-box">
-            <canvas id="sciChart"></canvas>
+<div class="viewport" id="viewport">
+    
+    <section class="slide">
+        <header>
+            <h1>Dashboard SCI : Performance Globale</h1>
+            <b>Investissement : 121 000 €</b>
+        </header>
+        
+        <div class="kpi-row">
+            <div class="card"><span>Loyer Net Mensuel</span><b>808 €</b></div>
+            <div class="card" style="border-color: #38a169;"><span>Renta. Nette</span><b>8.01 %</b></div>
+            <div class="card" style="border-color: #d69e2e;"><span>Projection 10 ans</span><b id="cumul1">0 €</b></div>
+            <div class="card" style="border-color: #e53e3e;"><span>Bien A / Bien B</span><b>60% / 40%</b></div>
         </div>
 
-        <div class="details-box">
+        <div class="main-layout">
+            <div class="chart-box"><canvas id="sciChart"></canvas></div>
             <div class="sub-card">
-                <span style="font-weight: bold; font-size: 0.9em; color: #1a365d;">Répartition du Patrimoine</span>
+                <h3 style="margin-top:0">Répartition Initiale</h3>
                 <table>
-                    <tr><th>Bien</th><th>Prix</th><th>Loyer</th><th>Renta.</th></tr>
-                    <tr><td>Bien A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-badge">9.0%</span></td></tr>
-                    <tr><td>Bien B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-badge">6.5%</span></td></tr>
+                    <tr><td>Bien A (73k€)</td><td style="color:#3182ce; font-weight:bold;">550 €/m</td></tr>
+                    <tr><td>Bien B (48k€)</td><td style="color:#3182ce; font-weight:bold;">258 €/m</td></tr>
+                    <tr style="border-top: 2px solid #eee;"><td>Total SCI</td><td style="font-weight:bold;">808 €/m</td></tr>
                 </table>
-            </div>
-            <div class="sub-card" style="background: #f8fafc;">
-                <span style="font-weight: bold; font-size: 0.9em; color: #1a365d;">Perspectives An 10</span>
-                <table>
-                    <tr><td>Loyer Annuel projeté</td><td style="text-align: right;"><b>11 588 €</b></td></tr>
-                    <tr><td>Renta. sur coût</td><td style="text-align: right;"><b>9.58 %</b></td></tr>
-                    <tr><td>Cumul des loyers</td><td style="text-align: right; color: #805ad5;"><b>+106 169 €</b></td></tr>
-                </table>
-                <p style="font-size: 0.7em; color: #718096; margin-top: 10px;">* Basé sur une indexation annuelle de 2%.</p>
+                <p style="font-size:0.8em; color:#718096; margin-top:20px;">* Simulation basée sur un investissement comptant ou avec apport couvrant les frais.</p>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="slide">
+        <header><h1>Projection des Flux de Trésorerie</h1></header>
+        <div class="sub-card" style="height: 100%; overflow-y: auto;">
+            <table id="tableFlux">
+                <thead>
+                    <tr style="background:#f8fafc">
+                        <th>Année</th>
+                        <th>Loyer Mensuel</th>
+                        <th>Loyer Annuel</th>
+                        <th>Renta / Coût</th>
+                        <th>Revenu Cumulé</th>
+                    </tr>
+                </thead>
+                <tbody id="fluxBody"></tbody>
+            </table>
+        </div>
+    </section>
+
 </div>
+
+<nav class="nav-bar">
+    <button class="nav-btn active" onclick="goToSlide(0, this)">1. Vue d'ensemble</button>
+    <button class="nav-btn" onclick="goToSlide(1, this)">2. Tableau des flux</button>
+</nav>
 
 <script>
-    let currentZoom = 1.0;
-    const zoomTarget = document.getElementById('zoom-target');
-
-    function ajusterZoom(delta) {
-        currentZoom += delta;
-        zoomTarget.style.transform = `scale(${currentZoom})`;
-        zoomTarget.style.width = (100 / currentZoom) + "%"; // Ajuste la largeur pour éviter le blanc
+    // Logique de navigation
+    function goToSlide(index, btn) {
+        document.getElementById('viewport').style.transform = `translateX(-${index * 100}vw)`;
+        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
     }
 
-    function resetZoom() {
-        currentZoom = 1.0;
-        zoomTarget.style.transform = `scale(1)`;
-        zoomTarget.style.width = "100%";
-    }
-
-    // Données de calcul
+    // Calculs et Graphique
     const totalPatrimoine = 121000;
-    let loyerAnnuel = 9696;
+    let loyerMensuel = 808;
     let cumul = 0;
+
     const labels = [];
     const dataRenta = [];
     const dataCumule = [];
+    const fluxBody = document.getElementById('fluxBody');
 
     for (let i = 1; i <= 10; i++) {
-        labels.push("Année " + i);
+        let loyerAnnuel = loyerMensuel * 12;
         let renta = (loyerAnnuel / totalPatrimoine) * 100;
         cumul += loyerAnnuel;
+
+        labels.push("An " + i);
         dataRenta.push(renta.toFixed(2));
         dataCumule.push(Math.round(cumul));
-        loyerAnnuel *= 1.02;
+
+        // Remplissage tableau Slide 2
+        fluxBody.innerHTML += `
+            <tr>
+                <td><b>Année ${i}</b></td>
+                <td>${Math.round(loyerMensuel)} €</td>
+                <td>${Math.round(loyerAnnuel).toLocaleString()} €</td>
+                <td><span style="color:#3182ce; font-weight:bold;">${renta.toFixed(2)} %</span></td>
+                <td style="color:#d69e2e; font-weight:bold;">${Math.round(cumul).toLocaleString()} €</td>
+            </tr>
+        `;
+
+        loyerMensuel *= 1.02; // Indexation
     }
 
-    document.getElementById('totalCumule').innerText = Math.round(cumul).toLocaleString() + " €";
+    document.getElementById('cumul1').innerText = Math.round(cumul).toLocaleString() + " €";
 
+    // Chart.js
     const ctx = document.getElementById('sciChart').getContext('2d');
     new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
             datasets: [
-                {
-                    label: 'Revenus Cumulés (€)',
-                    data: dataCumule,
-                    borderColor: '#d69e2e',
-                    backgroundColor: 'rgba(214, 158, 46, 0.1)',
-                    fill: true,
-                    yAxisID: 'y1',
-                    tension: 0.3
-                },
-                {
-                    label: 'Rentabilité (%)',
-                    data: dataRenta,
-                    borderColor: '#3182ce',
-                    borderWidth: 3,
-                    yAxisID: 'y',
-                    tension: 0.3
-                }
+                { label: 'Cumul (€)', data: dataCumule, borderColor: '#d69e2e', backgroundColor: 'rgba(214,158,46,0.1)', fill: true, yAxisID: 'y1' },
+                { label: 'Rentabilité (%)', data: dataRenta, borderColor: '#3182ce', tension: 0.3, yAxisID: 'y' }
             ]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } },
             scales: {
-                y: { position: 'left', title: { display: true, text: 'Rentabilité (%)', font: { size: 10 } } },
-                y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Cumul (€)', font: { size: 10 } } }
+                y: { position: 'left', title: { display: true, text: 'Renta %' } },
+                y1: { position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Cumul Cash' } }
             }
         }
     });
