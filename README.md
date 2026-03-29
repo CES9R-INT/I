@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulateur Dynamique Avancé</title>
+    <title>Simulateur Dynamique - 90k€</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #f4f7f9; padding: 20px; color: #2d3748; }
@@ -16,15 +16,19 @@
         label { display: block; font-size: 0.8em; font-weight: bold; margin-bottom: 5px; color: #718096; }
         input[type="number"] { width: 100%; border: 1px solid #cbd5e0; padding: 8px; border-radius: 4px; outline: none; }
         
-        /* Section Sliders */
-        .sliders-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px; }
-        .slider-section { background: #ebf8ff; padding: 20px; border-radius: 12px; text-align: center; border: 1px solid #bee3f8; }
+        /* Section Curseur */
+        .slider-section { background: #ebf8ff; padding: 25px; border-radius: 12px; margin-bottom: 25px; text-align: center; border: 1px solid #bee3f8; }
         input[type="range"] { width: 100%; margin-top: 15px; cursor: pointer; }
         
         /* Affichage de la mensualité */
         .mensualite-card { 
-            background: #2d3748; color: white; padding: 20px; border-radius: 10px; 
-            margin-bottom: 25px; text-align: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+            background: #2d3748; 
+            color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin-bottom: 25px; 
+            text-align: center;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
         }
         .mensualite-card span { font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px; color: #a0aec0; }
         .mensualite-card b { display: block; font-size: 2.2em; color: #63b3ed; margin-top: 5px; }
@@ -40,7 +44,7 @@
 <body>
 
 <div class="container">
-    <h1>Simulation Projet Immobiler</h1>
+    <h1>Simulation Projet 90 000 €</h1>
     
     <div class="grid">
         <div class="input-group">
@@ -61,36 +65,26 @@
         </div>
     </div>
 
-    <div class="sliders-container">
-        <div class="slider-section">
-            <label>VOTRE APPORT : <span id="apportVal" style="color: #2b6cb0;">16000</span> €</label>
-            <input type="range" id="apport" min="5000" max="90000" step="500" value="16000" oninput="update()">
-            <div style="margin-top: 10px; font-size: 0.8em; color: #4a5568;">
-                Emprunt : <span id="empruntVal">74000</span> €
-            </div>
-        </div>
-
-        <div class="slider-section" style="background: #faf5ff; border-color: #e9d8fd;">
-            <label>TAUX D'INTÉRÊT : <span id="tauxVal" style="color: #6b46c1;">4.5</span> %</label>
-            <input type="range" id="taux" min="0" max="10" step="0.1" value="4.5" oninput="update()">
-            <div style="margin-top: 10px; font-size: 0.8em; color: #4a5568;">
-                Durée fixe : 20 ans
-            </div>
+    <div class="slider-section">
+        <label>VOTRE APPORT : <span id="apportVal" style="font-size: 1.4em; color: #2b6cb0;">16000</span> €</label>
+        <input type="range" id="apport" min="0" max="90000" step="500" value="16000" oninput="update()">
+        <div style="margin-top: 10px; font-size: 0.85em; color: #4a5568;">
+            Montant emprunté : <span id="empruntVal">74000</span> €
         </div>
     </div>
 
     <div class="mensualite-card">
-        <span>Mensualité du crédit</span>
+        <span>Mensualité du crédit (20 ans à 4.5%)</span>
         <b id="mensDisplay">0 €</b>
     </div>
 
     <div class="results">
         <div class="card bg-blue">
-            <span>Rentabilité Scénario A</span>
+            <span>Rentabilité A</span>
             <span class="val" id="resA">0 %</span>
         </div>
         <div class="card bg-orange">
-            <span>Rentabilité Scénario B</span>
+            <span>Rentabilité B</span>
             <span class="val" id="resB">0 %</span>
         </div>
     </div>
@@ -101,18 +95,17 @@
 <script>
     let chart;
 
-    function calculateMensualite(P, A, T) {
+    function calculateMensualite(P, A) {
         const borrowed = P - A;
         if (borrowed <= 0) return 0;
-        if (T === 0) return borrowed / (20 * 12);
-        const i = (T / 100) / 12; // Utilisation du taux dynamique
-        const m = 20 * 12;        // Durée 20 ans
+        const i = 0.045 / 12; // Taux 4.5%
+        const m = 20 * 12;    // 20 ans
         return borrowed * (i / (1 - Math.pow(1 + i, -m)));
     }
 
-    function calculateRA(P, L, C, A, T) {
+    function calculateRA(P, L, C, A) {
         if (A <= 0) return 0; 
-        const mens = calculateMensualite(P, A, T);
+        const mens = calculateMensualite(P, A);
         const cf_annuel = (L - C) - (mens * 12);
         return (cf_annuel / A) * 100;
     }
@@ -123,31 +116,27 @@
         const LB = parseFloat(document.getElementById('loyerB').value) || 0;
         const C = parseFloat(document.getElementById('charges').value) || 0;
         const A = parseFloat(document.getElementById('apport').value) || 0;
-        const T = parseFloat(document.getElementById('taux').value) || 0;
-
-        // Mise à jour des textes des sliders
-        document.getElementById('apportVal').innerText = A.toLocaleString();
-        document.getElementById('tauxVal').innerText = T.toFixed(1);
-        document.getElementById('empruntVal').innerText = (P - A > 0 ? P - A : 0).toLocaleString();
 
         // Calculs
-        const mens = calculateMensualite(P, A, T);
-        const raA = calculateRA(P, LA, C, A, T);
-        const raB = calculateRA(P, LB, C, A, T);
+        const mens = calculateMensualite(P, A);
+        const raA = calculateRA(P, LA, C, A);
+        const raB = calculateRA(P, LB, C, A);
 
-        // Affichage résultats
+        // Mise à jour visuelle
+        document.getElementById('apportVal').innerText = A.toLocaleString();
+        document.getElementById('empruntVal').innerText = (P - A > 0 ? P - A : 0).toLocaleString();
         document.getElementById('mensDisplay').innerText = Math.round(mens).toLocaleString() + " €";
         document.getElementById('resA').innerText = (A > 0 ? raA.toFixed(2) : "0.00") + " %";
         document.getElementById('resB').innerText = (A > 0 ? raB.toFixed(2) : "0.00") + " %";
 
-        // Mise à jour du graphique
+        // Graphique
         const labels = [];
         const dataA = [];
         const dataB = [];
-        for (let step = 5000; step <= P; step += 2500) {
+        for (let step = 2500; step <= P; step += 2500) {
             labels.push(step);
-            dataA.push(calculateRA(P, LA, C, step, T));
-            dataB.push(calculateRA(P, LB, C, step, T));
+            dataA.push(calculateRA(P, LA, C, step));
+            dataB.push(calculateRA(P, LB, C, step));
         }
         chart.data.labels = labels;
         chart.data.datasets[0].data = dataA;
