@@ -3,69 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulateur Immo - 90k€ avec Zoom</title>
+    <title>Simulateur Immo 16:9 - 90k€</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
+        /* Configuration de base pour le 16:9 */
         body { 
             font-family: 'Segoe UI', sans-serif; 
             background: #f4f7f9; 
-            padding: 20px; 
+            margin: 0;
+            padding: 20px;
             color: #2d3748; 
-            transform-origin: top center; /* Pour que le zoom reste centré en haut */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            transform-origin: top center;
             transition: transform 0.2s ease-in-out;
         }
-        .container { max-width: 1000px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
-        h1 { text-align: center; color: #1a365d; margin-bottom: 30px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px; }
-        .input-group { background: #fff; padding: 12px; border: 1px solid #e2e8f0; border-radius: 8px; }
+
+        .main-wrapper {
+            display: grid;
+            grid-template-columns: 350px 1fr; /* Colonne gauche fixe, droite flexible */
+            gap: 20px;
+            max-width: 1400px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        h1 { grid-column: 1 / -1; text-align: center; color: #1a365d; margin: 0 0 10px 0; font-size: 1.5em; }
+
+        /* Colonne de Gauche : Inputs & Sliders */
+        .sidebar { display: flex; flex-direction: column; gap: 15px; }
+
+        .input-group { background: #fff; padding: 10px; border: 1px solid #e2e8f0; border-radius: 8px; }
         .input-group.highlight { border-left: 4px solid #3182ce; }
         .input-group.highlight-alt { border-left: 4px solid #ed8936; }
-        label { display: block; font-size: 0.8em; font-weight: bold; margin-bottom: 5px; color: #718096; }
-        input[type="number"] { width: 100%; border: 1px solid #cbd5e0; padding: 8px; border-radius: 4px; outline: none; }
+        label { display: block; font-size: 0.75em; font-weight: bold; margin-bottom: 5px; color: #718096; }
+        input[type="number"] { width: 90%; border: 1px solid #cbd5e0; padding: 6px; border-radius: 4px; outline: none; }
         
-        .sliders-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px; }
-        .slider-section { background: #ebf8ff; padding: 20px; border-radius: 12px; text-align: center; border: 1px solid #bee3f8; }
-        input[type="range"] { width: 100%; margin-top: 15px; cursor: pointer; }
-        
-        .mensualite-card { 
-            background: #2d3748; color: white; padding: 20px; border-radius: 10px; 
-            margin-bottom: 25px; text-align: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
-        }
-        .mensualite-card span { font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px; color: #a0aec0; }
-        .mensualite-card b { display: block; font-size: 2.2em; color: #63b3ed; margin-top: 5px; }
+        .slider-section { background: #ebf8ff; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #bee3f8; }
+        .slider-section.alt { background: #faf5ff; border-color: #e9d8fd; }
+        input[type="range"] { width: 100%; margin-top: 10px; cursor: pointer; }
 
-        .results { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px; }
-        .card { padding: 15px; border-radius: 10px; text-align: center; color: white; }
+        /* Colonne de Droite : Résultats & Graphique */
+        .content { display: flex; flex-direction: column; gap: 15px; }
+
+        .mensualite-card { 
+            background: #2d3748; color: white; padding: 15px; border-radius: 10px; 
+            text-align: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .mensualite-card b { display: block; font-size: 2em; color: #63b3ed; }
+
+        .results-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .card { padding: 10px; border-radius: 10px; text-align: center; color: white; font-size: 0.9em; }
         .bg-blue { background: #3182ce; }
         .bg-orange { background: #ed8936; }
-        .val { font-size: 1.6em; font-weight: bold; display: block; }
-        canvas { background: white; border-radius: 10px; padding: 10px; border: 1px solid #e2e8f0; }
+        .val { font-size: 1.4em; font-weight: bold; display: block; }
 
-        /* Style des boutons de zoom */
-        .zoom-controls button {
-            padding: 8px 12px;
-            margin-left: 5px;
-            cursor: pointer;
-            border: 1px solid #cbd5e0;
-            background: white;
-            border-radius: 5px;
-            font-weight: bold;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .zoom-controls button:hover { background: #edf2f7; }
+        canvas { background: white; border-radius: 10px; padding: 10px; border: 1px solid #e2e8f0; max-height: 350px; }
+
+        /* Zoom controls */
+        .zoom-controls { position: fixed; top: 10px; right: 10px; z-index: 9999; }
+        .zoom-controls button { padding: 5px 10px; margin-left: 5px; cursor: pointer; border: 1px solid #cbd5e0; background: white; border-radius: 5px; font-weight: bold; }
     </style>
 </head>
 <body>
 
-<div class="zoom-controls" style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
+<div class="zoom-controls">
   <button onclick="ajusterZoom(0.1)">Zoom +</button>
   <button onclick="ajusterZoom(-0.1)">Zoom -</button>
+  <button onclick="resetZoom()">100%</button>
 </div>
 
-<div class="container">
-    <h1>Simulation Projet 90 000 €</h1>
-    
-    <div class="grid">
+<div class="main-wrapper">
+    <h1>Simulation Immobilière - Projet 90 000 €</h1>
+
+    <div class="sidebar">
         <div class="input-group">
             <label>Prix Projet (€)</label>
             <input type="number" id="prix" value="90000" oninput="update()">
@@ -82,53 +98,52 @@
             <label>Charges/Taxes (€)</label>
             <input type="number" id="charges" value="1988" oninput="update()">
         </div>
-    </div>
 
-    <div class="sliders-container">
         <div class="slider-section">
-            <label>VOTRE APPORT : <span id="apportVal" style="color: #2b6cb0;">16000</span> €</label>
+            <label>APPORT : <span id="apportVal" style="color: #2b6cb0;">16000</span> €</label>
             <input type="range" id="apport" min="5000" max="90000" step="500" value="16000" oninput="update()">
-            <div style="margin-top: 10px; font-size: 0.8em; color: #4a5568;">
-                Emprunt : <span id="empruntVal">74000</span> €
-            </div>
+            <div style="font-size: 0.75em; margin-top:5px;">Emprunt : <span id="empruntVal">74000</span> €</div>
         </div>
 
-        <div class="slider-section" style="background: #faf5ff; border-color: #e9d8fd;">
-            <label>TAUX D'INTÉRÊT : <span id="tauxVal" style="color: #6b46c1;">4.5</span> %</label>
+        <div class="slider-section alt">
+            <label>TAUX : <span id="tauxVal" style="color: #6b46c1;">4.5</span> %</label>
             <input type="range" id="taux" min="0" max="10" step="0.1" value="4.5" oninput="update()">
-            <div style="margin-top: 10px; font-size: 0.8em; color: #4a5568;">
-                Durée fixe : 20 ans
+            <div style="font-size: 0.75em; margin-top:5px;">Durée : 20 ans</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="mensualite-card">
+            <span>Mensualité du crédit</span>
+            <b id="mensDisplay">0 €</b>
+        </div>
+
+        <div class="results-grid">
+            <div class="card bg-blue">
+                <span>Renta Scénario A</span>
+                <span class="val" id="resA">0 %</span>
+            </div>
+            <div class="card bg-orange">
+                <span>Renta Scénario B</span>
+                <span class="val" id="resB">0 %</span>
             </div>
         </div>
-    </div>
 
-    <div class="mensualite-card">
-        <span>Mensualité du crédit</span>
-        <b id="mensDisplay">0 €</b>
+        <canvas id="compChart"></canvas>
     </div>
-
-    <div class="results">
-        <div class="card bg-blue">
-            <span>Rentabilité Scénario A</span>
-            <span class="val" id="resA">0 %</span>
-        </div>
-        <div class="card bg-orange">
-            <span>Rentabilité Scénario B</span>
-            <span class="val" id="resB">0 %</span>
-        </div>
-    </div>
-
-    <canvas id="compChart"></canvas>
 </div>
 
 <script>
     let chart;
     let currentZoom = 1.0;
 
-    // Fonction de Zoom
     function ajusterZoom(delta) {
         currentZoom += delta;
         document.body.style.transform = `scale(${currentZoom})`;
+    }
+    function resetZoom() {
+        currentZoom = 1.0;
+        document.body.style.transform = `scale(1)`;
     }
 
     function calculateMensualite(P, A, T) {
@@ -167,7 +182,6 @@
         document.getElementById('resA').innerText = (A > 0 ? raA.toFixed(2) : "0.00") + " %";
         document.getElementById('resB').innerText = (A > 0 ? raB.toFixed(2) : "0.00") + " %";
 
-        // Graphique
         const labels = [];
         const dataA = [];
         const dataB = [];
@@ -194,9 +208,10 @@
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             scales: {
-                y: { title: { display: true, text: 'Rentabilité (%)' } },
-                x: { title: { display: true, text: 'Apport (€)' } }
+                y: { title: { display: true, text: 'Rentabilité (%)', font: { size: 10 } } },
+                x: { title: { display: true, text: 'Apport (€)', font: { size: 10 } } }
             }
         }
     });
