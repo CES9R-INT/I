@@ -3,61 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyse SCI - Performance Globale</title>
+    <title>Analyse SCI - Double Graphique</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { 
             font-family: 'Segoe UI', sans-serif; 
             background: #f4f7f9; 
-            margin: 0; 
-            padding: 20px; 
-            color: #2d3748;
-            transform-origin: top center;
-            transition: transform 0.2s;
+            margin: 0; padding: 20px; color: #2d3748;
+            transform-origin: top center; transition: transform 0.2s;
         }
         .container { 
-            max-width: 950px; 
-            margin: auto; 
-            background: white; 
-            padding: 25px; 
-            border-radius: 12px; 
-            box-shadow: 0 8px 20px rgba(0,0,0,0.06); 
+            max-width: 950px; margin: auto; background: white; 
+            padding: 25px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); 
         }
         header { text-align: center; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
         h1 { font-size: 1.3rem; color: #1a365d; margin: 0; }
         
         .kpi-grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-            gap: 12px; 
-            margin-bottom: 25px; 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+            gap: 12px; margin-bottom: 20px; 
         }
         .card { 
-            background: #fff; 
-            padding: 12px; 
-            border-radius: 8px; 
-            text-align: center; 
-            border: 1px solid #e2e8f0;
-            border-top: 4px solid #3182ce;
+            background: #fff; padding: 12px; border-radius: 8px; text-align: center; 
+            border: 1px solid #e2e8f0; border-top: 4px solid #3182ce;
         }
         .card span { font-size: 0.7rem; color: #718096; font-weight: bold; text-transform: uppercase; }
         .card b { display: block; font-size: 1.3rem; color: #2d3748; margin-top: 5px; }
 
-        .chart-container { 
-            position: relative; 
-            height: 400px; 
-            margin-bottom: 25px; 
-            padding: 10px;
-            border: 1px solid #f0f0f0;
-            border-radius: 8px;
-        }
+        /* Style des graphiques */
+        .chart-main { height: 350px; margin-bottom: 20px; }
+        .chart-sub { height: 200px; margin-bottom: 25px; padding: 10px; background: #fcfcfc; border-radius: 8px; border: 1px solid #eee; }
+        
+        h2 { font-size: 0.95rem; color: #1a365d; margin-bottom: 10px; border-left: 3px solid #3182ce; padding-left: 10px; }
 
         .details-section { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 20px; }
         .sub-card { background: #fdfdfd; padding: 15px; border-radius: 8px; border: 1px solid #eee; }
         table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { text-align: left; padding: 10px; border-bottom: 1px solid #f0f0f0; }
         th { background: #f8fafc; color: #4a5568; }
-        
         .renta-tag { background: #ebf8ff; color: #3182ce; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
 
         .zoom-bar {
@@ -76,44 +59,46 @@
 
 <div class="container">
     <header>
-        <h1>Analyse SCI : Rentabilité et Flux de Trésorerie</h1>
+        <h1>Analyse Patrimoniale SCI (Biens A & B)</h1>
     </header>
 
     <div class="kpi-grid">
         <div class="card"><span>Investissement</span><b>121 000 €</b></div>
-        <div class="card" style="border-top-color: #38a169;"><span>Loyer Mensuel Net</span><b>808 €</b></div>
-        <div class="card" style="border-top-color: #d69e2e;"><span>Cumul Cash 10 ans</span><b id="txtCumul">0 €</b></div>
-        <div class="card" style="border-top-color: #e53e3e;"><span>ROI Total (10 ans)</span><b id="txtRoi">0 %</b></div>
+        <div class="card" style="border-top-color: #38a169;"><span>Loyer Net / mois</span><b>808 €</b></div>
+        <div class="card" style="border-top-color: #d69e2e;"><span>Cumul 10 ans</span><b id="txtCumul">0 €</b></div>
+        <div class="card" style="border-top-color: #e53e3e;"><span>ROI Global</span><b id="txtRoi">0 %</b></div>
     </div>
 
-    <div class="chart-container">
-        <canvas id="mainChart"></canvas>
+    <h2>Évolution de la richesse (Cumul & ROI)</h2>
+    <div class="chart-main">
+        <canvas id="chartCumul"></canvas>
+    </div>
+
+    <h2>Évolution de la rentabilité annuelle nette</h2>
+    <div class="chart-sub">
+        <canvas id="chartRenta"></canvas>
     </div>
 
     <div class="details-section">
         <div class="sub-card">
-            <h3 style="margin-top:0; font-size: 0.95rem; color: #1a365d;">Détail des Actifs</h3>
+            <h3 style="margin-top:0; font-size: 0.9rem;">Détail Actifs Individuels</h3>
             <table>
                 <thead>
-                    <tr><th>Bien</th><th>Prix Achat</th><th>Loyer Net</th><th>Rentabilité</th></tr>
+                    <tr><th>Bien</th><th>Prix</th><th>Loyer</th><th>Renta.</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Appartement A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-tag">9,04 %</span></td></tr>
-                    <tr><td>Appartement B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-tag">6,45 %</span></td></tr>
-                    <tr style="background: #f8fafc; font-weight: bold;">
-                        <td>Total SCI</td><td>121 000 €</td><td>808 €</td><td>8,01 %</td>
-                    </tr>
+                    <tr><td>Bien A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-tag">9,04 %</span></td></tr>
+                    <tr><td>Bien B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-tag">6,45 %</span></td></tr>
                 </tbody>
             </table>
         </div>
         
         <div class="sub-card">
-            <h3 style="margin-top:0; font-size: 0.95rem; color: #1a365d;">Performance Long Terme</h3>
-            <p style="font-size: 0.85rem; line-height: 1.5; color: #4a5568;">
-                • Indexation des loyers : <b>2% / an</b><br>
-                • Rentabilité an 10 : <b id="rentaAn10">0 %</b><br>
-                • Plus-value estimée (2%/an) : <b>+26 500 €</b><br><br>
-                <span style="font-style: italic; font-size: 0.75rem;">Le ROI Total calcule le cumul des loyers perçus divisé par le montant investi au départ.</span>
+            <h3 style="margin-top:0; font-size: 0.9rem;">Projection à 10 ans</h3>
+            <p style="font-size: 0.8rem; line-height: 1.5; color: #4a5568;">
+                • Indexation : <b>2% / an</b><br>
+                • Revenu Année 10 : <b id="rentaAn10">0 €</b><br>
+                • Valorisation estimée : <b>~147 500 €</b>
             </p>
         </div>
     </div>
@@ -128,13 +113,12 @@
     let cumulCash = 0;
 
     const labels = [];
-    const dataRentaAnnuelle = []; // Renta de l'année N
-    const dataRoiCumule = [];     // ROI (Cumul / Investissement)
-    const dataCumulEuros = [];    // Montant en €
+    const dataRentaAnnuelle = []; 
+    const dataRoiCumule = [];     
+    const dataCumulEuros = [];    
 
     for (let i = 1; i <= 10; i++) {
         labels.push("An " + i);
-        
         let rentaAn = (loyerAnnuel / totalInvesti) * 100;
         cumulCash += loyerAnnuel;
         let roiCumule = (cumulCash / totalInvesti) * 100;
@@ -146,56 +130,49 @@
         if(i === 10) {
             document.getElementById('txtCumul').innerText = Math.round(cumulCash).toLocaleString() + " €";
             document.getElementById('txtRoi').innerText = roiCumule.toFixed(2) + " %";
-            document.getElementById('rentaAn10').innerText = rentaAn.toFixed(2) + " %";
+            document.getElementById('rentaAn10').innerText = Math.round(loyerAnnuel / 12) + " €/mois";
         }
-        
-        loyerAnnuel *= 1.02; // Indexation
+        loyerAnnuel *= 1.02;
     }
 
-    new Chart(document.getElementById('mainChart'), {
+    // Graphique 1 : Cumul et ROI
+    new Chart(document.getElementById('chartCumul'), {
         type: 'line',
         data: {
             labels: labels,
             datasets: [
-                { 
-                    label: 'ROI Cumulé (% du capital)', 
-                    data: dataRoiCumule, 
-                    borderColor: '#e53e3e', 
-                    backgroundColor: 'rgba(229, 62, 62, 0.1)', 
-                    fill: true, 
-                    yAxisID: 'y' 
-                },
-                { 
-                    label: 'Rentabilité annuelle (%)', 
-                    data: dataRentaAnnuelle, 
-                    borderColor: '#3182ce', 
-                    borderDash: [5, 5],
-                    yAxisID: 'y' 
-                },
-                { 
-                    label: 'Cash-flow cumulé (€)', 
-                    data: dataCumulEuros, 
-                    borderColor: '#d69e2e', 
-                    yAxisID: 'y1',
-                    pointRadius: 0
-                }
+                { label: 'ROI Cumulé (%)', data: dataRoiCumule, borderColor: '#e53e3e', backgroundColor: 'rgba(229, 62, 62, 0.1)', fill: true, yAxisID: 'y' },
+                { label: 'Cash-flow cumulé (€)', data: dataCumulEuros, borderColor: '#d69e2e', yAxisID: 'y1' }
             ]
         },
         options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            interaction: { mode: 'index', intersect: false },
+            responsive: true, maintainAspectRatio: false,
             scales: {
-                y: { 
-                    position: 'left', 
-                    title: { display: true, text: 'Performance (%)' },
-                    min: 0
-                },
-                y1: { 
-                    position: 'right', 
-                    grid: { display: false }, 
-                    title: { display: true, text: 'Cumul (€)' } 
-                }
+                y: { position: 'left', title: { display: true, text: 'ROI %' } },
+                y1: { position: 'right', grid: { display: false }, title: { display: true, text: 'Cumul €' } }
+            }
+        }
+    });
+
+    // Graphique 2 : Rentabilité Annuelle (Plus petit)
+    new Chart(document.getElementById('chartRenta'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Rentabilité annuelle nette (%)',
+                data: dataRentaAnnuelle,
+                backgroundColor: '#3182ce',
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            scales: {
+                y: { min: 7, title: { display: true, text: '%' } }
+            },
+            plugins: {
+                legend: { display: false }
             }
         }
     });
