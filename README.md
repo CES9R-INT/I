@@ -1,4 +1,4 @@
-<!DOCTYP>
+<!!THE SHADY GROVE-SCI>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
