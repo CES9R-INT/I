@@ -1,9 +1,9 @@
-<THE SHADY GROVE-SCI !>
+THE SHADY GROVE SCI
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyse SCI - Double Courbe</title>
+    <title>Analyse SCI - Reporting Complet</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body { 
@@ -40,6 +40,9 @@
         table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         th, td { text-align: left; padding: 10px; border-bottom: 1px solid #f0f0f0; }
         th { background: #f8fafc; color: #4a5568; }
+        
+        /* Style spécifique pour la ligne Total */
+        .row-total { background: #edf2f7; font-weight: bold; border-top: 2px solid #cbd5e0; }
         .renta-tag { background: #ebf8ff; color: #3182ce; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
 
         .zoom-bar {
@@ -58,7 +61,7 @@
 
 <div class="container">
     <header>
-        <h1>Analyse Patrimoniale SCI (Biens A & B)</h1>
+        <h1>Analyse GESTION D'ACTIFS </h1>
     </header>
 
     <div class="kpi-grid">
@@ -83,12 +86,20 @@
             <h3 style="margin-top:0; font-size: 0.9rem;">Performance par Actif</h3>
             <table>
                 <thead>
-                    <tr><th>Bien</th><th>Prix</th><th>Loyer</th><th>Renta.</th></tr>
+                    <tr><th>Bien</th><th>Prix Achat</th><th>Loyer Net</th><th>Renta.</th></tr>
                 </thead>
                 <tbody>
                     <tr><td>Bien A</td><td>73 000 €</td><td>550 €</td><td><span class="renta-tag">9,04 %</span></td></tr>
                     <tr><td>Bien B</td><td>48 000 €</td><td>258 €</td><td><span class="renta-tag">6,45 %</span></td></tr>
                 </tbody>
+                <tfoot>
+                    <tr class="row-total">
+                        <td>TOTAL SCI</td>
+                        <td>121 000 €</td>
+                        <td>808 €</td>
+                        <td>8,01 %</td>
+                    </tr>
+                </tfoot>
             </table>
         </div>
         
@@ -154,7 +165,7 @@
         }
     });
 
-    // Graphique 2 : Rentabilité Annuelle (En LIGNE désormais)
+    // Graphique 2 : Rentabilité Annuelle (Ligne)
     new Chart(document.getElementById('chartRentaLine'), {
         type: 'line',
         data: {
@@ -163,7 +174,7 @@
                 label: 'Rentabilité annuelle (%)',
                 data: dataRentaAnnuelle,
                 borderColor: '#3182ce',
-                backgroundColor: 'rgba(49, 130, 206, 0.2)',
+                backgroundColor: 'rgba(49, 130, 206, 0.1)',
                 borderWidth: 3,
                 tension: 0.4,
                 fill: true,
