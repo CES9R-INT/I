@@ -2,7 +2,7 @@
         window.__firebase_config = firebaseConfig;
         window.__initial_auth_token = initialAuthToken;
         window.__app_id = appId;
-            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjIzMWY0NDIyYmI5Y2VmMTA3OTdkMjYzZjBlYzQ4ZDNiODVhOTg5NTAiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNTQ2NzUzMTM3MTIwNTgzMTUzNiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2FkZjY5Y2RjZTY5ODE3NmRfTGlzdGVfZGVfUHJpeF9Qcm8uaHRtbC03NjgifSwiZXhwIjoxNzc2NjgzMjg3LCJpYXQiOjE3NzY2Nzk2ODcsImFsZyI6IlJTMjU2In0.qoSUv9Xvur6XnSJSo0l9uIJvJYXONlNy1j9vZs2oiAbV7hCAIK2rOS-ovSHphK2pqQH1jBL8seYFiIape5yKiKWYnTTyuO5M-5sX7Um15VG1m8qC2IaSxZtMoAAdPIQ9tlSWa2hmVyyaiyRJ-i5kH4SrVj0O02DzSnjwzGTci3-yvFazqHhnH42TtgSsr_fLD-i3PuOodjqtcF1ngpfuUZm4V2sGhjoqA01uIzaUTaZdafXArRf4x7NS-4fJJ9tJzmDgqXbV1nLXC24mmcR7bhhQPOXG0QwryoNhbu6L077HJycUQq3F_9Kr2pDKrYzxyozFQdXW-bn15an5zcq7eA","c_adf69cdce698176d_Liste_de_Prix_Pro.html-768")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjIzMWY0NDIyYmI5Y2VmMTA3OTdkMjYzZjBlYzQ4ZDNiODVhOTg5NTAiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNTQ2NzUzMTM3MTIwNTgzMTUzNiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2FkZjY5Y2RjZTY5ODE3NmRfTGlzdGVfZGVfUHJpeF9Qcm8uaHRtbC0yNzAifSwiZXhwIjoxNzc2Njg0MjMyLCJpYXQiOjE3NzY2ODA2MzIsImFsZyI6IlJTMjU2In0.Oyu10K_vbiVR7p_5qdu5kkNYM5NhosxlhUnSCIYcc5lMZNj2EwYxCO2VhGxwrnfL7w7o1MfyTtTD4BDRA1iiiYUJbwwReCZKqdTr5rSJD2oI-kOXXjyaJjeHh0uIwjRWcxaSlfQ8mYU0QNzSVaXeE9IPx_fpVJfjltpVlq1MWs4I7LyjictiAK18OKFPIdiapZFla7N_BBX1SX_rpGxD9ncIPmdiXzycpP0GQcIXUjgZ5OD0-QiNoktxBLbojbQP9smewbt0wyn2b6pDnSkd-wthXUAqQNahmTRCcJR5VL6DtmJL90yL4or7n0Z4nfgDb35Zu5SCjW6VFPnHZK8slw","c_adf69cdce698176d_Liste_de_Prix_Pro.html-270")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
 function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
 p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
 
@@ -594,7 +594,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             th, td { padding: 4px !important; }
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded{border-radius:0.25rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.p-20{padding:5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-\[10px\]{font-size:10px}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-dotted{-webkit-text-decoration-style:dotted;text-decoration-style:dotted}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-blue-500:hover{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.hover\:text-red-400:hover{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded{border-radius:0.25rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-dotted{-webkit-text-decoration-style:dotted;text-decoration-style:dotted}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-blue-500:hover{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.hover\:text-red-400:hover{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
 <body class="bg-slate-50 min-h-screen p-4 md:p-8 flex flex-col">
 
     <div class="max-w-7xl mx-auto w-full mb-4 flex justify-end px-2 no-print">
@@ -620,11 +620,11 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             </p>
             
             <div class="flex flex-wrap gap-2 items-center" id="tabs">
-                <button onclick="tryEdit()" id="tab-edit" class="px-4 py-2 rounded-t-lg transition text-sm flex items-center gap-2 tab-active">
+                <button onclick="tryEdit()" id="tab-edit" class="px-4 py-2 rounded-t-lg transition text-sm flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                     Édition
                 </button>
-                <button onclick="switchTab('fr')" id="tab-fr" class="px-4 py-2 rounded-t-lg transition text-sm">Français</button>
+                <button onclick="switchTab('fr')" id="tab-fr" class="px-4 py-2 rounded-t-lg transition text-sm tab-active">Français</button>
                 <button onclick="switchTab('en')" id="tab-en" class="px-4 py-2 rounded-t-lg transition text-sm">English</button>
                 <button onclick="switchTab('it')" id="tab-it" class="px-4 py-2 rounded-t-lg transition text-sm">Italiano</button>
                 <button onclick="switchTab('de')" id="tab-de" class="px-4 py-2 rounded-t-lg transition text-sm">Deutsch</button>
@@ -642,7 +642,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         </div>
 
         <div class="p-4 flex-grow overflow-x-auto">
-            <div id="content-edit" class="">
+            <div id="content-edit" class="hidden">
                 <div class="mb-4 flex justify-between items-center bg-slate-50 p-3 rounded-lg">
                     <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Interface de Saisie Directe</span>
                     <button onclick="addNewRow()" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-sm flex items-center gap-2 hover:bg-blue-700 transition">
@@ -663,262 +663,262 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         </tr>
                     </thead>
                     <tbody id="main-tbody"><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 1" oninput="updateDataByRowId('row_1776679688585_0', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="TEST" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_0', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="KQB" oninput="updateDataByRowId('row_1776679688585_0', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="ETST" oninput="updateDataByRowId('row_1776679688585_0', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="20" step="0.01" oninput="updateDataByRowId('row_1776679688585_0', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_0', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="tuftu" oninput="updateDataByRowId('row_1776679688585_0', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 1" oninput="updateDataByRowId('row_1776680634054_0', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_0', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_0', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_0', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_0', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_0', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_0', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_0')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_0')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 2" oninput="updateDataByRowId('row_1776679688585_1', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_1', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_1', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_1', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_1', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_1', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_1', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 2" oninput="updateDataByRowId('row_1776680634054_1', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_1', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_1', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_1', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_1', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_1', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_1', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_1')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_1')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 3" oninput="updateDataByRowId('row_1776679688585_2', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_2', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_2', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_2', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_2', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_2', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_2', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 3" oninput="updateDataByRowId('row_1776680634054_2', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_2', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_2', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_2', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_2', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_2', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_2', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_2')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_2')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 4" oninput="updateDataByRowId('row_1776679688585_3', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_3', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_3', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_3', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_3', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_3', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_3', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 4" oninput="updateDataByRowId('row_1776680634054_3', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_3', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_3', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_3', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_3', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_3', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_3', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_3')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_3')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 5" oninput="updateDataByRowId('row_1776679688585_4', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_4', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_4', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_4', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_4', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_4', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_4', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 5" oninput="updateDataByRowId('row_1776680634054_4', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_4', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_4', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_4', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_4', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_4', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_4', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_4')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_4')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 6" oninput="updateDataByRowId('row_1776679688585_5', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_5', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_5', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_5', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_5', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_5', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_5', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 6" oninput="updateDataByRowId('row_1776680634054_5', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_5', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_5', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_5', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_5', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_5', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_5', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_5')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_5')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 7" oninput="updateDataByRowId('row_1776679688585_6', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_6', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_6', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_6', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_6', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_6', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_6', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 7" oninput="updateDataByRowId('row_1776680634054_6', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_6', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_6', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_6', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_6', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_6', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_6', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_6')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_6')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 8" oninput="updateDataByRowId('row_1776679688585_7', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_7', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_7', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_7', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_7', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_7', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_7', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 8" oninput="updateDataByRowId('row_1776680634054_7', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_7', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_7', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_7', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_7', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_7', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_7', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_7')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_7')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 9" oninput="updateDataByRowId('row_1776679688585_8', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_8', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_8', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_8', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_8', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_8', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_8', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 9" oninput="updateDataByRowId('row_1776680634054_8', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_8', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_8', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_8', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_8', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_8', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_8', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_8')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_8')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 10" oninput="updateDataByRowId('row_1776679688585_9', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_9', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_9', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_9', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_9', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_9', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_9', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 10" oninput="updateDataByRowId('row_1776680634054_9', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_9', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_9', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_9', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_9', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_9', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_9', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_9')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_9')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 11" oninput="updateDataByRowId('row_1776679688585_10', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_10', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_10', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_10', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_10', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_10', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_10', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 11" oninput="updateDataByRowId('row_1776680634054_10', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_10', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_10', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_10', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_10', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_10', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_10', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_10')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_10')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 12" oninput="updateDataByRowId('row_1776679688585_11', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_11', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_11', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_11', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_11', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_11', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_11', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 12" oninput="updateDataByRowId('row_1776680634054_11', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_11', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_11', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_11', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_11', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_11', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_11', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_11')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_11')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 13" oninput="updateDataByRowId('row_1776679688585_12', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_12', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_12', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_12', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_12', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_12', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_12', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 13" oninput="updateDataByRowId('row_1776680634054_12', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_12', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_12', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_12', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_12', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_12', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_12', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_12')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_12')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 14" oninput="updateDataByRowId('row_1776679688585_13', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_13', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_13', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_13', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_13', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_13', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_13', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 14" oninput="updateDataByRowId('row_1776680634054_13', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_13', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_13', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_13', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_13', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_13', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_13', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_13')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_13')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 15" oninput="updateDataByRowId('row_1776679688585_14', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_14', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_14', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_14', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_14', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_14', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_14', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 15" oninput="updateDataByRowId('row_1776680634054_14', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_14', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_14', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_14', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_14', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_14', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_14', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_14')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_14')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 16" oninput="updateDataByRowId('row_1776679688585_15', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_15', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_15', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_15', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_15', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_15', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_15', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 16" oninput="updateDataByRowId('row_1776680634054_15', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_15', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_15', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_15', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_15', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_15', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_15', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_15')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_15')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 17" oninput="updateDataByRowId('row_1776679688585_16', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_16', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_16', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_16', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_16', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_16', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_16', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 17" oninput="updateDataByRowId('row_1776680634054_16', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_16', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_16', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_16', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_16', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_16', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_16', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_16')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_16')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 18" oninput="updateDataByRowId('row_1776679688585_17', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_17', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_17', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_17', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_17', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_17', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_17', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 18" oninput="updateDataByRowId('row_1776680634054_17', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_17', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_17', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_17', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_17', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_17', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_17', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_17')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_17')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 19" oninput="updateDataByRowId('row_1776679688585_18', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_18', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_18', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_18', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_18', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_18', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_18', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 19" oninput="updateDataByRowId('row_1776680634054_18', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_18', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_18', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_18', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_18', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_18', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_18', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_18')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_18')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 20" oninput="updateDataByRowId('row_1776679688585_19', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776679688585_19', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_19', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776679688585_19', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776679688585_19', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776679688585_19', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776679688585_19', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 20" oninput="updateDataByRowId('row_1776680634054_19', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_19', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_19', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_19', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_19', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_19', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_19', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776679688585_19')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
+                        <button onclick="removeRowById('row_1776680634054_19')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
                         </button>
                     </td>
@@ -926,20 +926,11 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 </table>
             </div>
 
-            <div id="content-view" class="hidden">
-                <div id="translated-table-container"><table class="w-full text-sm text-left"><thead><tr class="bg-slate-50 border-b uppercase text-[10px] tracking-widest text-slate-500">
-                <th class="p-4">Produit</th><th class="p-4">Désignation</th><th class="p-4">Calibre</th><th class="p-4">Origine</th><th class="p-4 text-right">Prix</th><th class="p-4">Notes</th>
-            </tr></thead><tbody><tr class="border-b">
-                    <td class="p-4 font-bold">Produit 1</td>
-                    <td class="p-4">TEST</td>
-                    <td class="p-4 text-slate-500">KQB</td>
-                    <td class="p-4 text-slate-500">ETST</td>
-                    <td class="p-4 text-right font-bold text-blue-600">20.00 € / kg</td>
-                    <td class="p-4 text-xs italic text-slate-400">tuftu</td>
-                </tr></tbody></table></div>
+            <div id="content-view" class="">
+                <div id="translated-table-container"><div class="p-12 text-center text-slate-400">Aucun produit avec tarif.</div></div>
             </div>
 
-            <div id="content-wa" class="flex flex-col gap-4 hidden">
+            <div id="content-wa" class="hidden flex flex-col gap-4">
                 <div class="flex justify-between items-center">
                     <h2 class="text-xl font-bold text-green-700">Export WhatsApp</h2>
                     <button onclick="copyWA()" class="bg-green-500 text-white px-8 py-2 rounded-full font-bold hover:bg-green-600 transition shadow-md">
@@ -956,7 +947,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             Réinitialiser base de données
         </button>
         <div class="flex items-center gap-6">
-            <span id="save-indicator" class="text-green-500 text-[9px] font-bold opacity-0 transition-opacity uppercase tracking-widest" style="opacity: 0;">
+            <span id="save-indicator" class="text-green-500 text-[9px] font-bold opacity-0 transition-opacity uppercase tracking-widest">
                 Sauvegarde effectuée
             </span>
             <button onclick="downloadSelf()" class="text-slate-300 hover:text-blue-500 text-[9px] transition uppercase tracking-widest underline decoration-dotted font-medium">
@@ -966,7 +957,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     </div>
 
     <!-- Modals -->
-    <div id="pwd-modal-edit" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div id="pwd-modal-edit" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
         <div class="bg-white rounded-[24px] p-8 max-w-sm w-full shadow-2xl relative animate-modal-pop border border-slate-100">
             <button onclick="closeEditModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -1007,7 +998,41 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         const MASTER_PWD = "CESAR66";
         let currentLang = 'fr';
         let isEditingAuthorized = false;
-        const translationCache = { en: {}, it: {}, de: {} };
+        
+        // Cache initialisé avec vos traductions forcées
+        const translationCache = { 
+            en: {}, 
+            it: { 
+                "colis": "Colli",
+                "Colis": "Colli",
+                "Haricots verts": "Fagiolini",
+                "haricots verts": "fagiolini",
+                "Haricots plats": "Piattoni",
+                "haricots plats": "piattoni",
+                "poivron": "peperone",
+                "Poivron": "Peperone",
+                "POIVRON ROUGE": "PEPERONE ROSSO",
+                "Poivron Rouge": "Peperone Rosso",
+                "poivron rouge": "peperone rosso",
+                "POIVRON JAUNE": "PEPERONE GIALLO",
+                "Poivron Jaune": "Peperone Giallo",
+                "poivron jaune": "peperone giallo",
+                "POIVRON VERT": "PEPERONE VERDE",
+                "Poivron Vert": "Peperone Verde",
+                "poivron vert": "peperone verde",
+                "POIVRON TRICOLOR": "PEPERONE TRICOLORE",
+                "Poivron Tricolor": "Peperone Tricolore",
+                "poivron tricolor": "peperone tricolore",
+                "POIVRON TRICOLORE": "PEPERONE TRICOLORE",
+                "Poivron Tricolore": "Peperone Tricolore",
+                "poivron tricolore": "peperone tricolore",
+                "iceberg": "Iceberg",
+                "Iceberg": "Iceberg",
+                "Sweetbite": "Sweetbite",
+                "sweetbite": "sweetbite"
+            }, 
+            de: {} 
+        };
 
         let data = [];
         const localSaved = localStorage.getItem('tarifs_pro_v6');
@@ -1107,11 +1132,21 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         async function translate(text, lang) {
             if (!text || lang === 'fr') return text;
-            if (translationCache[lang][text]) return translationCache[lang][text];
+            
+            const cleanText = text.trim();
+            // Recherche exacte dans le cache (priorité aux traductions manuelles)
+            if (translationCache[lang][cleanText]) return translationCache[lang][cleanText];
+            
+            // Recherche case-insensitive pour plus de souplesse
+            const cacheKey = Object.keys(translationCache[lang]).find(k => k.toLowerCase() === cleanText.toLowerCase());
+            if (cacheKey) return translationCache[lang][cacheKey];
+
             try {
                 const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=fr&tl=${lang}&dt=t&q=${encodeURIComponent(text)}`);
                 const result = await res.json();
-                return translationCache[lang][text] = result[0][0][0];
+                const translated = result[0][0][0];
+                translationCache[lang][cleanText] = translated;
+                return translated;
             } catch (e) { return text; }
         }
 
@@ -1167,7 +1202,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                     <td class="p-4">${await translate(row.desc, lang)}</td>
                     <td class="p-4 text-slate-500">${await translate(row.calibre, lang)}</td>
                     <td class="p-4 text-slate-500">${await translate(row.origine, lang)}</td>
-                    <td class="p-4 text-right font-bold text-blue-600">${row.price.toFixed(2)} € / ${row.unit}</td>
+                    <td class="p-4 text-right font-bold text-blue-600">${row.price.toFixed(2)} € / ${await translate(row.unit, lang)}</td>
                     <td class="p-4 text-xs italic text-slate-400">${await translate(row.notes, lang)}</td>
                 </tr>`;
             }
@@ -1185,14 +1220,14 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 const desc = await translate(row.desc, lang);
                 const cal = await translate(row.calibre, lang);
                 const ori = await translate(row.origine, lang);
+                const unit = await translate(row.unit, lang);
                 const not = await translate(row.notes, lang);
 
-                // Une seule ligne par produit sans icônes
                 let line = `*${prod}*`;
                 if(desc) line += ` - ${desc}`;
                 if(cal) line += ` (${cal})`;
                 if(ori) line += ` [${ori}]`;
-                line += `: *${row.price.toFixed(2)}€ / ${row.unit}*`;
+                line += `: *${row.price.toFixed(2)}€ / ${unit}*`;
                 if(not) line += ` (${not})`;
                 
                 text += line + `\n`;
