@@ -570,7 +570,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 <style>
   /* On définit une largeur minimale "virtuelle" pour que le tableau ne soit pas coupé */
   html, body {
-    width: 80%;
+    width: 50%;
     margin: 0;
     padding: 0;
     overflow-x: visible; /* On autorise le contenu à exister à droite */
