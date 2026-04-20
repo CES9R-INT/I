@@ -574,8 +574,8 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     width: 1080px !important;
     margin: 0;
     padding: 0;
-    zoom: 90; /* Force un dézoom visuel sur certains navigateurs */
-    -moz-transform: scale(1); /* Pour Firefox */
+    zoom: 0.9; /* Force un dézoom visuel sur certains navigateurs */
+    -moz-transform: scale(0.9); /* Pour Firefox */
     -moz-transform-origin: 0 0;
   }
 
