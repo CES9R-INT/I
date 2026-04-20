@@ -567,27 +567,27 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 })();</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
+<meta name="viewport" content="width=600, initial-scale=0.4">
 <style>
+  /* On définit une largeur minimale "virtuelle" pour que le tableau ne soit pas coupé */
   html, body {
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
-    /* Empêche le navigateur de créer un espace vide à droite */
-    overflow-x: hidden; 
+    overflow-x: visible; /* On autorise le contenu à exister à droite */
   }
-  
+
   table {
-    /* Force le tableau à s'ajuster ou à être scrollable sans casser le zoom */
-    max-width: 100% !important;
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    min-width: 800px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+  /* Pour s'assurer que rien ne vient masquer la droite */
+  * {
+    max-width: none !important;
   }
 </style>
-    <title>Gestionnaire de Prix Pro</title>
-    <script src="https://cdn.tailwindcss.com"></script><style type="text/css" id="operaUserStyle"></style>
-    <style>
         /* Arrière-plan avec image floutée */
         body {
             position: relative;
