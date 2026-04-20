@@ -2,7 +2,7 @@
         window.__firebase_config = firebaseConfig;
         window.__initial_auth_token = initialAuthToken;
         window.__app_id = appId;
-            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjIzMWY0NDIyYmI5Y2VmMTA3OTdkMjYzZjBlYzQ4ZDNiODVhOTg5NTAiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNTQ2NzUzMTM3MTIwNTgzMTUzNiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2FkZjY5Y2RjZTY5ODE3NmRfTGlzdGVfZGVfUHJpeF9Qcm8uaHRtbC0yNzAifSwiZXhwIjoxNzc2Njg0MjMyLCJpYXQiOjE3NzY2ODA2MzIsImFsZyI6IlJTMjU2In0.Oyu10K_vbiVR7p_5qdu5kkNYM5NhosxlhUnSCIYcc5lMZNj2EwYxCO2VhGxwrnfL7w7o1MfyTtTD4BDRA1iiiYUJbwwReCZKqdTr5rSJD2oI-kOXXjyaJjeHh0uIwjRWcxaSlfQ8mYU0QNzSVaXeE9IPx_fpVJfjltpVlq1MWs4I7LyjictiAK18OKFPIdiapZFla7N_BBX1SX_rpGxD9ncIPmdiXzycpP0GQcIXUjgZ5OD0-QiNoktxBLbojbQP9smewbt0wyn2b6pDnSkd-wthXUAqQNahmTRCcJR5VL6DtmJL90yL4or7n0Z4nfgDb35Zu5SCjW6VFPnHZK8slw","c_adf69cdce698176d_Liste_de_Prix_Pro.html-270")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjIzMWY0NDIyYmI5Y2VmMTA3OTdkMjYzZjBlYzQ4ZDNiODVhOTg5NTAiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxNTQ2NzUzMTM3MTIwNTgzMTUzNiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2FkZjY5Y2RjZTY5ODE3NmRfTGlzdGVfZGVfUHJpeF9Qcm8uaHRtbC0xOCJ9LCJleHAiOjE3NzY2ODY1NTgsImlhdCI6MTc3NjY4Mjk1OCwiYWxnIjoiUlMyNTYifQ.qEuoUXae5L7GyWzZWmKm-kgFOSUG9sdH3d3wW6r8dJZWzjPTBtzsPQ1rzaX9PvxXnhYBHIZ9FP2Bp0MXw9FD2PaLGOqGk-wI9aAE30ZD4SyNcPyvd3kRPxOrdsCQqmIt4QMGMLekBxRC1BTMMbfXdY0t5dJCt9UEcJb5RqPjmLG-_iPX9d-KvF4UkpFOnSHPn0gLQT3nov0lF7jHpQhfJyJXTLuLCoiDQaeusp-KHILN-ObOelU8Lmnfajm5qM_ig936SM-yQGTRZNluW2uwCuo2kF4x3C2kopImCoRYZ6cIJIZWTJ3RXBEhusw56mcevBvRb72Hg9dQ7tRnfZwnTQ","c_adf69cdce698176d_Liste_de_Prix_Pro.html-18")</script><script>(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var n=l(this);
 function p(a,b){if(b)a:{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function t(a){return r(a())}
 p("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});p("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
 
@@ -570,6 +570,30 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     <title>Gestionnaire de Prix Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        /* Arrière-plan avec image floutée */
+        body {
+            position: relative;
+            min-h: 100 screen;
+            background-color: #0f172a; /* Fallback */
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Image de fruits et légumes frais */
+            background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2000&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            filter: blur(8px) brightness(0.6); /* Flou et assombrissement pour la lisibilité */
+            z-index: -1;
+            transform: scale(1.05); /* Évite les bords blancs dû au flou */
+        }
+
         .input-cell { border: none; background: transparent; width: 100%; padding: 4px; border-radius: 4px; transition: all 0.2s; }
         .input-cell:focus { background: white; outline: 2px solid #3b82f6; }
         input[type="number"] { -moz-appearance: textfield; }
@@ -583,10 +607,10 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         .animate-modal-pop { animation: modal-pop 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 
         @media print {
-            .no-print, #tabs, button, .bg-slate-800, #save-section, .bg-slate-100 {
+            .no-print, #tabs, button, .bg-slate-800, #save-section, .bg-slate-100, body::before {
                 display: none !important;
             }
-            body { background: white; padding: 0; }
+            body { background: white !important; padding: 0; }
             .max-w-7xl { max-width: 100%; margin: 0; }
             .shadow-lg { box-shadow: none; border: 1px solid #eee; }
             table { font-size: 9pt; width: 100%; }
@@ -594,64 +618,66 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             th, td { padding: 4px !important; }
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded{border-radius:0.25rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-dotted{-webkit-text-decoration-style:dotted;text-decoration-style:dotted}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-blue-500:hover{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.hover\:text-red-400:hover{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
-<body class="bg-slate-50 min-h-screen p-4 md:p-8 flex flex-col">
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-100\/80{background-color:rgb(241 245 249 / 0.8)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-white\/50{background-color:rgb(255 255 255 / 0.5)}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-100{--tw-text-opacity:1;color:rgb(219 234 254 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-md{--tw-drop-shadow:drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/40:hover{background-color:rgb(255 255 255 / 0.4)}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
+<body class="p-4 md:p-8 flex flex-col">
 
     <div class="max-w-7xl mx-auto w-full mb-4 flex justify-end px-2 no-print">
-        <div class="text-right">
-            <p class="text-slate-500 text-xs font-medium">Date d'édition :</p>
-            <p id="current-date" class="text-slate-900 font-bold text-base">20 avril 2026</p>
+        <div class="text-right bg-white/20 backdrop-blur-sm p-2 rounded-lg border border-white/10">
+            <p class="text-white/80 text-xs font-medium">Date d'édition :</p>
+            <p id="current-date" class="text-white font-bold text-base">20 avril 2026</p>
         </div>
     </div>
 
     <div class="max-w-7xl mx-auto w-full mb-8 text-center no-print">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight uppercase">
-            PLATEFORME DE GESTION DES TARIFS
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight uppercase drop-shadow-lg">
+            CESAR INTERNATIONAL SASU
         </h1>
-        <div class="h-1.5 w-32 bg-blue-600 mx-auto mt-4 rounded-full"></div>
-        <p class="text-slate-500 mt-4 font-medium uppercase tracking-widest text-sm">Outil de Cotation International</p>
+        <div class="h-1.5 w-32 bg-blue-500 mx-auto mt-4 rounded-full shadow-lg"></div>
+        <p class="text-blue-100 mt-4 font-medium uppercase tracking-widest text-sm drop-shadow-md">Marché St.Charles International Perpignan France</p>
     </div>
 
-    <div class="max-w-7xl mx-auto w-full bg-white rounded-xl shadow-lg overflow-hidden flex-grow flex flex-col mb-4">
+    <div class="max-w-7xl mx-auto w-full bg-white/95 backdrop-blur-md rounded-xl shadow-2xl overflow-hidden flex-grow flex flex-col mb-4 border border-white/20">
         <div class="bg-slate-800 text-white p-6 no-print">
-            <h2 class="text-2xl font-bold">Gestionnaire de Prix &amp; Traductions</h2>
+            <h2 class="text-2xl font-bold">Mércurial - Listino Prezzi - Price list - Pricelist</h2>
             <p class="text-slate-400 text-sm mt-2 mb-6 max-w-3xl leading-relaxed">
-                Utilisez <b>Consultation</b> pour visualiser ou imprimer. <b>Édition</b> est réservé aux administrateurs.
+                Prix départ - Prezzi Partenza - Price departure - Prices ab Perpignan
             </p>
             
             <div class="flex flex-wrap gap-2 items-center" id="tabs">
-                <button onclick="tryEdit()" id="tab-edit" class="px-4 py-2 rounded-t-lg transition text-sm flex items-center gap-2">
+                <button onclick="tryEdit()" id="tab-edit" class="px-4 py-2 rounded-t-lg transition text-sm flex items-center gap-2 hover:bg-slate-700 tab-active">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                     Édition
                 </button>
-                <button onclick="switchTab('fr')" id="tab-fr" class="px-4 py-2 rounded-t-lg transition text-sm tab-active">Français</button>
-                <button onclick="switchTab('en')" id="tab-en" class="px-4 py-2 rounded-t-lg transition text-sm">English</button>
-                <button onclick="switchTab('it')" id="tab-it" class="px-4 py-2 rounded-t-lg transition text-sm">Italiano</button>
-                <button onclick="switchTab('de')" id="tab-de" class="px-4 py-2 rounded-t-lg transition text-sm">Deutsch</button>
+                <button onclick="switchTab('fr')" id="tab-fr" class="px-4 py-2 rounded-t-lg transition text-sm">Français</button>
+                <button onclick="switchTab('en')" id="tab-en" class="px-4 py-2 rounded-t-lg transition text-sm hover:bg-slate-700">English</button>
+                <button onclick="switchTab('it')" id="tab-it" class="px-4 py-2 rounded-t-lg transition text-sm hover:bg-slate-700">Italiano</button>
+                <button onclick="switchTab('de')" id="tab-de" class="px-4 py-2 rounded-t-lg transition text-sm hover:bg-slate-700">Deutsch</button>
                 
                 <div class="ml-auto flex gap-2">
-                    <button onclick="switchTab('wa')" id="tab-wa" class="px-4 py-2 rounded-lg transition bg-green-600 hover:bg-green-700 text-sm font-bold flex items-center gap-2">
+                    <button onclick="switchTab('wa')" id="tab-wa" class="px-4 py-2 rounded-lg transition bg-green-600 hover:bg-green-700 text-sm font-bold flex items-center gap-2 shadow-lg">
                         WhatsApp Export
                     </button>
-                    <button onclick="printPDF()" class="px-4 py-2 rounded-lg transition bg-blue-600 hover:bg-blue-700 text-sm font-bold flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                    <button onclick="printPDF()" class="px-4 py-2 rounded-lg transition bg-blue-600 hover:bg-blue-700 text-sm font-bold flex items-center gap-2 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
                         PDF
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="p-4 flex-grow overflow-x-auto">
-            <div id="content-edit" class="hidden">
-                <div class="mb-4 flex justify-between items-center bg-slate-50 p-3 rounded-lg">
-                    <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Interface de Saisie Directe</span>
-                    <button onclick="addNewRow()" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-sm flex items-center gap-2 hover:bg-blue-700 transition">
+        <div class="p-4 flex-grow overflow-x-auto bg-white/50">
+            <!-- ONGLET EDITION -->
+            <div id="content-edit" class="">
+                <div class="mb-4 flex justify-between items-center bg-slate-100/80 p-3 rounded-lg backdrop-blur-sm">
+                    <span class="text-xs font-bold text-slate-500 uppercase tracking-widest">Interface de Saisie Directe</span>
+                    <button onclick="addNewRow()" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-sm flex items-center gap-2 hover:bg-blue-700 transition shadow-md">
                         Ajouter une ligne
                     </button>
                 </div>
+                
                 <table class="w-full text-sm text-left border-collapse min-w-[900px]">
                     <thead>
-                        <tr class="text-slate-600 border-b bg-slate-50 uppercase text-[11px] tracking-wider">
+                        <tr class="text-slate-600 border-b bg-slate-50/50 uppercase text-[11px] tracking-wider font-bold">
                             <th class="p-3">Produit</th>
                             <th class="p-3">Désignation</th>
                             <th class="p-3">Calibre</th>
@@ -662,272 +688,223 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                             <th class="p-3 w-10"></th>
                         </tr>
                     </thead>
-                    <tbody id="main-tbody"><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 1" oninput="updateDataByRowId('row_1776680634054_0', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_0', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_0', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_0', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_0', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_0', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_0', 'notes', this.value)"></td>
+                    <tbody id="main-tbody"><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_0', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_0', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_0', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_0', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_0', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_0', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_0', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_0')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_0')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 2" oninput="updateDataByRowId('row_1776680634054_1', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_1', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_1', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_1', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_1', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_1', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_1', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_1', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_1', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_1', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_1', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_1', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_1', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_1', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_1')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_1')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 3" oninput="updateDataByRowId('row_1776680634054_2', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_2', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_2', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_2', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_2', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_2', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_2', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_2', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_2', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_2', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_2', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_2', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_2', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_2', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_2')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_2')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 4" oninput="updateDataByRowId('row_1776680634054_3', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_3', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_3', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_3', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_3', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_3', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_3', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_3', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_3', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_3', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_3', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_3', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_3', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_3', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_3')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_3')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 5" oninput="updateDataByRowId('row_1776680634054_4', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_4', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_4', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_4', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_4', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_4', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_4', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_4', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_4', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_4', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_4', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_4', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_4', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_4', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_4')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_4')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 6" oninput="updateDataByRowId('row_1776680634054_5', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_5', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_5', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_5', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_5', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_5', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_5', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_5', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_5', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_5', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_5', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_5', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_5', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_5', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_5')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_5')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 7" oninput="updateDataByRowId('row_1776680634054_6', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_6', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_6', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_6', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_6', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_6', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_6', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_6', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_6', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_6', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_6', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_6', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_6', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_6', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_6')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_6')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 8" oninput="updateDataByRowId('row_1776680634054_7', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_7', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_7', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_7', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_7', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_7', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_7', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_7', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_7', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_7', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_7', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_7', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_7', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_7', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_7')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_7')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 9" oninput="updateDataByRowId('row_1776680634054_8', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_8', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_8', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_8', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_8', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_8', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_8', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_8', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_8', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_8', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_8', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_8', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_8', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_8', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_8')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_8')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 10" oninput="updateDataByRowId('row_1776680634054_9', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_9', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_9', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_9', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_9', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_9', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_9', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_9', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_9', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_9', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_9', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_9', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_9', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_9', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_9')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_9')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 11" oninput="updateDataByRowId('row_1776680634054_10', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_10', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_10', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_10', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_10', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_10', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_10', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_10', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_10', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_10', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_10', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_10', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_10', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_10', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_10')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_10')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 12" oninput="updateDataByRowId('row_1776680634054_11', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_11', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_11', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_11', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_11', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_11', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_11', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_11', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_11', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_11', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_11', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_11', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_11', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_11', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_11')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_11')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 13" oninput="updateDataByRowId('row_1776680634054_12', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_12', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_12', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_12', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_12', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_12', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_12', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_12', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_12', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_12', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_12', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_12', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_12', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_12', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_12')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_12')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 14" oninput="updateDataByRowId('row_1776680634054_13', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_13', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_13', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_13', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_13', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_13', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_13', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_13', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_13', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_13', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_13', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_13', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_13', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_13', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_13')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_13')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 15" oninput="updateDataByRowId('row_1776680634054_14', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_14', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_14', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_14', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_14', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_14', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_14', 'notes', this.value)"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_14', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_14', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_14', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_14', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_14', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_14', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_14', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_14')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
-                        </button>
-                    </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 16" oninput="updateDataByRowId('row_1776680634054_15', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_15', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_15', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_15', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_15', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_15', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_15', 'notes', this.value)"></td>
-                    <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_15')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
-                        </button>
-                    </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 17" oninput="updateDataByRowId('row_1776680634054_16', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_16', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_16', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_16', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_16', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_16', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_16', 'notes', this.value)"></td>
-                    <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_16')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
-                        </button>
-                    </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 18" oninput="updateDataByRowId('row_1776680634054_17', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_17', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_17', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_17', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_17', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_17', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_17', 'notes', this.value)"></td>
-                    <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_17')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
-                        </button>
-                    </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 19" oninput="updateDataByRowId('row_1776680634054_18', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_18', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_18', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_18', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_18', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_18', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_18', 'notes', this.value)"></td>
-                    <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_18')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
-                        </button>
-                    </td>
-                </tr><tr class="border-b hover:bg-slate-50 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="Produit 20" oninput="updateDataByRowId('row_1776680634054_19', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="Détails..." oninput="updateDataByRowId('row_1776680634054_19', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_19', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="" oninput="updateDataByRowId('row_1776680634054_19', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776680634054_19', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="kg" oninput="updateDataByRowId('row_1776680634054_19', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="" oninput="updateDataByRowId('row_1776680634054_19', 'notes', this.value)"></td>
-                    <td class="p-2">
-                        <button onclick="removeRowById('row_1776680634054_19')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('row_1776682959215_14')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr></tbody>
                 </table>
+
+                <!-- SECTION ACTIONS EDITION -->
+                <div id="save-section" class="flex justify-between items-center px-2 py-8 mt-4 border-t border-slate-200 no-print">
+                    <button onclick="resetDataWithAuth()" class="text-slate-500 hover:text-red-500 text-[10px] transition uppercase tracking-widest font-bold flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg>
+                        Vider la base de données
+                    </button>
+                    <div class="flex items-center gap-6">
+                        <span id="save-indicator" class="text-green-600 text-[10px] font-bold opacity-0 transition-opacity uppercase tracking-widest">
+                            Modifications enregistrées
+                        </span>
+                        <button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
+                            Exporter le fichier source (.html)
+                        </button>
+                    </div>
+                </div>
             </div>
 
-            <div id="content-view" class="">
-                <div id="translated-table-container"><div class="p-12 text-center text-slate-400">Aucun produit avec tarif.</div></div>
+            <div id="content-view" class="hidden">
+                <div id="translated-table-container"><div class="p-12 text-center text-slate-400 font-medium bg-white/50 rounded-lg">Tableau vide ou sans prix.</div></div>
             </div>
 
             <div id="content-wa" class="hidden flex flex-col gap-4">
@@ -942,22 +919,8 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         </div>
     </div>
 
-    <div id="save-section" class="max-w-7xl mx-auto w-full flex justify-between items-center px-4 py-6 no-print">
-        <button onclick="resetDataWithAuth()" class="text-slate-300 hover:text-red-400 text-[9px] transition uppercase tracking-widest font-medium">
-            Réinitialiser base de données
-        </button>
-        <div class="flex items-center gap-6">
-            <span id="save-indicator" class="text-green-500 text-[9px] font-bold opacity-0 transition-opacity uppercase tracking-widest">
-                Sauvegarde effectuée
-            </span>
-            <button onclick="downloadSelf()" class="text-slate-300 hover:text-blue-500 text-[9px] transition uppercase tracking-widest underline decoration-dotted font-medium">
-                Exporter le fichier HTML source
-            </button>
-        </div>
-    </div>
-
     <!-- Modals -->
-    <div id="pwd-modal-edit" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
+    <div id="pwd-modal-edit" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
         <div class="bg-white rounded-[24px] p-8 max-w-sm w-full shadow-2xl relative animate-modal-pop border border-slate-100">
             <button onclick="closeEditModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -991,7 +954,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     </div>
 
     <script id="data-payload">
-        const INITIAL_DATA = [{"id":"row_1776673787635_0","product":"NADORCOTT","desc":"10KG","calibre":"1","origine":"MAROC","price":1.3,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_1","product":"NADORCOTT","desc":"10KG","calibre":"2","origine":"MAROC","price":1.2,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_2","product":"PASTEQUE","desc":"2 x ≃500kg","calibre":"6-10KG","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_3","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"TRES FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_4","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_5","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"MOYEN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_6","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.9,"unit":"kg","notes":""},{"id":"row_1776673787635_7","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.7,"unit":"kg","notes":""},{"id":"row_1776673787635_8","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_9","product":"COURGETTE","desc":"5KG","calibre":"7/14","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_10","product":"COURGETTE","desc":"5KG","calibre":"14/18","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_11","product":"COURGETTE","desc":"5KG","calibre":"14/21","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_12","product":"COURGETTE","desc":"5KG","calibre":"21+","origine":"MAROC","price":0.45,"unit":"kg","notes":""},{"id":"row_1776673787635_13","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":1,"unit":"kg","notes":""},{"id":"row_1776673787635_14","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_15","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_16","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_17","product":"CORNE VERT","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_18","product":"CORNE VERT","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.1,"unit":"kg","notes":""},{"id":"row_1776673787635_19","product":"KAPIA","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.6,"unit":"kg","notes":""},{"id":"row_1776673787635_20","product":"KAPIA","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.4,"unit":"kg","notes":""},{"id":"row_1776673787635_21","product":"PALERMO ROUGE","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_22","product":"PALERMO ROUGE","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_23","product":"SWEETBITE TRICOLOR","desc":"3kg","calibre":"SC","origine":"MAROC","price":4,"unit":"kg","notes":""},{"id":"row_1776673787635_24","product":"POIVRON TRICOLOR","desc":"10x500GR","calibre":"70/90-G","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_25","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_26","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0.9,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_27","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-G","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_28","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_29","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_30","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_31","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_32","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_33","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_34","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_35","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_36","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_37","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_38","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_39","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_40","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_41","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_42","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_43","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_44","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_45","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_46","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_47","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_48","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_49","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_50","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_51","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_52","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_53","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_54","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_55","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_56","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_57","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"2","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_58","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"3","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_59","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"4","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_60","product":"TOMATE GRAPPE","desc":"STANDARD","calibre":"M","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_61","product":"AUBERGINE","desc":"EXTRA","calibre":"2/300","origine":"ESPAGNE","price":1.1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_62","product":"AUBERGINE","desc":"EXTRA","calibre":"3/400","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_63","product":"AUBERGINE","desc":"EXTRA","calibre":"4/500","origine":"ESPAGNE","price":1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_64","product":"AUBERGINE","desc":"CAT.1","calibre":"2/300","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_65","product":"AUBERGINE","desc":"CAT.1","calibre":"3/400","origine":"ESPAGNE","price":0.65,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_66","product":"AUBERGINE","desc":"CAT.1","calibre":"4/500","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_67","product":"AUBERGINE","desc":"STANDARD","calibre":"2/300","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_68","product":"AUBERGINE","desc":"STANDARD","calibre":"3/400","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_69","product":"POIVRON TRICOLORE","desc":"10X500GR","calibre":"70/90-G","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_70","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_71","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_72","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_73","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_74","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_75","product":"POIVRON ROUGE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_76","product":"POIVRON ORANGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_77","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_78","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_79","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_80","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_81","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_82","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_83","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_84","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_85","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_86","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.3,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_87","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_88","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_89","product":"SALADE ICEBERG","desc":"LEGER","calibre":"12","origine":"ESPAGNE","price":4.5,"unit":"kg","notes":""},{"id":"row_1776673787635_90","product":"SALADE ICEBERG","desc":"LEGER","calibre":"9","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_91","product":"SALADE ICEBERG","desc":"LOURD","calibre":"10","origine":"ESPAGNE","price":5.5,"unit":"kg","notes":""},{"id":"row_1776673787635_92","product":"SALADE ICEBERG","desc":"LEGER","calibre":"10","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_93","product":"CHOUFLEUR","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_94","product":"CHOUFLEUR","desc":"","calibre":"8","origine":"ESPAGNE","price":7.5,"unit":"kg","notes":""},{"id":"row_1776673787635_95","product":"BROCOLIS","desc":"POLYSTIRENE","calibre":"6","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_96","product":"ROMANESCO","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_97","product":"COURGETTES","desc":"BLANCHE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_98","product":"COURGETTES","desc":"NOIRE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_99","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_100","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_101","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_102","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_103","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_104","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_105","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_106","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_107","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_108","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_109","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_110","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_111","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_112","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_113","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_114","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_115","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_116","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_117","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673796156_d51i0z0s8","product":"","desc":"","calibre":"","origine":"","price":0,"unit":"kg","notes":""}];
+        const INITIAL_DATA = [{"id":"row_1776673787635_0","product":"NADORCOTT","desc":"10KG","calibre":"1","origine":"MAROC","price":1.3,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_1","product":"NADORCOTT","desc":"10KG","calibre":"2","origine":"MAROC","price":1.2,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_2","product":"PASTEQUE","desc":"2 x ≃500kg","calibre":"6-10KG","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_3","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"TRES FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_4","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_5","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"MOYEN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_6","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.9,"unit":"kg","notes":""},{"id":"row_1776673787635_7","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.7,"unit":"kg","notes":""},{"id":"row_1776673787635_8","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_9","product":"COURGETTE","desc":"5KG","calibre":"7/14","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_10","product":"COURGETTE","desc":"5KG","calibre":"14/18","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_11","product":"COURGETTE","desc":"5KG","calibre":"14/21","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_12","product":"COURGETTE","desc":"5KG","calibre":"21+","origine":"MAROC","price":0.45,"unit":"kg","notes":""},{"id":"row_1776673787635_13","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":1,"unit":"kg","notes":""},{"id":"row_1776673787635_14","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_15","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_16","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_17","product":"CORNE VERT","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_18","product":"CORNE VERT","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.1,"unit":"kg","notes":""},{"id":"row_1776673787635_19","product":"KAPIA","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.6,"unit":"kg","notes":""},{"id":"row_1776673787635_20","product":"KAPIA","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.4,"unit":"kg","notes":""},{"id":"row_1776673787635_21","product":"PALERMO ROUGE","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_22","product":"PALERMO ROUGE","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_23","product":"SWEETBITE TRICOLOR","desc":"3kg","calibre":"SC","origine":"MAROC","price":4,"unit":"kg","notes":""},{"id":"row_1776673787635_24","product":"POIVRON TRICOLOR","desc":"10x500GR","calibre":"70/90-G","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_25","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_26","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0.9,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_27","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-G","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_28","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_29","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_30","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_31","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_32","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_33","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_34","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_35","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_36","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_37","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_38","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_39","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_40","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_41","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_42","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_43","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_44","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_45","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_46","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_47","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_48","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_49","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_50","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_51","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_52","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_53","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_54","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_55","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_56","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_57","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"2","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_58","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"3","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_59","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"4","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_60","product":"TOMATE GRAPPE","desc":"STANDARD","calibre":"M","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_61","product":"AUBERGINE","desc":"EXTRA","calibre":"2/300","origine":"ESPAGNE","price":1.1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_62","product":"AUBERGINE","desc":"EXTRA","calibre":"3/400","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_63","product":"AUBERGINE","desc":"EXTRA","calibre":"4/500","origine":"ESPAGNE","price":1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_64","product":"AUBERGINE","desc":"CAT.1","calibre":"2/300","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_65","product":"AUBERGINE","desc":"CAT.1","calibre":"3/400","origine":"ESPAGNE","price":0.65,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_66","product":"AUBERGINE","desc":"CAT.1","calibre":"4/500","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_67","product":"AUBERGINE","desc":"STANDARD","calibre":"2/300","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_68","product":"AUBERGINE","desc":"STANDARD","calibre":"3/400","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_69","product":"POIVRON TRICOLORE","desc":"10X500GR","calibre":"70/90-G","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_70","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_71","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_72","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_73","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_74","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_75","product":"POIVRON ROUGE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_76","product":"POIVRON ORANGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_77","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_78","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_79","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_80","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_81","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_82","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_83","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_84","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_85","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_86","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.3,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_87","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_88","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_89","product":"SALADE ICEBERG","desc":"LEGER","calibre":"12","origine":"ESPAGNE","price":4.5,"unit":"kg","notes":""},{"id":"row_1776673787635_90","product":"SALADE ICEBERG","desc":"LEGER","calibre":"9","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_91","product":"SALADE ICEBERG","desc":"LOURD","calibre":"10","origine":"ESPAGNE","price":5.5,"unit":"kg","notes":""},{"id":"row_1776673787635_92","product":"SALADE ICEBERG","desc":"LEGER","calibre":"10","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_93","product":"CHOUFLEUR","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_94","product":"CHOUFLEUR","desc":"","calibre":"8","origine":"ESPAGNE","price":7.5,"unit":"kg","notes":""},{"id":"row_1776673787635_95","product":"BROCOL!S","desc":"POLYSTIRENE","calibre":"6","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_96","product":"ROMANESCO","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_97","product":"COURGETTES","desc":"BLANCHE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_98","product":"COURGETTES","desc":"NOIRE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_99","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_100","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_101","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_102","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_103","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_104","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_105","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_106","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_107","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_108","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_109","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_110","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_111","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_112","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_113","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_114","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_115","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_116","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_117","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673796156_d51i0z0s8","product":"","desc":"","calibre":"","origine":"","price":0,"unit":"kg","notes":""}];
     </script>
 
     <script>
@@ -999,37 +962,13 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         let currentLang = 'fr';
         let isEditingAuthorized = false;
         
-        // Cache initialisé avec vos traductions forcées
         const translationCache = { 
             en: {}, 
             it: { 
-                "colis": "Colli",
-                "Colis": "Colli",
-                "Haricots verts": "Fagiolini",
-                "haricots verts": "fagiolini",
-                "Haricots plats": "Piattoni",
-                "haricots plats": "piattoni",
-                "poivron": "peperone",
-                "Poivron": "Peperone",
-                "POIVRON ROUGE": "PEPERONE ROSSO",
-                "Poivron Rouge": "Peperone Rosso",
-                "poivron rouge": "peperone rosso",
-                "POIVRON JAUNE": "PEPERONE GIALLO",
-                "Poivron Jaune": "Peperone Giallo",
-                "poivron jaune": "peperone giallo",
-                "POIVRON VERT": "PEPERONE VERDE",
-                "Poivron Vert": "Peperone Verde",
-                "poivron vert": "peperone verde",
-                "POIVRON TRICOLOR": "PEPERONE TRICOLORE",
-                "Poivron Tricolor": "Peperone Tricolore",
-                "poivron tricolor": "peperone tricolore",
-                "POIVRON TRICOLORE": "PEPERONE TRICOLORE",
-                "Poivron Tricolore": "Peperone Tricolore",
-                "poivron tricolore": "peperone tricolore",
-                "iceberg": "Iceberg",
-                "Iceberg": "Iceberg",
-                "Sweetbite": "Sweetbite",
-                "sweetbite": "sweetbite"
+                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI",
+                "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni",
+                "poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO",
+                "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
             }, 
             de: {} 
         };
@@ -1042,8 +981,8 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         } else if (localSaved) {
             data = JSON.parse(localSaved);
         } else {
-            data = Array.from({ length: 20 }, (_, i) => ({
-                id: 'row_' + Date.now() + '_' + i, product: `Produit ${i + 1}`, desc: '', calibre: '', origine: '', price: 0, unit: 'kg', notes: ''
+            data = Array.from({ length: 15 }, (_, i) => ({
+                id: 'row_' + Date.now() + '_' + i, product: '', desc: '', calibre: '', origine: '', price: 0, unit: 'kg', notes: ''
             }));
         }
 
@@ -1073,18 +1012,18 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             tbody.innerHTML = '';
             data.forEach((row) => {
                 const tr = document.createElement('tr');
-                tr.className = "border-b hover:bg-slate-50 transition-colors";
+                tr.className = "border-b hover:bg-white/40 transition-colors";
                 tr.innerHTML = `
                     <td class="p-2"><input class="input-cell font-bold text-slate-800" value="${row.product || ''}" oninput="updateDataByRowId('${row.id}', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="${row.desc || ''}" placeholder="Détails..." oninput="updateDataByRowId('${row.id}', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="${row.calibre || ''}" oninput="updateDataByRowId('${row.id}', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-500" value="${row.origine || ''}" oninput="updateDataByRowId('${row.id}', 'origine', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="${row.desc || ''}" placeholder="..." oninput="updateDataByRowId('${row.id}', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="${row.calibre || ''}" oninput="updateDataByRowId('${row.id}', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="${row.origine || ''}" oninput="updateDataByRowId('${row.id}', 'origine', this.value)"></td>
                     <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="${row.price || 0}" step="0.01" oninput="updateDataByRowId('${row.id}', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-400 italic" value="${row.unit || 'kg'}" oninput="updateDataByRowId('${row.id}', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-400" value="${row.notes || ''}" oninput="updateDataByRowId('${row.id}', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="${row.unit || 'kg'}" oninput="updateDataByRowId('${row.id}', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="${row.notes || ''}" oninput="updateDataByRowId('${row.id}', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('${row.id}')" class="text-slate-300 hover:text-red-500 transition-colors p-1 rounded hover:bg-red-50">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                        <button onclick="removeRowById('${row.id}')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 `;
@@ -1110,41 +1049,38 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         function removeRowById(id) {
             const index = data.findIndex(item => item.id === id);
-            if (index !== -1) {
-                if (confirm("Supprimer ce produit ?")) {
-                    data.splice(index, 1);
-                    renderEditor();
-                    saveToLocal();
-                }
+            if (index !== -1 && confirm("Supprimer cette ligne ?")) {
+                data.splice(index, 1);
+                renderEditor();
+                saveToLocal();
             }
         }
 
-        function saveToLocal() {
-            localStorage.setItem('tarifs_pro_v6', JSON.stringify(data));
-        }
+        function saveToLocal() { localStorage.setItem('tarifs_pro_v6', JSON.stringify(data)); }
 
         function showSaveIndicator() {
             const ind = document.getElementById('save-indicator');
             ind.style.opacity = '1';
             clearTimeout(window.sT);
-            window.sT = setTimeout(() => ind.style.opacity = '0', 1000);
+            window.sT = setTimeout(() => ind.style.opacity = '0', 1200);
         }
 
         async function translate(text, lang) {
             if (!text || lang === 'fr') return text;
-            
             const cleanText = text.trim();
-            // Recherche exacte dans le cache (priorité aux traductions manuelles)
+
+            if (lang === 'it') {
+                if (cleanText.toLowerCase() === 'colis') return "Colli";
+                if (cleanText.toLowerCase().includes('colis')) return cleanText.replace(/colis/gi, 'Colli');
+            }
+
             if (translationCache[lang][cleanText]) return translationCache[lang][cleanText];
-            
-            // Recherche case-insensitive pour plus de souplesse
-            const cacheKey = Object.keys(translationCache[lang]).find(k => k.toLowerCase() === cleanText.toLowerCase());
-            if (cacheKey) return translationCache[lang][cacheKey];
 
             try {
                 const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=fr&tl=${lang}&dt=t&q=${encodeURIComponent(text)}`);
                 const result = await res.json();
-                const translated = result[0][0][0];
+                let translated = result[0][0][0];
+                if (lang === 'it') translated = translated.replace(/pacchetti/gi, 'Colli').replace(/pacchetto/gi, 'Collo');
                 translationCache[lang][cleanText] = translated;
                 return translated;
             } catch (e) { return text; }
@@ -1187,23 +1123,23 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         async function renderListView(lang) {
             const container = document.getElementById('translated-table-container');
-            container.innerHTML = `<div class="p-20 text-center text-slate-400 animate-pulse">Traduction intelligente en cours...</div>`;
+            container.innerHTML = `<div class="p-20 text-center text-slate-500 animate-pulse font-bold uppercase tracking-widest text-xs">Mise à jour des traductions intelligentes...</div>`;
             const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
-            if (rows.length === 0) return container.innerHTML = "<div class='p-12 text-center text-slate-400'>Aucun produit avec tarif.</div>";
+            if (rows.length === 0) return container.innerHTML = "<div class='p-12 text-center text-slate-400 font-medium bg-white/50 rounded-lg'>Tableau vide ou sans prix.</div>";
 
             const l = labels[lang];
-            let html = `<table class="w-full text-sm text-left"><thead><tr class="bg-slate-50 border-b uppercase text-[10px] tracking-widest text-slate-500">
+            let html = `<table class="w-full text-sm text-left"><thead><tr class="bg-slate-100/50 border-b uppercase text-[10px] tracking-widest text-slate-600 font-bold">
                 <th class="p-4">${l.product}</th><th class="p-4">${l.desc}</th><th class="p-4">${l.calibre}</th><th class="p-4">${l.origine}</th><th class="p-4 text-right">${l.price}</th><th class="p-4">${l.notes}</th>
             </tr></thead><tbody>`;
             
             for (let row of rows) {
-                html += `<tr class="border-b">
-                    <td class="p-4 font-bold">${await translate(row.product, lang)}</td>
-                    <td class="p-4">${await translate(row.desc, lang)}</td>
-                    <td class="p-4 text-slate-500">${await translate(row.calibre, lang)}</td>
-                    <td class="p-4 text-slate-500">${await translate(row.origine, lang)}</td>
-                    <td class="p-4 text-right font-bold text-blue-600">${row.price.toFixed(2)} € / ${await translate(row.unit, lang)}</td>
-                    <td class="p-4 text-xs italic text-slate-400">${await translate(row.notes, lang)}</td>
+                html += `<tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">${await translate(row.product, lang)}</td>
+                    <td class="p-4 text-slate-700">${await translate(row.desc, lang)}</td>
+                    <td class="p-4 text-slate-600">${await translate(row.calibre, lang)}</td>
+                    <td class="p-4 text-slate-600">${await translate(row.origine, lang)}</td>
+                    <td class="p-4 text-right font-black text-blue-600">${row.price.toFixed(2)} € / ${await translate(row.unit, lang)}</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">${await translate(row.notes, lang)}</td>
                 </tr>`;
             }
             container.innerHTML = html + "</tbody></table>";
@@ -1211,8 +1147,8 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         async function renderWhatsApp(lang) {
             const output = document.getElementById('wa-output');
-            output.value = "Génération de l'export...";
-            let text = `*OFFRE TARIFAIRE - ${new Date().toLocaleDateString()}*\n--------------------------\n\n`;
+            output.value = "Traduction en cours...";
+            let text = `*OFFRE DU JOUR - ${new Date().toLocaleDateString()}*\n--------------------------\n\n`;
             const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
 
             for (let row of rows) {
@@ -1228,18 +1164,18 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 if(cal) line += ` (${cal})`;
                 if(ori) line += ` [${ori}]`;
                 line += `: *${row.price.toFixed(2)}€ / ${unit}*`;
-                if(not) line += ` (${not})`;
+                if(not) line += ` _(${not})_`;
                 
                 text += line + `\n`;
             }
-            output.value = rows.length > 0 ? text : "Vide.";
+            output.value = rows.length > 0 ? text : "Rien à exporter.";
         }
 
         function copyWA() {
             const output = document.getElementById('wa-output');
             output.select();
             document.execCommand('copy');
-            alert("Copié !");
+            alert("Texte copié !");
         }
 
         function resetDataWithAuth() { document.getElementById('pwd-modal-reset').classList.remove('hidden'); document.getElementById('pwd-input-reset').focus(); }
@@ -1255,7 +1191,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             const blob = new Blob([newHtml], { type: 'text/html' });
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = 'Gestionnaire_Tarifs_Pro.html';
+            a.download = 'Tarifs_Export_Source.html';
             a.click();
         }
 
