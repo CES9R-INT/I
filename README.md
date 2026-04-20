@@ -570,14 +570,14 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 <style>
   /* On définit une largeur minimale "virtuelle" pour que le tableau ne soit pas coupé */
   html, body {
-    width: 110%;
+    width: 80%;
     margin: 0;
     padding: 0;
     overflow-x: visible; /* On autorise le contenu à exister à droite */
   }
 
   table {
-    min-width: 600px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
+    min-width: 900px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
     border-collapse: collapse;
     margin: 0 auto;
   }
