@@ -567,29 +567,22 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 })();</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
 <style>
-  /* Force la page à rester à la largeur du téléphone */
-  body {
+  html, body {
     margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    /* Empêche le navigateur de créer un espace vide à droite */
+    overflow-x: hidden; 
   }
-
-  /* Rend tous les tableaux "glissables" sur le côté sur mobile */
+  
   table {
+    /* Force le tableau à s'ajuster ou à être scrollable sans casser le zoom */
+    max-width: 100% !important;
     display: block;
-    width: 100% !important;
     overflow-x: auto;
-    white-space: nowrap; /* Empêche le texte de revenir à la ligne de force */
-    border-collapse: collapse;
-  }
-
-  /* Optimisation visuelle pour les cellules du tableau */
-  th, td {
-    padding: 8px;
-    border: 1px solid #ddd;
-    font-size: 14px; /* Taille de texte adaptée au mobile */
+    -webkit-overflow-scrolling: touch;
   }
 </style>
     <title>Gestionnaire de Prix Pro</title>
