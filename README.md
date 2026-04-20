@@ -567,24 +567,26 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 })();</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=600, initial-scale=0.4">
+<meta name="viewport" content="width=1200">
 <style>
-  /* On définit une largeur minimale "virtuelle" pour que le tableau ne soit pas coupé */
+  /* On force le document à accepter une grande largeur sans couper */
   html, body {
-    width: 50%;
+    width: 1200px !important;
     margin: 0;
     padding: 0;
-    overflow-x: visible; /* On autorise le contenu à exister à droite */
+    zoom: 0.4; /* Force un dézoom visuel sur certains navigateurs */
+    -moz-transform: scale(0.4); /* Pour Firefox */
+    -moz-transform-origin: 0 0;
   }
 
   table {
-    min-width: 900px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
-    border-collapse: collapse;
-    margin: 0 auto;
+    width: 100% !important;
+    table-layout: auto !important;
   }
 
-  /* Pour s'assurer que rien ne vient masquer la droite */
-  * {
-    max-width: none !important;
+  /* On s'assure que le conteneur principal ne bloque rien */
+  div {
+    overflow: visible !important;
   }
 </style>
     <title>Gestionnaire de Prix Pro</title>
