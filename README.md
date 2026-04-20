@@ -566,29 +566,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
 })();</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=600, initial-scale=0.4">
-<meta name="viewport" content="width=1200">
-<style>
-  /* On force le document à accepter une grande largeur sans couper */
-  html, body {
-    width: 1080px !important;
-    margin: 0;
-    padding: 0;
-    zoom: 2; /* Force un dézoom visuel sur certains navigateurs */
-    -moz-transform: scale(0.99); /* Pour Firefox */
-    -moz-transform-origin: 0 0;
-  }
-
-  table {
-    width: 100% !important;
-    table-layout: auto !important;
-  }
-
-  /* On s'assure que le conteneur principal ne bloque rien */
-  div {
-    overflow: visible !important;
-  }
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestionnaire de Prix Pro</title>
     <script src="https://cdn.tailwindcss.com"></script><style type="text/css" id="operaUserStyle"></style>
     <style>
@@ -616,11 +594,17 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             transform: scale(1.05); /* Évite les bords blancs dû au flou */
         }
 
-        .input-cell { border: none; background: transparent; width: 100%; padding: 4px; border-radius: 4px; transition: all 0.2s; }
-        .input-cell:focus { background: white; outline: 2px solid #3b82f6; }
-        input[type="number"] { -moz-appearance: textfield; }
-        input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-        .tab-active { border-bottom: 3px solid #3b82f6; color: #3b82f6; font-weight: bold; }
+        .input-cell {
+            border: none;
+            background: transparent;
+            width: 100%;
+            padding: 8px 6px;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .input-cell:focus {
+            background: white;
+            outline: 2px solid #3b82f6;
         
         @keyframes modal-pop {
             0% { transform: scale(0.95); opacity: 0; }
