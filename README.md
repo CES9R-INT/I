@@ -567,6 +567,21 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 })();</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Ce style force le contenu à ne pas dépasser la largeur de l'écran du téléphone */
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%; /* Empêche Safari de zoomer le texte bizarrement */
+  }
+  table, img, canvas, div {
+    max-width: 100% !important;
+    height: auto !important;
+    box-sizing: border-box;
+  }
+</style>
     <title>Gestionnaire de Prix Pro</title>
     <script src="https://cdn.tailwindcss.com"></script><style type="text/css" id="operaUserStyle"></style>
     <style>
