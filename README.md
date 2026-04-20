@@ -568,7 +568,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestionnaire de Prix Pro</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script><style type="text/css" id="operaUserStyle"></style>
     <style>
         /* Arrière-plan avec image floutée */
         body {
@@ -618,7 +618,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             th, td { padding: 4px !important; }
         }
     </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-100\/80{background-color:rgb(241 245 249 / 0.8)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-white\/50{background-color:rgb(255 255 255 / 0.5)}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-100{--tw-text-opacity:1;color:rgb(219 234 254 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-md{--tw-drop-shadow:drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/40:hover{background-color:rgb(255 255 255 / 0.4)}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-100\/80{background-color:rgb(241 245 249 / 0.8)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-white\/50{background-color:rgb(255 255 255 / 0.5)}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-1{padding:0.25rem}.p-12{padding:3rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-100{--tw-text-opacity:1;color:rgb(219 234 254 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-md{--tw-drop-shadow:drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/40:hover{background-color:rgb(255 255 255 / 0.4)}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-4{right:1rem}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-auto{margin-left:auto}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-1\.5{height:0.375rem}.h-14{height:3.5rem}.h-\[500px\]{height:500px}.w-10{width:2.5rem}.w-14{width:3.5rem}.w-32{width:8rem}.w-full{width:100%}.min-w-\[900px\]{min-width:900px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-grow{flex-grow:1}.border-collapse{border-collapse:collapse}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-\[24px\]{border-radius:24px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-100\/80{background-color:rgb(241 245 249 / 0.8)}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-50\/50{background-color:rgb(248 250 252 / 0.5)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-white\/50{background-color:rgb(255 255 255 / 0.5)}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.bg-slate-100\/50{background-color:rgb(241 245 249 / 0.5)}.p-1{padding:0.25rem}.p-12{padding:3rem}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-20{padding:5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-8{padding-top:2rem;padding-bottom:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-100{--tw-text-opacity:1;color:rgb(219 234 254 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.drop-shadow-lg{--tw-drop-shadow:drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-md{--tw-drop-shadow:drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-300:hover{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-700:hover{--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.hover\:bg-white\/40:hover{background-color:rgb(255 255 255 / 0.4)}.hover\:text-red-500:hover{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.hover\:text-slate-600:hover{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}@media (min-width: 768px){.md\:p-8{padding:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}</style></head>
 <body class="p-4 md:p-8 flex flex-col">
 
     <div class="max-w-7xl mx-auto w-full mb-4 flex justify-end px-2 no-print">
@@ -689,197 +689,1549 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         </tr>
                     </thead>
                     <tbody id="main-tbody"><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_0', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_0', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_0', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_0', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_0', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_0', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_0', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NADORCOTT" oninput="updateDataByRowId('row_1776673787635_0', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="10KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_0', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="1" oninput="updateDataByRowId('row_1776673787635_0', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_0', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.3" step="0.01" oninput="updateDataByRowId('row_1776673787635_0', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_0', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="72 COLIS" oninput="updateDataByRowId('row_1776673787635_0', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_0')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_0')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_1', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_1', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_1', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_1', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_1', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_1', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_1', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NADORCOTT" oninput="updateDataByRowId('row_1776673787635_1', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="10KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_1', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="2" oninput="updateDataByRowId('row_1776673787635_1', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_1', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.2" step="0.01" oninput="updateDataByRowId('row_1776673787635_1', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_1', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="72 COLIS" oninput="updateDataByRowId('row_1776673787635_1', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_1')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_1')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_2', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_2', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_2', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_2', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_2', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_2', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_2', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PASTEQUE" oninput="updateDataByRowId('row_1776673787635_2', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="2 x ≃500kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_2', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6-10KG" oninput="updateDataByRowId('row_1776673787635_2', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_2', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.3" step="0.01" oninput="updateDataByRowId('row_1776673787635_2', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_2', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_2', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_2')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_2')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_3', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_3', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_3', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_3', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_3', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_3', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_3', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT VERT" oninput="updateDataByRowId('row_1776673787635_3', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_3', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="TRES FIN" oninput="updateDataByRowId('row_1776673787635_3', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_3', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_3', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_3', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_3', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_3')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_3')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_4', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_4', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_4', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_4', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_4', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_4', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_4', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT VERT" oninput="updateDataByRowId('row_1776673787635_4', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_4', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="FIN" oninput="updateDataByRowId('row_1776673787635_4', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_4', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_4', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_4', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_4', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_4')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_4')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_5', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_5', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_5', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_5', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_5', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_5', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_5', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT VERT" oninput="updateDataByRowId('row_1776673787635_5', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_5', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MOYEN" oninput="updateDataByRowId('row_1776673787635_5', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_5', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_5', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_5', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_5', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_5')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_5')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_6', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_6', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_6', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_6', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_6', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_6', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_6', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT PLAT" oninput="updateDataByRowId('row_1776673787635_6', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_6', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4KG BOIS" oninput="updateDataByRowId('row_1776673787635_6', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_6', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="2.9" step="0.01" oninput="updateDataByRowId('row_1776673787635_6', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_6', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_6', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_6')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_6')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_7', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_7', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_7', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_7', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_7', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_7', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_7', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT PLAT" oninput="updateDataByRowId('row_1776673787635_7', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_7', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4KG BOIS" oninput="updateDataByRowId('row_1776673787635_7', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_7', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="2.7" step="0.01" oninput="updateDataByRowId('row_1776673787635_7', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_7', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_7', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_7')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_7')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_8', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_8', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_8', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_8', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_8', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_8', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_8', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="HARICOT PLAT" oninput="updateDataByRowId('row_1776673787635_8', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG BOIS" placeholder="..." oninput="updateDataByRowId('row_1776673787635_8', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4KG BOIS" oninput="updateDataByRowId('row_1776673787635_8', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_8', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_8', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_8', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_8', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_8')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_8')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_9', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_9', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_9', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_9', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_9', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_9', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_9', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTE" oninput="updateDataByRowId('row_1776673787635_9', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_9', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="7/14" oninput="updateDataByRowId('row_1776673787635_9', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_9', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_9', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_9', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_9', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_9')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_9')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_10', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_10', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_10', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_10', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_10', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_10', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_10', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTE" oninput="updateDataByRowId('row_1776673787635_10', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_10', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="14/18" oninput="updateDataByRowId('row_1776673787635_10', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_10', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_10', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_10', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_10', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_10')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_10')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_11', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_11', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_11', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_11', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_11', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_11', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_11', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTE" oninput="updateDataByRowId('row_1776673787635_11', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_11', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="14/21" oninput="updateDataByRowId('row_1776673787635_11', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_11', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_11', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_11', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_11', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_11')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_11')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_12', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_12', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_12', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_12', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_12', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_12', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_12', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTE" oninput="updateDataByRowId('row_1776673787635_12', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_12', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="21+" oninput="updateDataByRowId('row_1776673787635_12', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_12', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.45" step="0.01" oninput="updateDataByRowId('row_1776673787635_12', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_12', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_12', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_12')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_12')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_13', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_13', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_13', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_13', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_13', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_13', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_13', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PIMENT VERT" oninput="updateDataByRowId('row_1776673787635_13', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_13', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="SC" oninput="updateDataByRowId('row_1776673787635_13', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_13', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1" step="0.01" oninput="updateDataByRowId('row_1776673787635_13', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_13', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_13', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_13')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_13')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
                 </tr><tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776682959215_14', 'product', this.value)"></td>
-                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776682959215_14', 'desc', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_14', 'calibre', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776682959215_14', 'origine', this.value)"></td>
-                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776682959215_14', 'price', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776682959215_14', 'unit', this.value)"></td>
-                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776682959215_14', 'notes', this.value)"></td>
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PIMENT VERT" oninput="updateDataByRowId('row_1776673787635_14', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_14', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="SC" oninput="updateDataByRowId('row_1776673787635_14', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_14', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_14', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_14', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_14', 'notes', this.value)"></td>
                     <td class="p-2">
-                        <button onclick="removeRowById('row_1776682959215_14')" class="text-slate-400 hover:text-red-500 p-1">
+                        <button onclick="removeRowById('row_1776673787635_14')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PIMENT ROUGE" oninput="updateDataByRowId('row_1776673787635_15', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_15', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="SC" oninput="updateDataByRowId('row_1776673787635_15', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_15', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_15', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_15', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_15', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_15')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PIMENT ROUGE" oninput="updateDataByRowId('row_1776673787635_16', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="4KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_16', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="SC" oninput="updateDataByRowId('row_1776673787635_16', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_16', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_16', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_16', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_16', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_16')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="CORNE VERT" oninput="updateDataByRowId('row_1776673787635_17', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_17', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="50/70" oninput="updateDataByRowId('row_1776673787635_17', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_17', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.2" step="0.01" oninput="updateDataByRowId('row_1776673787635_17', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_17', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_17', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_17')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="CORNE VERT" oninput="updateDataByRowId('row_1776673787635_18', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_18', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="40/60" oninput="updateDataByRowId('row_1776673787635_18', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_18', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.1" step="0.01" oninput="updateDataByRowId('row_1776673787635_18', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_18', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_18', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_18')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="KAPIA" oninput="updateDataByRowId('row_1776673787635_19', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_19', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="50/70" oninput="updateDataByRowId('row_1776673787635_19', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_19', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_19', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_19', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_19', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_19')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="KAPIA" oninput="updateDataByRowId('row_1776673787635_20', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_20', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="40/60" oninput="updateDataByRowId('row_1776673787635_20', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_20', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.4" step="0.01" oninput="updateDataByRowId('row_1776673787635_20', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_20', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_20', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_20')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PALERMO ROUGE" oninput="updateDataByRowId('row_1776673787635_21', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_21', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="50/70" oninput="updateDataByRowId('row_1776673787635_21', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_21', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_21', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_21', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_21', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_21')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PALERMO ROUGE" oninput="updateDataByRowId('row_1776673787635_22', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="5KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_22', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="40/60" oninput="updateDataByRowId('row_1776673787635_22', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_22', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.3" step="0.01" oninput="updateDataByRowId('row_1776673787635_22', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_22', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_22', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_22')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="SWEETBITE TRICOLOR" oninput="updateDataByRowId('row_1776673787635_23', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="3kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_23', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="SC" oninput="updateDataByRowId('row_1776673787635_23', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_23', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="4" step="0.01" oninput="updateDataByRowId('row_1776673787635_23', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_23', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_23', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_23')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON TRICOLOR" oninput="updateDataByRowId('row_1776673787635_24', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="10x500GR" placeholder="..." oninput="updateDataByRowId('row_1776673787635_24', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-G" oninput="updateDataByRowId('row_1776673787635_24', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_24', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.2" step="0.01" oninput="updateDataByRowId('row_1776673787635_24', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_24', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_24', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_24')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_25', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1+" placeholder="..." oninput="updateDataByRowId('row_1776673787635_25', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_25', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_25', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_25', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_25', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_25', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_25')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_26', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_26', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_26', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_26', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.9" step="0.01" oninput="updateDataByRowId('row_1776673787635_26', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_26', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_26', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_26')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_27', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_27', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-G" oninput="updateDataByRowId('row_1776673787635_27', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_27', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_27', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_27', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_27', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_27')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_28', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1+" placeholder="..." oninput="updateDataByRowId('row_1776673787635_28', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_28', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_28', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_28', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_28', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_28', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_28')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_29', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_29', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_29', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_29', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_29', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_29', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_29', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_29')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_30', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_30', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-GG" oninput="updateDataByRowId('row_1776673787635_30', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_30', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_30', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_30', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_30', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_30')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_31', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1+" placeholder="..." oninput="updateDataByRowId('row_1776673787635_31', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_31', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_31', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_31', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_31', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_31', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_31')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_32', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_32', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_32', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_32', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_32', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_32', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_32', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_32')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_33', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_33', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-GG" oninput="updateDataByRowId('row_1776673787635_33', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_33', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_33', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_33', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_33', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_33')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_34', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_34', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_34', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_34', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_34', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_34', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_34', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_34')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_35', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_35', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_35', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_35', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_35', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_35', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_35', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_35')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_36', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_36', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_36', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_36', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_36', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_36', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_36', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_36')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_37', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_37', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_37', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_37', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_37', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_37', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_37', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_37')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_38', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_38', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GG" oninput="updateDataByRowId('row_1776673787635_38', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_38', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_38', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_38', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_38', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_38')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_39', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CLOVIS / LAMUYO" placeholder="..." oninput="updateDataByRowId('row_1776673787635_39', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GG" oninput="updateDataByRowId('row_1776673787635_39', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_39', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_39', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_39', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_39', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_39')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_40', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_40', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/14F" oninput="updateDataByRowId('row_1776673787635_40', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_40', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_40', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_40', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_40', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_40')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_41', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_41', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/16F" oninput="updateDataByRowId('row_1776673787635_41', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_41', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_41', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_41', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_41', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_41')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_42', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_42', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/18F" oninput="updateDataByRowId('row_1776673787635_42', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_42', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_42', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_42', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_42', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_42')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_43', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_43', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/20F" oninput="updateDataByRowId('row_1776673787635_43', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_43', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_43', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_43', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_43', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_43')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_44', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_44', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8 VRAC" oninput="updateDataByRowId('row_1776673787635_44', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_44', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_44', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_44', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_44', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_44')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_45', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_45', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="7 VRAC" oninput="updateDataByRowId('row_1776673787635_45', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_45', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_45', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_45', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_45', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_45')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_46', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_46', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6 VRAC" oninput="updateDataByRowId('row_1776673787635_46', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_46', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_46', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_46', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETET INDUSTRIELLE" oninput="updateDataByRowId('row_1776673787635_46', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_46')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_47', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_47', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/14F" oninput="updateDataByRowId('row_1776673787635_47', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_47', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_47', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_47', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_47', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_47')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_48', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_48', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/16F" oninput="updateDataByRowId('row_1776673787635_48', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_48', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_48', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_48', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_48', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_48')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_49', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_49', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/18F" oninput="updateDataByRowId('row_1776673787635_49', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_49', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_49', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_49', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_49', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_49')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_50', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_50', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8/20F" oninput="updateDataByRowId('row_1776673787635_50', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_50', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_50', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_50', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_50', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_50')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_51', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_51', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8 VRAC" oninput="updateDataByRowId('row_1776673787635_51', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_51', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_51', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_51', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_51', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_51')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_52', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_52', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="7 VRAC" oninput="updateDataByRowId('row_1776673787635_52', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_52', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_52', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_52', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_52', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_52')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE RONDE" oninput="updateDataByRowId('row_1776673787635_53', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_53', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6 VRAC" oninput="updateDataByRowId('row_1776673787635_53', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_53', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_53', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_53', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="PALETTE EUROPE" oninput="updateDataByRowId('row_1776673787635_53', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_53')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE ROMA" oninput="updateDataByRowId('row_1776673787635_54', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_54', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_54', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_54', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_54', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_54', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_54', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_54')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE ROMA" oninput="updateDataByRowId('row_1776673787635_55', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_55', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_55', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_55', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_55', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_55', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_55', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_55')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE ROMA" oninput="updateDataByRowId('row_1776673787635_56', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="6kg" placeholder="..." oninput="updateDataByRowId('row_1776673787635_56', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_56', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="MAROC" oninput="updateDataByRowId('row_1776673787635_56', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_56', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_56', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_56', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_56')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ORANGE" oninput="updateDataByRowId('row_1776673787635_57', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="VALENCIA LATE 10KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_57', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="2" oninput="updateDataByRowId('row_1776673787635_57', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_57', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.9" step="0.01" oninput="updateDataByRowId('row_1776673787635_57', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_57', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_57', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_57')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ORANGE" oninput="updateDataByRowId('row_1776673787635_58', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="VALENCIA LATE 10KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_58', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="3" oninput="updateDataByRowId('row_1776673787635_58', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_58', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.9" step="0.01" oninput="updateDataByRowId('row_1776673787635_58', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_58', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_58', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_58')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ORANGE" oninput="updateDataByRowId('row_1776673787635_59', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="VALENCIA LATE 10KG" placeholder="..." oninput="updateDataByRowId('row_1776673787635_59', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4" oninput="updateDataByRowId('row_1776673787635_59', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_59', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_59', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_59', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_59', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_59')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="TOMATE GRAPPE" oninput="updateDataByRowId('row_1776673787635_60', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_60', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="M" oninput="updateDataByRowId('row_1776673787635_60', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_60', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.4" step="0.01" oninput="updateDataByRowId('row_1776673787635_60', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_60', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_60', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_60')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_61', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_61', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="2/300" oninput="updateDataByRowId('row_1776673787635_61', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_61', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.1" step="0.01" oninput="updateDataByRowId('row_1776673787635_61', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_61', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_61', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_61')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_62', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_62', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="3/400" oninput="updateDataByRowId('row_1776673787635_62', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_62', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.2" step="0.01" oninput="updateDataByRowId('row_1776673787635_62', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_62', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_62', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_62')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_63', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_63', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4/500" oninput="updateDataByRowId('row_1776673787635_63', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_63', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1" step="0.01" oninput="updateDataByRowId('row_1776673787635_63', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_63', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_63', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_63')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_64', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_64', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="2/300" oninput="updateDataByRowId('row_1776673787635_64', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_64', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.7" step="0.01" oninput="updateDataByRowId('row_1776673787635_64', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_64', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_64', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_64')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_65', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_65', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="3/400" oninput="updateDataByRowId('row_1776673787635_65', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_65', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.65" step="0.01" oninput="updateDataByRowId('row_1776673787635_65', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_65', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_65', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_65')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_66', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_66', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="4/500" oninput="updateDataByRowId('row_1776673787635_66', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_66', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_66', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_66', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_66', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_66')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_67', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_67', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="2/300" oninput="updateDataByRowId('row_1776673787635_67', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_67', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_67', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_67', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_67', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_67')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="AUBERGINE" oninput="updateDataByRowId('row_1776673787635_68', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_68', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="3/400" oninput="updateDataByRowId('row_1776673787635_68', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_68', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_68', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_68', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_68', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_68')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON TRICOLORE" oninput="updateDataByRowId('row_1776673787635_69', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="10X500GR" placeholder="..." oninput="updateDataByRowId('row_1776673787635_69', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-G" oninput="updateDataByRowId('row_1776673787635_69', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_69', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_69', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_69', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_69', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_69')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_70', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_70', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_70', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_70', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.4" step="0.01" oninput="updateDataByRowId('row_1776673787635_70', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_70', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_70', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_70')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_71', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_71', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_71', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_71', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_71', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_71', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_71', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_71')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_72', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_72', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_72', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_72', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.2" step="0.01" oninput="updateDataByRowId('row_1776673787635_72', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_72', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_72', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_72')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_73', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_73', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_73', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_73', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_73', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_73', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_73', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_73')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_74', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_74', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-GA" oninput="updateDataByRowId('row_1776673787635_74', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_74', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_74', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_74', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_74', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_74')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ROUGE" oninput="updateDataByRowId('row_1776673787635_75', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_75', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_75', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_75', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.7" step="0.01" oninput="updateDataByRowId('row_1776673787635_75', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_75', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_75', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_75')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON ORANGE" oninput="updateDataByRowId('row_1776673787635_76', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_76', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_76', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_76', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.7" step="0.01" oninput="updateDataByRowId('row_1776673787635_76', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_76', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_76', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_76')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_77', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_77', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_77', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_77', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_77', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_77', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_77', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_77')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_78', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_78', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_78', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_78', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.8" step="0.01" oninput="updateDataByRowId('row_1776673787635_78', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_78', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_78', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_78')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_79', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_79', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_79', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_79', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.7" step="0.01" oninput="updateDataByRowId('row_1776673787635_79', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_79', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_79', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_79')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_80', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_80', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_80', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_80', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_80', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_80', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_80', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_80')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_81', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_81', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_81', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_81', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.6" step="0.01" oninput="updateDataByRowId('row_1776673787635_81', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_81', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_81', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_81')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON JAUNE" oninput="updateDataByRowId('row_1776673787635_82', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_82', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-GA" oninput="updateDataByRowId('row_1776673787635_82', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_82', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_82', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_82', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_82', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_82')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_83', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_83', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_83', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_83', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_83', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_83', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_83', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_83')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_84', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-EXTRA" placeholder="..." oninput="updateDataByRowId('row_1776673787635_84', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_84', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_84', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_84', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_84', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_84', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_84')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_85', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_85', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="90/110-GGA" oninput="updateDataByRowId('row_1776673787635_85', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_85', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_85', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_85', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_85', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_85')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_86', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-CAT.1" placeholder="..." oninput="updateDataByRowId('row_1776673787635_86', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_86', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_86', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.3" step="0.01" oninput="updateDataByRowId('row_1776673787635_86', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_86', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_86', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_86')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_87', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_87', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="80/100-GGB" oninput="updateDataByRowId('row_1776673787635_87', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_87', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0.8" step="0.01" oninput="updateDataByRowId('row_1776673787635_87', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_87', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_87', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_87')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIVRON VERT" oninput="updateDataByRowId('row_1776673787635_88', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="CALIFORNIA-STANDARD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_88', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="70/90-GA" oninput="updateDataByRowId('row_1776673787635_88', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_88', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_88', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_88', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="5KG" oninput="updateDataByRowId('row_1776673787635_88', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_88')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="SALADE ICEBERG" oninput="updateDataByRowId('row_1776673787635_89', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="LEGER" placeholder="..." oninput="updateDataByRowId('row_1776673787635_89', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="12" oninput="updateDataByRowId('row_1776673787635_89', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_89', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="4.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_89', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_89', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_89', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_89')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="SALADE ICEBERG" oninput="updateDataByRowId('row_1776673787635_90', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="LEGER" placeholder="..." oninput="updateDataByRowId('row_1776673787635_90', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="9" oninput="updateDataByRowId('row_1776673787635_90', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_90', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_90', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_90', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_90', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_90')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="SALADE ICEBERG" oninput="updateDataByRowId('row_1776673787635_91', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="LOURD" placeholder="..." oninput="updateDataByRowId('row_1776673787635_91', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="10" oninput="updateDataByRowId('row_1776673787635_91', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_91', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="5.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_91', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_91', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_91', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_91')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="SALADE ICEBERG" oninput="updateDataByRowId('row_1776673787635_92', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="LEGER" placeholder="..." oninput="updateDataByRowId('row_1776673787635_92', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="10" oninput="updateDataByRowId('row_1776673787635_92', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_92', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_92', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_92', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_92', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_92')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="CHOUFLEUR" oninput="updateDataByRowId('row_1776673787635_93', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_93', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6" oninput="updateDataByRowId('row_1776673787635_93', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_93', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_93', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_93', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_93', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_93')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="CHOUFLEUR" oninput="updateDataByRowId('row_1776673787635_94', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_94', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="8" oninput="updateDataByRowId('row_1776673787635_94', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_94', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="7.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_94', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_94', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_94', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_94')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="BROCOL!S" oninput="updateDataByRowId('row_1776673787635_95', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="POLYSTIRENE" placeholder="..." oninput="updateDataByRowId('row_1776673787635_95', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6" oninput="updateDataByRowId('row_1776673787635_95', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_95', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="1.5" step="0.01" oninput="updateDataByRowId('row_1776673787635_95', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_95', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_95', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_95')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ROMANESCO" oninput="updateDataByRowId('row_1776673787635_96', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_96', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="6" oninput="updateDataByRowId('row_1776673787635_96', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_96', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_96', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_96', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_96', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_96')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTES" oninput="updateDataByRowId('row_1776673787635_97', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="BLANCHE" placeholder="..." oninput="updateDataByRowId('row_1776673787635_97', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="14/21" oninput="updateDataByRowId('row_1776673787635_97', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_97', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_97', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_97', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_97', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_97')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="COURGETTES" oninput="updateDataByRowId('row_1776673787635_98', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="NOIRE" placeholder="..." oninput="updateDataByRowId('row_1776673787635_98', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="14/21" oninput="updateDataByRowId('row_1776673787635_98', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_98', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_98', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_98', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_98', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_98')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NECTARINES" oninput="updateDataByRowId('row_1776673787635_99', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_99', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_99', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_99', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_99', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_99', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_99', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_99')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NECTARINES" oninput="updateDataByRowId('row_1776673787635_100', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_100', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_100', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_100', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_100', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_100', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_100', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_100')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NECTARINES" oninput="updateDataByRowId('row_1776673787635_101', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_101', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_101', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_101', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_101', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_101', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_101', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_101')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="NECTARINES" oninput="updateDataByRowId('row_1776673787635_102', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_102', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_102', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_102', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_102', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_102', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_102', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_102')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PÊCHES" oninput="updateDataByRowId('row_1776673787635_103', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_103', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_103', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_103', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_103', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_103', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_103', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_103')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PÊCHES" oninput="updateDataByRowId('row_1776673787635_104', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_104', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_104', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_104', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_104', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_104', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_104', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_104')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PÊCHES" oninput="updateDataByRowId('row_1776673787635_105', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_105', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_105', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_105', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_105', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_105', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_105', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_105')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PÊCHES" oninput="updateDataByRowId('row_1776673787635_106', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_106', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_106', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_106', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_106', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_106', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_106', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_106')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="PÊCHES" oninput="updateDataByRowId('row_1776673787635_107', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_107', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_107', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_107', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_107', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_107', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_107', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_107')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_108', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_108', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_108', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_108', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_108', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_108', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_108', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_108')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_109', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_109', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_109', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_109', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_109', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_109', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_109', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_109')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_110', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_110', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_110', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_110', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_110', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_110', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_110', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_110')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_111', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_111', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_111', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_111', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_111', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_111', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_111', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_111')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_112', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_112', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_112', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_112', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_112', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_112', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_112', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_112')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="ABRICOTS" oninput="updateDataByRowId('row_1776673787635_113', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_113', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_113', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_113', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_113', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_113', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_113', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_113')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIRES" oninput="updateDataByRowId('row_1776673787635_114', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_114', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_114', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_114', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_114', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_114', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_114', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_114')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIRES" oninput="updateDataByRowId('row_1776673787635_115', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_115', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_115', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_115', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_115', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_115', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_115', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_115')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIRES" oninput="updateDataByRowId('row_1776673787635_116', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_116', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_116', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_116', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_116', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_116', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_116', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_116')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="POIRES" oninput="updateDataByRowId('row_1776673787635_117', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673787635_117', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673787635_117', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="ESPAGNE" oninput="updateDataByRowId('row_1776673787635_117', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673787635_117', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673787635_117', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673787635_117', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673787635_117')" class="text-slate-400 hover:text-red-500 p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-2"><input class="input-cell font-bold text-slate-800" value="" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'product', this.value)"></td>
+                    <td class="p-2"><input class="input-cell" value="" placeholder="..." oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'desc', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'calibre', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-slate-600" value="" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'origine', this.value)"></td>
+                    <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="0" step="0.01" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'price', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-center text-slate-500 italic" value="kg" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'unit', this.value)"></td>
+                    <td class="p-2"><input class="input-cell text-xs italic text-slate-500" value="" oninput="updateDataByRowId('row_1776673796156_d51i0z0s8', 'notes', this.value)"></td>
+                    <td class="p-2">
+                        <button onclick="removeRowById('row_1776673796156_d51i0z0s8')" class="text-slate-400 hover:text-red-500 p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
                         </button>
                     </td>
@@ -893,7 +2245,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         Vider la base de données
                     </button>
                     <div class="flex items-center gap-6">
-                        <span id="save-indicator" class="text-green-600 text-[10px] font-bold opacity-0 transition-opacity uppercase tracking-widest">
+                        <span id="save-indicator" class="text-green-600 text-[10px] font-bold opacity-0 transition-opacity uppercase tracking-widest" style="opacity: 0;">
                             Modifications enregistrées
                         </span>
                         <button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
@@ -904,10 +2256,327 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             </div>
 
             <div id="content-view" class="hidden">
-                <div id="translated-table-container"><div class="p-12 text-center text-slate-400 font-medium bg-white/50 rounded-lg">Tableau vide ou sans prix.</div></div>
+                <div id="translated-table-container"><table class="w-full text-sm text-left"><thead><tr class="bg-slate-100/50 border-b uppercase text-[10px] tracking-widest text-slate-600 font-bold">
+                <th class="p-4">Prodotto</th><th class="p-4">Descrizione</th><th class="p-4">Calibro</th><th class="p-4">Origine</th><th class="p-4 text-right">Prezzo</th><th class="p-4">Note</th>
+            </tr></thead><tbody><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">NADORCOTT</td>
+                    <td class="p-4 text-slate-700">10KG</td>
+                    <td class="p-4 text-slate-600">1</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.30 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">72 Colli</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">NADORCOTT</td>
+                    <td class="p-4 text-slate-700">10KG</td>
+                    <td class="p-4 text-slate-600">2</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.20 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">72 Colli</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ANGURIA</td>
+                    <td class="p-4 text-slate-700">2 x ≃500 kg</td>
+                    <td class="p-4 text-slate-600">6-10 kg</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.30 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PIATTONI</td>
+                    <td class="p-4 text-slate-700">LEGNO DA 4KG</td>
+                    <td class="p-4 text-slate-600">LEGNO DA 4KG</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">2.90 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PIATTONI</td>
+                    <td class="p-4 text-slate-700">LEGNO DA 4KG</td>
+                    <td class="p-4 text-slate-600">LEGNO DA 4KG</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">2.70 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ZUCCHINE</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">21+</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.45 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PICCANTE VERDE</td>
+                    <td class="p-4 text-slate-700">4KG</td>
+                    <td class="p-4 text-slate-600">SC</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.00 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">CORNO VERDE</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">50/70</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.20 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">CORNO VERDE</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">40/60</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.10 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">KAPIA</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">50/70</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">KAPIA</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">40/60</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.40 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PALERMO ROSSO</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">50/70</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PALERMO ROSSO</td>
+                    <td class="p-4 text-slate-700">5KG</td>
+                    <td class="p-4 text-slate-600">40/60</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.30 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">SWEETBITE TRICOLORE</td>
+                    <td class="p-4 text-slate-700">3kg</td>
+                    <td class="p-4 text-slate-600">SC</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">4.00 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE TRICOLORE</td>
+                    <td class="p-4 text-slate-700">10x500GR</td>
+                    <td class="p-4 text-slate-600">70/90-G</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.20 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE ROSSO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-CAT.1</td>
+                    <td class="p-4 text-slate-600">80/100-GG</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.90 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">POMODORO TONDO</td>
+                    <td class="p-4 text-slate-700">6 kg</td>
+                    <td class="p-4 text-slate-600">8/14F</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">PALLET INDUSTRIALE</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">POMODORO TONDO</td>
+                    <td class="p-4 text-slate-700">6 kg</td>
+                    <td class="p-4 text-slate-600">8/16F</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">PALLET INDUSTRIALE</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">POMODORO TONDO</td>
+                    <td class="p-4 text-slate-700">6 kg</td>
+                    <td class="p-4 text-slate-600">8/18F</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">PALLET INDUSTRIALE</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">POMODORO TONDO</td>
+                    <td class="p-4 text-slate-700">6 kg</td>
+                    <td class="p-4 text-slate-600">8/20F</td>
+                    <td class="p-4 text-slate-600">MAROCCO</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">PALLET INDUSTRIALE</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ARANCIA</td>
+                    <td class="p-4 text-slate-700">VALENCIA TARDIVO 10KG</td>
+                    <td class="p-4 text-slate-600">2</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.90 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ARANCIA</td>
+                    <td class="p-4 text-slate-700">VALENCIA TARDIVO 10KG</td>
+                    <td class="p-4 text-slate-600">3</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.90 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">POMODORO GRAPPOLO</td>
+                    <td class="p-4 text-slate-700">STANDARD</td>
+                    <td class="p-4 text-slate-600">M</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.40 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">EXTRA</td>
+                    <td class="p-4 text-slate-600">2/300</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.10 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">EXTRA</td>
+                    <td class="p-4 text-slate-600">3/400</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.20 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">EXTRA</td>
+                    <td class="p-4 text-slate-600">4/500</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.00 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">CAT.1</td>
+                    <td class="p-4 text-slate-600">2/300</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.70 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">CAT.1</td>
+                    <td class="p-4 text-slate-600">3/400</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.65 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">CAT.1</td>
+                    <td class="p-4 text-slate-600">4/500</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">MELANZANA</td>
+                    <td class="p-4 text-slate-700">STANDARD</td>
+                    <td class="p-4 text-slate-600">2/300</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE ROSSO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-EXTRA</td>
+                    <td class="p-4 text-slate-600">90/110-GGA</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.40 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE ROSSO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-CAT.1</td>
+                    <td class="p-4 text-slate-600">90/110-GGA</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.20 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE ROSSO</td>
+                    <td class="p-4 text-slate-700">STANDARD CALIFORNIA</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.70 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPE ALL'ARANCIA</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-EXTRA</td>
+                    <td class="p-4 text-slate-600">90/110-GGA</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.70 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE GIALLO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-EXTRA</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.80 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE GIALLO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-CAT.1</td>
+                    <td class="p-4 text-slate-600">90/110-GGA</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.70 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE GIALLO</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-CAT.1</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE GIALLO</td>
+                    <td class="p-4 text-slate-700">STANDARD CALIFORNIA</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.60 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE VERDE</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-EXTRA</td>
+                    <td class="p-4 text-slate-600">90/110-GGA</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE VERDE</td>
+                    <td class="p-4 text-slate-700">CALIFORNIA-CAT.1</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.30 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">PEPERONE VERDE</td>
+                    <td class="p-4 text-slate-700">STANDARD CALIFORNIA</td>
+                    <td class="p-4 text-slate-600">80/100-GGB</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">0.80 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500">5KG</td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ICEBERG</td>
+                    <td class="p-4 text-slate-700">LEGGERO</td>
+                    <td class="p-4 text-slate-600">12</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">4.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">ICEBERG</td>
+                    <td class="p-4 text-slate-700">PESANTE</td>
+                    <td class="p-4 text-slate-600">10</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">5.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">CAVOLFIORE</td>
+                    <td class="p-4 text-slate-700"></td>
+                    <td class="p-4 text-slate-600">8</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">7.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr><tr class="border-b hover:bg-white/40 transition-colors">
+                    <td class="p-4 font-bold text-slate-800">BROCCOLI</td>
+                    <td class="p-4 text-slate-700">POLISTIRENE</td>
+                    <td class="p-4 text-slate-600">6</td>
+                    <td class="p-4 text-slate-600">SPAGNA</td>
+                    <td class="p-4 text-right font-black text-blue-600">1.50 € / kg</td>
+                    <td class="p-4 text-[11px] italic text-slate-500"></td>
+                </tr></tbody></table></div>
             </div>
 
-            <div id="content-wa" class="hidden flex flex-col gap-4">
+            <div id="content-wa" class="flex flex-col gap-4 hidden">
                 <div class="flex justify-between items-center">
                     <h2 class="text-xl font-bold text-green-700">Export WhatsApp</h2>
                     <button onclick="copyWA()" class="bg-green-500 text-white px-8 py-2 rounded-full font-bold hover:bg-green-600 transition shadow-md">
@@ -954,7 +2623,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     </div>
 
     <script id="data-payload">
-        const INITIAL_DATA = [{"id":"row_1776673787635_0","product":"NADORCOTT","desc":"10KG","calibre":"1","origine":"MAROC","price":1.3,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_1","product":"NADORCOTT","desc":"10KG","calibre":"2","origine":"MAROC","price":1.2,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_2","product":"PASTEQUE","desc":"2 x ≃500kg","calibre":"6-10KG","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_3","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"TRES FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_4","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_5","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"MOYEN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_6","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.9,"unit":"kg","notes":""},{"id":"row_1776673787635_7","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.7,"unit":"kg","notes":""},{"id":"row_1776673787635_8","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_9","product":"COURGETTE","desc":"5KG","calibre":"7/14","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_10","product":"COURGETTE","desc":"5KG","calibre":"14/18","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_11","product":"COURGETTE","desc":"5KG","calibre":"14/21","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_12","product":"COURGETTE","desc":"5KG","calibre":"21+","origine":"MAROC","price":0.45,"unit":"kg","notes":""},{"id":"row_1776673787635_13","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":1,"unit":"kg","notes":""},{"id":"row_1776673787635_14","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_15","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_16","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_17","product":"CORNE VERT","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_18","product":"CORNE VERT","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.1,"unit":"kg","notes":""},{"id":"row_1776673787635_19","product":"KAPIA","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.6,"unit":"kg","notes":""},{"id":"row_1776673787635_20","product":"KAPIA","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.4,"unit":"kg","notes":""},{"id":"row_1776673787635_21","product":"PALERMO ROUGE","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_22","product":"PALERMO ROUGE","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_23","product":"SWEETBITE TRICOLOR","desc":"3kg","calibre":"SC","origine":"MAROC","price":4,"unit":"kg","notes":""},{"id":"row_1776673787635_24","product":"POIVRON TRICOLOR","desc":"10x500GR","calibre":"70/90-G","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_25","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_26","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0.9,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_27","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-G","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_28","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_29","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_30","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_31","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_32","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_33","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_34","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_35","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_36","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_37","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_38","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_39","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_40","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_41","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_42","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_43","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_44","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_45","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_46","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_47","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_48","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_49","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_50","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_51","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_52","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_53","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_54","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_55","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_56","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_57","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"2","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_58","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"3","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_59","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"4","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_60","product":"TOMATE GRAPPE","desc":"STANDARD","calibre":"M","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_61","product":"AUBERGINE","desc":"EXTRA","calibre":"2/300","origine":"ESPAGNE","price":1.1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_62","product":"AUBERGINE","desc":"EXTRA","calibre":"3/400","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_63","product":"AUBERGINE","desc":"EXTRA","calibre":"4/500","origine":"ESPAGNE","price":1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_64","product":"AUBERGINE","desc":"CAT.1","calibre":"2/300","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_65","product":"AUBERGINE","desc":"CAT.1","calibre":"3/400","origine":"ESPAGNE","price":0.65,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_66","product":"AUBERGINE","desc":"CAT.1","calibre":"4/500","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_67","product":"AUBERGINE","desc":"STANDARD","calibre":"2/300","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_68","product":"AUBERGINE","desc":"STANDARD","calibre":"3/400","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_69","product":"POIVRON TRICOLORE","desc":"10X500GR","calibre":"70/90-G","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_70","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_71","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_72","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_73","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_74","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_75","product":"POIVRON ROUGE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_76","product":"POIVRON ORANGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_77","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_78","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_79","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_80","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_81","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_82","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_83","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_84","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_85","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_86","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.3,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_87","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_88","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_89","product":"SALADE ICEBERG","desc":"LEGER","calibre":"12","origine":"ESPAGNE","price":4.5,"unit":"kg","notes":""},{"id":"row_1776673787635_90","product":"SALADE ICEBERG","desc":"LEGER","calibre":"9","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_91","product":"SALADE ICEBERG","desc":"LOURD","calibre":"10","origine":"ESPAGNE","price":5.5,"unit":"kg","notes":""},{"id":"row_1776673787635_92","product":"SALADE ICEBERG","desc":"LEGER","calibre":"10","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_93","product":"CHOUFLEUR","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_94","product":"CHOUFLEUR","desc":"","calibre":"8","origine":"ESPAGNE","price":7.5,"unit":"kg","notes":""},{"id":"row_1776673787635_95","product":"BROCOL!S","desc":"POLYSTIRENE","calibre":"6","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_96","product":"ROMANESCO","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_97","product":"COURGETTES","desc":"BLANCHE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_98","product":"COURGETTES","desc":"NOIRE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_99","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_100","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_101","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_102","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_103","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_104","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_105","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_106","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_107","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_108","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_109","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_110","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_111","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_112","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_113","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_114","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_115","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_116","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_117","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673796156_d51i0z0s8","product":"","desc":"","calibre":"","origine":"","price":0,"unit":"kg","notes":""}];
+        const INITIAL_DATA = [{"id":"row_1776673787635_0","product":"NADORCOTT","desc":"10KG","calibre":"1","origine":"MAROC","price":1.3,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_1","product":"NADORCOTT","desc":"10KG","calibre":"2","origine":"MAROC","price":1.2,"unit":"kg","notes":"72 COLIS"},{"id":"row_1776673787635_2","product":"PASTEQUE 🍉","desc":"2 x ≃500kg","calibre":"6-10KG","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_3","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"TRES FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_4","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"FIN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_5","product":"HARICOT VERT","desc":"4KG BOIS","calibre":"MOYEN","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_6","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.9,"unit":"kg","notes":""},{"id":"row_1776673787635_7","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":2.7,"unit":"kg","notes":""},{"id":"row_1776673787635_8","product":"HARICOT PLAT","desc":"4KG BOIS","calibre":"4KG BOIS","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_9","product":"COURGETTE","desc":"5KG","calibre":"7/14","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_10","product":"COURGETTE","desc":"5KG","calibre":"14/18","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_11","product":"COURGETTE","desc":"5KG","calibre":"14/21","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_12","product":"COURGETTE","desc":"5KG","calibre":"21+","origine":"MAROC","price":0.45,"unit":"kg","notes":""},{"id":"row_1776673787635_13","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":1,"unit":"kg","notes":""},{"id":"row_1776673787635_14","product":"PIMENT VERT","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_15","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_16","product":"PIMENT ROUGE","desc":"4KG","calibre":"SC","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_17","product":"CORNE VERT","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_18","product":"CORNE VERT","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.1,"unit":"kg","notes":""},{"id":"row_1776673787635_19","product":"KAPIA","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.6,"unit":"kg","notes":""},{"id":"row_1776673787635_20","product":"KAPIA","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.4,"unit":"kg","notes":""},{"id":"row_1776673787635_21","product":"PALERMO ROUGE","desc":"5KG","calibre":"50/70","origine":"MAROC","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_22","product":"PALERMO ROUGE","desc":"5KG","calibre":"40/60","origine":"MAROC","price":1.3,"unit":"kg","notes":""},{"id":"row_1776673787635_23","product":"SWEETBITE TRICOLOR","desc":"3kg","calibre":"SC","origine":"MAROC","price":4,"unit":"kg","notes":""},{"id":"row_1776673787635_24","product":"POIVRON TRICOLOR","desc":"10x500GR","calibre":"70/90-G","origine":"MAROC","price":1.2,"unit":"kg","notes":""},{"id":"row_1776673787635_25","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_26","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0.9,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_27","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-G","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_28","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_29","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_30","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_31","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1+","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_32","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_33","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_34","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_35","product":"POIVRON ROUGE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_36","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_37","product":"POIVRON JAUNE","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_38","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"90/110-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_39","product":"POIVRON VERT","desc":"CLOVIS / LAMUYO","calibre":"80/100-GG","origine":"MAROC","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_40","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_41","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":1.6,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_42","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_43","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":1.5,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_44","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_45","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_46","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETET INDUSTRIELLE"},{"id":"row_1776673787635_47","product":"TOMATE RONDE","desc":"6kg","calibre":"8/14F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_48","product":"TOMATE RONDE","desc":"6kg","calibre":"8/16F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_49","product":"TOMATE RONDE","desc":"6kg","calibre":"8/18F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_50","product":"TOMATE RONDE","desc":"6kg","calibre":"8/20F","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_51","product":"TOMATE RONDE","desc":"6kg","calibre":"8 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_52","product":"TOMATE RONDE","desc":"6kg","calibre":"7 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_53","product":"TOMATE RONDE","desc":"6kg","calibre":"6 VRAC","origine":"MAROC","price":0,"unit":"kg","notes":"PALETTE EUROPE"},{"id":"row_1776673787635_54","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_55","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_56","product":"TOMATE ROMA","desc":"6kg","calibre":"","origine":"MAROC","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_57","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"2","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_58","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"3","origine":"ESPAGNE","price":0.9,"unit":"kg","notes":""},{"id":"row_1776673787635_59","product":"ORANGE","desc":"VALENCIA LATE 10KG","calibre":"4","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_60","product":"TOMATE GRAPPE","desc":"STANDARD","calibre":"M","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_61","product":"AUBERGINE","desc":"EXTRA","calibre":"2/300","origine":"ESPAGNE","price":1.1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_62","product":"AUBERGINE","desc":"EXTRA","calibre":"3/400","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_63","product":"AUBERGINE","desc":"EXTRA","calibre":"4/500","origine":"ESPAGNE","price":1,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_64","product":"AUBERGINE","desc":"CAT.1","calibre":"2/300","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_65","product":"AUBERGINE","desc":"CAT.1","calibre":"3/400","origine":"ESPAGNE","price":0.65,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_66","product":"AUBERGINE","desc":"CAT.1","calibre":"4/500","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_67","product":"AUBERGINE","desc":"STANDARD","calibre":"2/300","origine":"ESPAGNE","price":0.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_68","product":"AUBERGINE","desc":"STANDARD","calibre":"3/400","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_69","product":"POIVRON TRICOLORE","desc":"10X500GR","calibre":"70/90-G","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_70","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.4,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_71","product":"POIVRON ROUGE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_72","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.2,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_73","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_74","product":"POIVRON ROUGE","desc":"CALIFORNIA-CAT.1","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_75","product":"POIVRON ROUGE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_76","product":"POIVRON ORANGE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_77","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_78","product":"POIVRON JAUNE","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_79","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.7,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_80","product":"POIVRON JAUNE","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_81","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.6,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_82","product":"POIVRON JAUNE","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_83","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"90/110-GGA","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_84","product":"POIVRON VERT","desc":"CALIFORNIA-EXTRA","calibre":"80/100-GGB","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_85","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"90/110-GGA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_86","product":"POIVRON VERT","desc":"CALIFORNIA-CAT.1","calibre":"80/100-GGB","origine":"ESPAGNE","price":1.3,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_87","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"80/100-GGB","origine":"ESPAGNE","price":0.8,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_88","product":"POIVRON VERT","desc":"CALIFORNIA-STANDARD","calibre":"70/90-GA","origine":"ESPAGNE","price":0,"unit":"kg","notes":"5KG"},{"id":"row_1776673787635_89","product":"SALADE ICEBERG","desc":"LEGER","calibre":"12","origine":"ESPAGNE","price":4.5,"unit":"kg","notes":""},{"id":"row_1776673787635_90","product":"SALADE ICEBERG","desc":"LEGER","calibre":"9","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_91","product":"SALADE ICEBERG","desc":"LOURD","calibre":"10","origine":"ESPAGNE","price":5.5,"unit":"kg","notes":""},{"id":"row_1776673787635_92","product":"SALADE ICEBERG","desc":"LEGER","calibre":"10","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_93","product":"CHOUFLEUR","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_94","product":"CHOUFLEUR","desc":"","calibre":"8","origine":"ESPAGNE","price":7.5,"unit":"kg","notes":""},{"id":"row_1776673787635_95","product":"BROCOL!S","desc":"POLYSTIRENE","calibre":"6","origine":"ESPAGNE","price":1.5,"unit":"kg","notes":""},{"id":"row_1776673787635_96","product":"ROMANESCO","desc":"","calibre":"6","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_97","product":"COURGETTES","desc":"BLANCHE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_98","product":"COURGETTES","desc":"NOIRE","calibre":"14/21","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_99","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_100","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_101","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_102","product":"NECTARINES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_103","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_104","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_105","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_106","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_107","product":"PÊCHES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_108","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_109","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_110","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_111","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_112","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_113","product":"ABRICOTS","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_114","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_115","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_116","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673787635_117","product":"POIRES","desc":"","calibre":"","origine":"ESPAGNE","price":0,"unit":"kg","notes":""},{"id":"row_1776673796156_d51i0z0s8","product":"","desc":"","calibre":"","origine":"","price":0,"unit":"kg","notes":""}];
     </script>
 
     <script>
@@ -965,10 +2634,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         const translationCache = { 
             en: {}, 
             it: { 
-                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI",
-                "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni",
-                "poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO",
-                "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
+                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI", "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni", "Haricot plat": "Piattoni", "HARICOT PLAT": "PIATTONI", "Coco plat": "Piattoni","poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO", "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
             }, 
             de: {} 
         };
@@ -1123,7 +2789,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         async function renderListView(lang) {
             const container = document.getElementById('translated-table-container');
-            container.innerHTML = `<div class="p-20 text-center text-slate-500 animate-pulse font-bold uppercase tracking-widest text-xs">Mise à jour des traductions intelligentes...</div>`;
+            container.innerHTML = `<div class="p-20 text-center text-slate-500 animate-pulse font-bold uppercase tracking-widest text-xs">Cesar AI traduction...</div>`;
             const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
             if (rows.length === 0) return container.innerHTML = "<div class='p-12 text-center text-slate-400 font-medium bg-white/50 rounded-lg'>Tableau vide ou sans prix.</div>";
 
