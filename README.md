@@ -579,7 +579,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             body {
                 -webkit-text-size-adjust: 100%;
                 text-size-adjust: 100%;
-		zoom: 0.65;
+		zoom: 0.25;
             }
             * {
                 touch-action: manipulation;
