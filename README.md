@@ -577,7 +577,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
   }
 
   table {
-    min-width: 900px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
+    min-width: 600px; /* Ajustez ce chiffre selon la largeur réelle de votre tableau */
     border-collapse: collapse;
     margin: 0 auto;
   }
