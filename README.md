@@ -566,8 +566,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
 })();</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="viewport" content="width=600, initial-scale=0.4">
+    <meta name="viewport" content="width=600, initial-scale=0.4">
 <style>
   /* On définit une largeur minimale "virtuelle" pour que le tableau ne soit pas coupé */
   html, body {
@@ -588,6 +587,9 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     max-width: none !important;
   }
 </style>
+    <title>Gestionnaire de Prix Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script><style type="text/css" id="operaUserStyle"></style>
+    <style>
         /* Arrière-plan avec image floutée */
         body {
             position: relative;
