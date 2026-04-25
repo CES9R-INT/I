@@ -2686,7 +2686,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         const translationCache = { 
             en: {}, 
             it: { 
-                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI", "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni", "Haricot plat": "Piattoni", "HARICOT PLAT": "PIATTONI", "Coco plat": "Piattoni","poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO", "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
+                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI", "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni", "Haricot plat": "Piattoni", "HARICOT PLAT": "PIATTONI", "Coco plat": "Piattoni","poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO", "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "POIVRON ORANGE": "PEPERONE ARANCIONE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
             }, 
             de: {} 
         };
@@ -2863,46 +2863,117 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             container.innerHTML = html + "</tbody></table>";
         }
 
-        async function renderWhatsApp(lang) {
-            const output = document.getElementById('wa-output');
-            output.value = "Traduction en cours...";
-            let text = `*OFFRE DU JOUR - ${new Date().toLocaleDateString()}*\n--------------------------\n\n`;
-            const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
+   async function renderWhatsApp(lang) {
+    const output = document.getElementById('wa-output');
+    output.value = "Mise en forme en cours...";
+    
+    // Messages selon la langue
+    const greetings = {
+        'fr': 'Bonjour',
+        'en': 'Good morning',
+        'it': 'Buongiorno',
+        'de': 'Guten Morgen'
+    };
+    
+    const dailyOffer = {
+        'fr': 'OFFRE DU JOUR',
+        'en': 'DAILY OFFER',
+        'it': 'OFFERTA DEL GIORNO',
+        'de': 'TAGESANGEBOT'
+    };
+    
+    const greeting = greetings[lang] || greetings['fr'];
+    const offerTitle = dailyOffer[lang] || dailyOffer['fr'];
+    
+    let text = `${greeting} !\n\n`;
+    text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
+    text += `📲 [https://ces9r-int.github.io/I/]\n`;
+    text += `--------------------------\n\n`;
+    
+    const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
 
-            for (let row of rows) {
-                const prod = await translate(row.product, lang);
-                const desc = await translate(row.desc, lang);
-                const cal = await translate(row.calibre, lang);
-                const ori = await translate(row.origine, lang);
+    // Fonction pour obtenir le drapeau selon l'origine
+    function getFlag(origine) {
+        const flags = {
+            'MAROC': '🇲🇦',
+            'MAROCCO': '🇲🇦',
+            'ESPAGNE': '🇪🇸',
+            'ESPAGNA': '🇪🇸',
+            'SPAGNA': '🇪🇸',
+            'FRANCE': '🇫🇷',
+            'ITALIE': '🇮🇹',
+            'ITALIA': '🇮🇹',
+            'PORTUGAL': '🇵🇹',
+            'ALLEMAGNE': '🇩🇪',
+            'BELGIQUE': '🇧🇪',
+            'PAYS-BAS': '🇳🇱',
+            'TURQUIE': '🇹🇷',
+            'GRÈCE': '🇬🇷'
+        };
+        return flags[origine] || '🏳️';
+    }
+
+    // Première étape : Regrouper par ORIGINE
+    const groupedByOrigin = {};
+    
+    for (let row of rows) {
+        const ori = (row.origine || 'AUTRE').trim().toUpperCase();
+        if (!groupedByOrigin[ori]) {
+            groupedByOrigin[ori] = [];
+        }
+        groupedByOrigin[ori].push(row);
+    }
+
+    // Trier les origines (MAROC en premier, ESPAGNE ensuite)
+    const sortedOrigins = Object.keys(groupedByOrigin).sort((a, b) => {
+        if (a === 'MAROC') return -1;
+        if (b === 'MAROC') return 1;
+        if (a === 'ESPAGNE') return -1;
+        if (b === 'ESPAGNE') return 1;
+        return a.localeCompare(b);
+    });
+
+    // Construire le texte
+    for (let origine of sortedOrigins) {
+        const flag = getFlag(origine);
+        const translatedOrigine = await translate(origine, lang);
+        text += `${flag} *${translatedOrigine}*\n`;
+        
+        // Pour cette origine, regrouper par PRODUIT
+        const groupedByProduct = {};
+        const originRows = groupedByOrigin[origine];
+        
+        for (let row of originRows) {
+            const productKey = (row.product || 'AUTRE').trim().toUpperCase();
+            if (!groupedByProduct[productKey]) {
+                groupedByProduct[productKey] = [];
+            }
+            groupedByProduct[productKey].push(row);
+        }
+        
+        // Trier les produits par ordre alphabétique
+        const sortedProducts = Object.keys(groupedByProduct).sort();
+        
+        for (let productName of sortedProducts) {
+            const translatedProduct = await translate(productName, lang);
+            text += `  → *${translatedProduct}*\n`;
+            
+            // Afficher les calibres/désignations (sans notes)
+            for (let row of groupedByProduct[productName]) {
+                const cal = row.calibre || row.desc || '';
                 const unit = await translate(row.unit, lang);
-                const not = await translate(row.notes, lang);
-
-                let line = `*${prod}*`;
-                if(desc) line += ` - ${desc}`;
-                if(cal) line += ` (${cal})`;
-                if(ori) line += ` [${ori}]`;
-                line += `: *${row.price.toFixed(2)}€ / ${unit}*`;
-                if(not) line += ` _(${not})_`;
+                
+                let line = `    ${cal || '-'} : *${row.price.toFixed(2)}€ / ${unit}*`;
                 
                 text += line + `\n`;
             }
-            output.value = rows.length > 0 ? text : "Rien à exporter.";
         }
-
-        function copyWA() {
-            const output = document.getElementById('wa-output');
-            output.select();
-            document.execCommand('copy');
-            alert("Texte copié !");
-        }
-
-        function resetDataWithAuth() { document.getElementById('pwd-modal-reset').classList.remove('hidden'); document.getElementById('pwd-input-reset').focus(); }
-        function closeResetModal() { document.getElementById('pwd-modal-reset').classList.add('hidden'); }
-        function verifyResetPwd() {
-            if (document.getElementById('pwd-input-reset').value === MASTER_PWD) { localStorage.removeItem('tarifs_pro_v6'); location.reload(); }
-            else alert("Erreur.");
-        }
-
+        
+        text += `\n`;
+    }
+    
+    output.value = rows.length > 0 ? text : "Rien à exporter.";
+}
 function generatePDFSimple() {
 // Afficher un indicateur de chargement
     const loadingDiv = document.createElement('div');
