@@ -2907,21 +2907,32 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         'POMME', 'POIRE', 'BANANE', 'KIWI', 'ANANAS', 'MANGUE', 'AVOCAT',
         'RAISIN', 'PECHE', 'NECTARINE', 'ABRICOT', 'PRUNE', 'CERISE',
         'FRAISE', 'FRAMBOISE', 'MYRTILLE', 'MELON', 'PASTEQUE', 'FRUIT',
-        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES'
+        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES', 'NADORCOTT'
     ];
     
     const legumes = [
         'TOMATE', 'CONCOMBRE', 'POIVRON', 'PIMENT', 'AUBERGINE', 'COURGETTE',
-        'HARICOT', 'SALADE', 'LAITUE', 'CHOU', 'BROCOLI', 'CHOUFLEUR',
+        'HARICOT', 'CHOU', 'BROCOLI', 'CHOUFLEUR',
         'ROMANESCO', 'EPINARD', 'CAROTTE', 'OIGNON', 'AIL', 'POIREAU',
         'CELERI', 'BETTERAVE', 'NAVET', 'RADIS', 'ARTICHAUT', 'ASPERGE',
         'KAPIA', 'PALERMO', 'SWEETBITE', 'CORNE', 'BROCOL!S',
-        'COURGETTES', 'SALADE ICEBERG'
+        'COURGETTES'
+    ];
+    
+    const salades = [
+        'SALADE', 'LAITUE', 'ICEBERG', 'ROQUETTE', 'MAIS', 'ENDIVE',
+        'SCAROLE', 'FRISEE', 'BATAVIA', 'FEUILLE', 'MESCLUN',
+        'POUSSES', 'GERME', , 'BROCOL!S', 'CHOUFLEUR'
     ];
 
     // Fonction pour déterminer la catégorie d'un produit
     function getProductCategory(productName) {
         const name = productName.toUpperCase().trim();
+        
+        // Vérifier d'abord les salades
+        for (let salade of salades) {
+            if (name.includes(salade)) return 'SALADES';
+        }
         
         for (let fruit of fruits) {
             if (name.includes(fruit)) return 'FRUITS';
@@ -2993,17 +3004,14 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             groupedByProduct[productKey].push(row);
         }
         
-        // Trier les produits : FRUITS d'abord, puis LEGUMES, puis AUTRES, puis par ordre alphabétique
+        // Trier les produits : FRUITS d'abord, puis LEGUMES, puis SALADES, puis AUTRES
         const sortedProducts = Object.keys(groupedByProduct).sort((a, b) => {
             const catA = getProductCategory(a);
             const catB = getProductCategory(b);
             
-            if (catA === 'FRUITS' && catB !== 'FRUITS') return -1;
-            if (catA !== 'FRUITS' && catB === 'FRUITS') return 1;
-            if (catA === 'LEGUMES' && catB === 'AUTRES') return -1;
-            if (catA === 'AUTRES' && catB === 'LEGUMES') return 1;
+            const order = { 'FRUITS': 1, 'LEGUMES': 2, 'SALADES': 3, 'AUTRES': 4 };
             
-            return a.localeCompare(b);
+            return (order[catA] || 4) - (order[catB] || 4) || a.localeCompare(b);
         });
         
         for (let productName of sortedProducts) {
