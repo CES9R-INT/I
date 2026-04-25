@@ -710,7 +710,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                             WhatsApp Export
                         </button>
 <button onclick="generatePDFSimple()" class="px-4 py-2 rounded-lg transition bg-blue-600 text-sm font-bold">
-    Télécharger PDF
+    DOWNLOAD PDF
 </button>
                   </div>
                 </div>
@@ -2882,12 +2882,21 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         'de': 'TAGESANGEBOT'
     };
     
+    const priceDeparture = {
+        'fr': 'Prix départ Perpignan',
+        'en': 'Prices departure Perpignan',
+        'it': 'Prezzi partenza Perpignan',
+        'de': 'Preise ab Perpignan'
+    };
+    
     const greeting = greetings[lang] || greetings['fr'];
     const offerTitle = dailyOffer[lang] || dailyOffer['fr'];
+    const priceText = priceDeparture[lang] || priceDeparture['fr'];
     
     let text = `${greeting} !\n\n`;
     text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
     text += `📲 [https://ces9r-int.github.io/I/]\n`;
+    text += `📍 _${priceText}_\n`;
     text += `--------------------------\n\n`;
     
     const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
