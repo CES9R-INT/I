@@ -709,11 +709,10 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         <button onclick="switchTab('wa')" id="tab-wa" class="px-4 py-2 rounded-lg transition bg-green-600 hover:bg-green-700 text-sm font-bold flex items-center gap-2 shadow-lg">
                             WhatsApp Export
                         </button>
-                        <button onclick="generatePDF()" class="px-4 py-2 rounded-lg transition bg-blue-600 hover:bg-blue-700 text-sm font-bold flex items-center gap-2 shadow-lg">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+<button onclick="generatePDFSimple()" class="px-4 py-2 rounded-lg transition bg-blue-600 text-sm font-bold">
     Télécharger PDF
 </button>
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -2904,78 +2903,100 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             else alert("Erreur.");
         }
 
-    function generatePDF() {
-    const dateElement = document.getElementById('current-date');
-    const tableContainer = document.querySelector('table');
-
-    // Création d'un conteneur temporaire avec une largeur fixe pour simuler un écran large (Desktop)
-    // Cela force le tableau à se déployer correctement avant la capture.
-    const element = document.createElement('div');
-    element.style.width = "800px"; // Largeur fixe pour garantir le rendu du tableau
-    element.style.padding = "20px";
-    element.style.background = "white";
-    element.style.position = "absolute";
-    element.style.left = "-9999px"; // Hors écran pour ne pas perturber l'utilisateur
-
-    element.innerHTML = `
-        <div style="text-align: right; font-size: 10pt; font-weight: bold; color: black; margin-bottom: 10px;">
-            Date : ${dateElement.innerText}
+function generatePDFSimple() {
+// Afficher un indicateur de chargement
+    const loadingDiv = document.createElement('div');
+    loadingDiv.innerHTML = `
+        <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;">
+            <div style="background: #1e293b; padding: 20px 40px; border-radius: 12px; text-align: center;">
+                <div style="width: 40px; height: 40px; border: 3px solid white; border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 15px auto;"></div>
+                Génération du PDF en cours...
+            </div>
         </div>
-        <div style="text-align: center; border-bottom: 2px solid black; padding-bottom: 15px; margin-bottom: 20px;">
-            <h1 style="font-size: 26pt; font-weight: 800; color: black; margin: 0; text-transform: uppercase;">CESAR INTERNATIONAL SASU</h1>
-            <p style="font-size: 10pt; color: black; margin-top: 5px;">Marché St.Charles International Perpignan France</p>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 15px;">
-            <h2 style="font-size: 16pt; font-weight: bold; color: black; margin: 0;">Mércurial - Listino Prezzi</h2>
-            <div style="font-weight: bold; color: black; font-size: 11pt;">Contact : 0450302303</div>
-        </div>
+        <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
     `;
+document.body.appendChild(loadingDiv);
+setTimeout(() => {
+    loadingDiv.remove();
+}, 2000);
 
-    const cloneTable = tableContainer.cloneNode(true);
+    // Récupérer le tableau déjà affiché (déjà traduit)
+    const tableContainer = document.getElementById('translated-table-container');
+    const currentTable = tableContainer.cloneNode(true);
     
-    // Nettoyage des colonnes selon la langue sélectionnée
-    const colsToFilter = ['prix-fr', 'prix-it', 'prix-en', 'prix-es'];
-    colsToFilter.forEach(c => {
-        if(currentLang !== 'edition' && c !== `prix-${currentLang}`) {
-            cloneTable.querySelectorAll('.' + c).forEach(el => el.remove());
-        }
-    });
+    // Créer le document HTML
+    const date = new Date().toLocaleDateString('fr-FR');
+    const fullHtml = `
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Tarifs Cesar International</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    padding: 20px;
+                    margin: 0;
+                }
+                h1 {
+                    text-align: center;
+                    font-size: 22px;
+                    margin: 0 0 5px 0;
+                }
+                .subtitle {
+                    text-align: center;
+                    font-size: 11px;
+                    color: #666;
+                    margin-bottom: 20px;
+                }
+                .date {
+                    text-align: right;
+                    font-size: 10px;
+                    margin-bottom: 15px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    border: 1px solid #999;
+                    padding: 8px 6px;
+                    text-align: left;
+                    vertical-align: top;
+                    font-size: 11px;
+                }
+                th {
+                    background-color: #f0f0f0;
+                }
+                .footer {
+                    margin-top: 20px;
+                    font-size: 9px;
+                    text-align: center;
+                    color: #999;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="date">Date: ${date}</div>
+            <h1>CESAR INTERNATIONAL SASU</h1>
+            <div class="subtitle">Marché St.Charles International - Perpignan France</div>
+            ${currentTable.outerHTML}
+            <div class="footer">MIT License</div>
+        </body>
+        </html>
+    `;
     
-    // Style forcé pour le PDF
-    cloneTable.style.width = "100%";
-    cloneTable.style.borderCollapse = "collapse";
-    cloneTable.querySelectorAll('th, td').forEach(cell => {
-        cell.style.border = "1px solid #e2e8f0";
-        cell.style.padding = "8px";
-        cell.style.color = "black";
-    });
+    // Télécharger
+    const blob = new Blob([fullHtml], { type: 'text/html' });
+    const link = document.createElement('a');
+    const url = URL.createObjectURL(blob);
+    link.href = url;
+    link.download = `Tarifs_Cesar_${date.replace(/\//g, '-')}.html`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
 
-    element.appendChild(cloneTable);
-    document.body.appendChild(element); // Nécessaire pour que html2canvas le lise
-
-    const opt = {
-        margin: [10, 5, 10, 5],
-        filename: 'Tarifs_Cesar.pdf',
-        image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { 
-            scale: 2, 
-            useCORS: true, 
-            width: 800 // On force la capture sur la largeur du conteneur virtuel
-        },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-    };
-
-    html2pdf().set(opt).from(element).toPdf().get('pdf').then(function(pdf) {
-        const totalPages = pdf.internal.getNumberOfPages();
-        for (let i = 1; i <= totalPages; i++) {
-            pdf.setPage(i);
-            pdf.setFontSize(9);
-            pdf.setTextColor(150);
-            pdf.text('Page ' + i + ' sur ' + totalPages, pdf.internal.pageSize.getWidth() - 25, pdf.internal.pageSize.getHeight() - 10);
-        }
-    }).save().then(() => {
-        document.body.removeChild(element); // Nettoyage après téléchargement
-    });
 }
         window.onload = init;
     </script>
