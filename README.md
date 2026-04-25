@@ -701,7 +701,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 
                 <div class="ml-auto flex flex-col items-end gap-2">
                     <div class="text-right">
-    <p class="text-white font-bold text-lg">+33 06 31 06 85 02</p> 
+    <p class="text-white font-bold text-lg">TEL : +33 06 31 06 85 02</p> 
     
     <p id="current-date" class="text-slate-500 font-medium italic"></p>
 </div>
