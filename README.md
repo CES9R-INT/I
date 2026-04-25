@@ -2863,7 +2863,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             container.innerHTML = html + "</tbody></table>";
         }
 
-   async function renderWhatsApp(lang) {
+ async function renderWhatsApp(lang) {
     const output = document.getElementById('wa-output');
     output.value = "Mise en forme en cours...";
     
@@ -2974,6 +2974,20 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     
     output.value = rows.length > 0 ? text : "Rien à exporter.";
 }
+        function copyWA() {
+            const output = document.getElementById('wa-output');
+            output.select();
+            document.execCommand('copy');
+            alert("Texte copié !");
+        }
+
+        function resetDataWithAuth() { document.getElementById('pwd-modal-reset').classList.remove('hidden'); document.getElementById('pwd-input-reset').focus(); }
+        function closeResetModal() { document.getElementById('pwd-modal-reset').classList.add('hidden'); }
+        function verifyResetPwd() {
+            if (document.getElementById('pwd-input-reset').value === MASTER_PWD) { localStorage.removeItem('tarifs_pro_v6'); location.reload(); }
+            else alert("Erreur.");
+        }
+
 function generatePDFSimple() {
 // Afficher un indicateur de chargement
     const loadingDiv = document.createElement('div');
