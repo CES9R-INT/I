@@ -2905,84 +2905,67 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         }
 
     function generatePDF() {
-    // 1. Récupération des données
     const dateElement = document.getElementById('current-date');
-    const tableContainer = document.querySelector('.bg-white\\/95');
-    const mercurialTitle = document.querySelector('.bg-slate-800 h2');
-    const prixDepartInfo = document.querySelector('.bg-slate-800 p');
+    const tableContainer = document.querySelector('table');
 
-    // 2. Création du conteneur temporaire
+    // Création d'un conteneur temporaire avec une largeur fixe pour simuler un écran large (Desktop)
+    // Cela force le tableau à se déployer correctement avant la capture.
     const element = document.createElement('div');
+    element.style.width = "800px"; // Largeur fixe pour garantir le rendu du tableau
+    element.style.padding = "20px";
     element.style.background = "white";
-    element.style.width = "100%";
-    element.style.padding = "0px";
-    element.style.marginTop = "0px"; // Supprime le vide en haut
+    element.style.position = "absolute";
+    element.style.left = "-9999px"; // Hors écran pour ne pas perturber l'utilisateur
 
-    // 3. Styles pour le tableau et les textes
-    const style = document.createElement('style');
-    style.innerHTML = `
-        tr { page-break-inside: avoid !important; break-inside: avoid !important; }
-        thead { display: table-header-group !important; }
-        table { border-collapse: collapse !important; width: 100% !important; margin-top: 10px; }
-        th, td { border: 1px solid #ddd !important; padding: 8px !important; color: black !important; }
-        h1, h2, p { margin: 0; padding: 0; text-align: center !important; color: black !important; }
+    element.innerHTML = `
+        <div style="text-align: right; font-size: 10pt; font-weight: bold; color: black; margin-bottom: 10px;">
+            Date : ${dateElement.innerText}
+        </div>
+        <div style="text-align: center; border-bottom: 2px solid black; padding-bottom: 15px; margin-bottom: 20px;">
+            <h1 style="font-size: 26pt; font-weight: 800; color: black; margin: 0; text-transform: uppercase;">CESAR INTERNATIONAL SASU</h1>
+            <p style="font-size: 10pt; color: black; margin-top: 5px;">Marché St.Charles International Perpignan France</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 15px;">
+            <h2 style="font-size: 16pt; font-weight: bold; color: black; margin: 0;">Mércurial - Listino Prezzi</h2>
+            <div style="font-weight: bold; color: black; font-size: 11pt;">Contact : 0450302303</div>
+        </div>
     `;
-    element.appendChild(style);
 
-    // 4. Bloc Date (Aligné à droite)
-    const dateDiv = document.createElement('div');
-    dateDiv.style.textAlign = "right";
-    dateDiv.style.fontSize = "10px";
-    dateDiv.style.fontWeight = "bold";
-    dateDiv.style.color = "black";
-    dateDiv.style.marginBottom = "10px";
-    dateDiv.innerText = "Date d'édition : " + (dateElement ? dateElement.innerText : "");
-    element.appendChild(dateDiv);
-
-    // 5. En-tête Centré (Titre Entreprise + Mercurial + Infos)
-    const headerContainer = document.createElement('div');
-    headerContainer.style.textAlign = "center";
-    headerContainer.style.width = "100%";
-
-    headerContainer.innerHTML = `
-        <h1 style="font-size: 28pt; font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">CESAR INTERNATIONAL SASU</h1>
-        <div style="height: 4px; width: 100px; background: black; margin: 5px auto 15px auto;"></div>
-        <p style="font-size: 10pt; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px;">Marché St.Charles International Perpignan France</p>
-        
-        <h2 style="font-size: 18pt; font-weight: bold; margin-bottom: 5px;">${mercurialTitle ? mercurialTitle.innerText : ''}</h2>
-        <p style="font-size: 12pt; color: #333; margin-bottom: 20px;">${prixDepartInfo ? prixDepartInfo.innerText : ''}</p>
-    `;
-    element.appendChild(headerContainer);
-
-    // 6. Ajout du Tableau (Clonage et nettoyage)
     const cloneTable = tableContainer.cloneNode(true);
-    const toHide = cloneTable.querySelectorAll('.no-print, #tabs, .bg-slate-800');
-    toHide.forEach(el => el.remove());
     
-    // On force le tableau en noir sur blanc pour le PDF
-    cloneTable.style.backgroundColor = "white";
-    cloneTable.style.color = "black";
-    cloneTable.style.boxShadow = "none";
-    cloneTable.style.borderRadius = "0";
-    element.appendChild(cloneTable);
+    // Nettoyage des colonnes selon la langue sélectionnée
+    const colsToFilter = ['prix-fr', 'prix-it', 'prix-en', 'prix-es'];
+    colsToFilter.forEach(c => {
+        if(currentLang !== 'edition' && c !== `prix-${currentLang}`) {
+            cloneTable.querySelectorAll('.' + c).forEach(el => el.remove());
+        }
+    });
+    
+    // Style forcé pour le PDF
+    cloneTable.style.width = "100%";
+    cloneTable.style.borderCollapse = "collapse";
+    cloneTable.querySelectorAll('th, td').forEach(cell => {
+        cell.style.border = "1px solid #e2e8f0";
+        cell.style.padding = "8px";
+        cell.style.color = "black";
+    });
 
-    // 7. Configuration de l'export
+    element.appendChild(cloneTable);
+    document.body.appendChild(element); // Nécessaire pour que html2canvas le lise
+
     const opt = {
-        margin: [10, 10, 20, 10],
-        filename: 'Tarifs_Cesar_International.pdf',
-        image: { type: 'jpeg', quality: 1 },
+        margin: [10, 5, 10, 5],
+        filename: 'Tarifs_Cesar.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { 
             scale: 2, 
             useCORS: true, 
-            backgroundColor: '#ffffff',
-            scrollY: 0,
-            y: 0
+            width: 800 // On force la capture sur la largeur du conteneur virtuel
         },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
-    // 8. Génération avec numérotation
-    html2pdf().set(opt).from(element).toPdf().get('pdf').then(function (pdf) {
+    html2pdf().set(opt).from(element).toPdf().get('pdf').then(function(pdf) {
         const totalPages = pdf.internal.getNumberOfPages();
         for (let i = 1; i <= totalPages; i++) {
             pdf.setPage(i);
@@ -2990,7 +2973,9 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             pdf.setTextColor(150);
             pdf.text('Page ' + i + ' sur ' + totalPages, pdf.internal.pageSize.getWidth() - 25, pdf.internal.pageSize.getHeight() - 10);
         }
-    }).save();
+    }).save().then(() => {
+        document.body.removeChild(element); // Nettoyage après téléchargement
+    });
 }
         window.onload = init;
     </script>
