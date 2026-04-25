@@ -2887,10 +2887,43 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     
     let text = `${greeting} !\n\n`;
     text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
-    text += `📲 [https://ces9r-int.github.io/I/]\n`;
+    text += `📲 [VOTRE LIEN ICI]\n`;
     text += `--------------------------\n\n`;
     
     const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
+
+    // Définition des catégories de produits
+    const fruits = [
+        'ORANGE', 'MANDARINE', 'CITRON', 'PAMPLEMOUSSE', 'CLEMENTINE',
+        'POMME', 'POIRE', 'BANANE', 'KIWI', 'ANANAS', 'MANGUE', 'AVOCAT',
+        'RAISIN', 'PECHE', 'NECTARINE', 'ABRICOT', 'PRUNE', 'CERISE',
+        'FRAISE', 'FRAMBOISE', 'MYRTILLE', 'MELON', 'PASTEQUE', 'FRUIT',
+        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES'
+    ];
+    
+    const legumes = [
+        'TOMATE', 'CONCOMBRE', 'POIVRON', 'PIMENT', 'AUBERGINE', 'COURGETTE',
+        'HARICOT', 'SALADE', 'LAITUE', 'CHOU', 'BROCOLI', 'CHOUFLEUR',
+        'ROMANESCO', 'EPINARD', 'CAROTTE', 'OIGNON', 'AIL', 'POIREAU',
+        'CELERI', 'BETTERAVE', 'NAVET', 'RADIS', 'ARTICHAUT', 'ASPERGE',
+        'KAPIA', 'PALERMO', 'SWEETBITE', 'CORNE', 'BROCOL!S',
+        'COURGETTES', 'SALADE ICEBERG'
+    ];
+
+    // Fonction pour déterminer la catégorie d'un produit
+    function getProductCategory(productName) {
+        const name = productName.toUpperCase().trim();
+        
+        for (let fruit of fruits) {
+            if (name.includes(fruit)) return 'FRUITS';
+        }
+        
+        for (let legume of legumes) {
+            if (name.includes(legume)) return 'LEGUMES';
+        }
+        
+        return 'AUTRES';
+    }
 
     // Fonction pour obtenir le drapeau selon l'origine
     function getFlag(origine) {
@@ -2951,8 +2984,18 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             groupedByProduct[productKey].push(row);
         }
         
-        // Trier les produits par ordre alphabétique
-        const sortedProducts = Object.keys(groupedByProduct).sort();
+        // Trier les produits : FRUITS d'abord, puis LEGUMES, puis AUTRES, puis par ordre alphabétique
+        const sortedProducts = Object.keys(groupedByProduct).sort((a, b) => {
+            const catA = getProductCategory(a);
+            const catB = getProductCategory(b);
+            
+            if (catA === 'FRUITS' && catB !== 'FRUITS') return -1;
+            if (catA !== 'FRUITS' && catB === 'FRUITS') return 1;
+            if (catA === 'LEGUMES' && catB === 'AUTRES') return -1;
+            if (catA === 'AUTRES' && catB === 'LEGUMES') return 1;
+            
+            return a.localeCompare(b);
+        });
         
         for (let productName of sortedProducts) {
             const translatedProduct = await translate(productName, lang);
