@@ -2887,7 +2887,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     
     let text = `${greeting} !\n\n`;
     text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
-    text += `📲 [VOTRE LIEN ICI]\n`;
+    text += `📲 [https://ces9r-int.github.io/I/]\n`;
     text += `--------------------------\n\n`;
     
     const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
