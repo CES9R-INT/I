@@ -701,7 +701,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 
                 <div class="ml-auto flex flex-col items-end gap-2">
                     <div class="text-right">
-    <p class="text-white font-bold text-lg">TEL : +33 06 31 06 85 02</p> 
+    <p class="text-white font-bold text-lg">+31 06 31 06 85 02</p> 
     
     <p id="current-date" class="text-slate-500 font-medium italic"></p>
 </div>
@@ -710,7 +710,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                             WhatsApp Export
                         </button>
 <button onclick="generatePDFSimple()" class="px-4 py-2 rounded-lg transition bg-blue-600 text-sm font-bold">
-    DOWNLOAD PDF
+    Télécharger
 </button>
                   </div>
                 </div>
@@ -2686,7 +2686,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
         const translationCache = { 
             en: {}, 
             it: { 
-                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI", "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni", "Haricot plat": "Piattoni", "HARICOT PLAT": "PIATTONI", "Coco plat": "Piattoni","poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO", "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "POIVRON ORANGE": "PEPERONE ARANCIONE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
+                "CHOU BROCOLIS": "BROCCOLO", "colis": "Colli", "Colis": "Colli", "COLIS": "COLLI", "Haricots verts": "Fagiolini", "Haricots plats": "Piattoni", "Haricot plat": "Piattoni", "HARICOT PLAT": "PIATTONI", "Coco plat": "Piattoni","poivron": "peperone", "Poivron": "Peperone", "POIVRON ROUGE": "PEPERONE ROSSO", "iceberg": "Iceberg", "Sweetbite": "Sweetbite", "POIVRON JAUNE": "PEPERONE GIALLO", "POIVRON VERT": "PEPERONE VERDE", "PIMENT VERT": "PICCANTE VERDE", "PIMENT ROUGE": "PICCANTE ROSSO", "SWEETBITE TRICOLOR": "SWEETBITE TRICOLORE", "POIVRON TRICOLOR": "PEPERONE TRICOLORE", "TOMATE GRAPPE": "POMODORO GRAPPOLO", "SALADE ICEBERG": "ICEBERG", "BROCOL!S": "BROCCOLI"
             }, 
             de: {} 
         };
@@ -2863,177 +2863,32 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             container.innerHTML = html + "</tbody></table>";
         }
 
- async function renderWhatsApp(lang) {
-    const output = document.getElementById('wa-output');
-    output.value = "Mise en forme en cours...";
-    
-    // Messages selon la langue
-    const greetings = {
-        'fr': 'Bonjour',
-        'en': 'Good morning',
-        'it': 'Buongiorno',
-        'de': 'Guten Morgen'
-    };
-    
-    const dailyOffer = {
-        'fr': 'OFFRE DU JOUR',
-        'en': 'DAILY OFFER',
-        'it': 'OFFERTA DEL GIORNO',
-        'de': 'TAGESANGEBOT'
-    };
-    
-    const priceDeparture = {
-        'fr': 'Prix départ Perpignan',
-        'en': 'Prices departure Perpignan',
-        'it': 'Prezzi partenza Perpignan',
-        'de': 'Preise ab Perpignan'
-    };
-    
-    const greeting = greetings[lang] || greetings['fr'];
-    const offerTitle = dailyOffer[lang] || dailyOffer['fr'];
-    const priceText = priceDeparture[lang] || priceDeparture['fr'];
-    
-    let text = `${greeting} !\n\n`;
-    text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
-    text += `📲 [https://ces9r-int.github.io/I/]\n`;
-    text += `📍 _${priceText}_\n`;
-    text += `--------------------------\n\n`;
-    
-    const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
+        async function renderWhatsApp(lang) {
+            const output = document.getElementById('wa-output');
+            output.value = "Traduction en cours...";
+            let text = `*OFFRE DU JOUR - ${new Date().toLocaleDateString()}*\n--------------------------\n\n`;
+            const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
 
-    // Définition des catégories de produits
-    const fruits = [
-        'ORANGE', 'MANDARINE', 'CITRON', 'PAMPLEMOUSSE', 'CLEMENTINE',
-        'POMME', 'POIRE', 'BANANE', 'KIWI', 'ANANAS', 'MANGUE', 'AVOCAT',
-        'RAISIN', 'PECHE', 'NECTARINE', 'ABRICOT', 'PRUNE', 'CERISE',
-        'FRAISE', 'FRAMBOISE', 'MYRTILLE', 'MELON', 'PASTEQUE', 'FRUIT',
-        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES', 'NADORCOTT'
-    ];
-    
-    const legumes = [
-        'TOMATE', 'CONCOMBRE', 'POIVRON', 'PIMENT', 'AUBERGINE', 'COURGETTE',
-        'HARICOT', 'CHOU', 'BROCOLI', 'CHOUFLEUR',
-        'ROMANESCO', 'EPINARD', 'CAROTTE', 'OIGNON', 'AIL', 'POIREAU',
-        'CELERI', 'BETTERAVE', 'NAVET', 'RADIS', 'ARTICHAUT', 'ASPERGE',
-        'KAPIA', 'PALERMO', 'SWEETBITE', 'CORNE', 'BROCOL!S',
-        'COURGETTES'
-    ];
-    
-    const salades = [
-        'SALADE', 'LAITUE', 'ICEBERG', 'ROQUETTE', 'MAIS', 'ENDIVE',
-        'SCAROLE', 'FRISEE', 'BATAVIA', 'FEUILLE', 'MESCLUN',
-        'POUSSES', 'GERME', , 'BROCOL!S', 'CHOUFLEUR'
-    ];
-
-    // Fonction pour déterminer la catégorie d'un produit
-    function getProductCategory(productName) {
-        const name = productName.toUpperCase().trim();
-        
-        // Vérifier d'abord les salades
-        for (let salade of salades) {
-            if (name.includes(salade)) return 'SALADES';
-        }
-        
-        for (let fruit of fruits) {
-            if (name.includes(fruit)) return 'FRUITS';
-        }
-        
-        for (let legume of legumes) {
-            if (name.includes(legume)) return 'LEGUMES';
-        }
-        
-        return 'AUTRES';
-    }
-
-    // Fonction pour obtenir le drapeau selon l'origine
-    function getFlag(origine) {
-        const flags = {
-            'MAROC': '🇲🇦',
-            'MAROCCO': '🇲🇦',
-            'ESPAGNE': '🇪🇸',
-            'ESPAGNA': '🇪🇸',
-            'SPAGNA': '🇪🇸',
-            'FRANCE': '🇫🇷',
-            'ITALIE': '🇮🇹',
-            'ITALIA': '🇮🇹',
-            'PORTUGAL': '🇵🇹',
-            'ALLEMAGNE': '🇩🇪',
-            'BELGIQUE': '🇧🇪',
-            'PAYS-BAS': '🇳🇱',
-            'TURQUIE': '🇹🇷',
-            'GRÈCE': '🇬🇷'
-        };
-        return flags[origine] || '🏳️';
-    }
-
-    // Première étape : Regrouper par ORIGINE
-    const groupedByOrigin = {};
-    
-    for (let row of rows) {
-        const ori = (row.origine || 'AUTRE').trim().toUpperCase();
-        if (!groupedByOrigin[ori]) {
-            groupedByOrigin[ori] = [];
-        }
-        groupedByOrigin[ori].push(row);
-    }
-
-    // Trier les origines (MAROC en premier, ESPAGNE ensuite)
-    const sortedOrigins = Object.keys(groupedByOrigin).sort((a, b) => {
-        if (a === 'MAROC') return -1;
-        if (b === 'MAROC') return 1;
-        if (a === 'ESPAGNE') return -1;
-        if (b === 'ESPAGNE') return 1;
-        return a.localeCompare(b);
-    });
-
-    // Construire le texte
-    for (let origine of sortedOrigins) {
-        const flag = getFlag(origine);
-        const translatedOrigine = await translate(origine, lang);
-        text += `${flag} *${translatedOrigine}*\n`;
-        
-        // Pour cette origine, regrouper par PRODUIT
-        const groupedByProduct = {};
-        const originRows = groupedByOrigin[origine];
-        
-        for (let row of originRows) {
-            const productKey = (row.product || 'AUTRE').trim().toUpperCase();
-            if (!groupedByProduct[productKey]) {
-                groupedByProduct[productKey] = [];
-            }
-            groupedByProduct[productKey].push(row);
-        }
-        
-        // Trier les produits : FRUITS d'abord, puis LEGUMES, puis SALADES, puis AUTRES
-        const sortedProducts = Object.keys(groupedByProduct).sort((a, b) => {
-            const catA = getProductCategory(a);
-            const catB = getProductCategory(b);
-            
-            const order = { 'FRUITS': 1, 'LEGUMES': 2, 'SALADES': 3, 'AUTRES': 4 };
-            
-            return (order[catA] || 4) - (order[catB] || 4) || a.localeCompare(b);
-        });
-        
-        for (let productName of sortedProducts) {
-            const translatedProduct = await translate(productName, lang);
-            text += `  → *${translatedProduct}*\n`;
-            
-            // Afficher les calibres/désignations (sans notes)
-            for (let row of groupedByProduct[productName]) {
-                const cal = row.calibre || row.desc || '';
+            for (let row of rows) {
+                const prod = await translate(row.product, lang);
+                const desc = await translate(row.desc, lang);
+                const cal = await translate(row.calibre, lang);
+                const ori = await translate(row.origine, lang);
                 const unit = await translate(row.unit, lang);
-                
-                let line = `    ${cal || '-'} : *${row.price.toFixed(2)}€ / ${unit}*`;
+                const not = await translate(row.notes, lang);
+
+                let line = `*${prod}*`;
+                if(desc) line += ` (${desc})`;
+                if(cal) line += ` (${cal})`;
+                if(ori) line += ` [${ori}]`;
+                line += `: *${row.price.toFixed(2)}€ / ${unit}*`;
+                if(not) line += ` _(${not})_`;
                 
                 text += line + `\n`;
             }
+            output.value = rows.length > 0 ? text : "Rien à exporter.";
         }
-        
-        text += `\n`;
-    }
-    
-    output.value = rows.length > 0 ? text : "Rien à exporter.";
-}
+
         function copyWA() {
             const output = document.getElementById('wa-output');
             output.select();
