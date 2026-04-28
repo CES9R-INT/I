@@ -2303,10 +2303,8 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         <div id="save-section" class="mt-8 flex justify-between items-center no-print">
                     <button onclick="resetDataWithAuth()" class="text-red-600 text-sm font-bold">Vider la base</button>
                     <button onclick="downloadSelf()" class="bg-slate-200 px-6 py-3 rounded-2xl text-sm font-bold">Exporter .html</button>
-                </div>
+				</div>
                     </div>
-                </div>
-            </div>
 
             <div id="content-view" class="hidden">
                 <div id="translated-table-container"><table class="w-full text-sm text-left"><thead><tr class="bg-slate-100/50 border-b uppercase text-[10px] tracking-widest text-slate-600 font-bold">
