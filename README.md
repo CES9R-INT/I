@@ -2300,9 +2300,9 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         <span id="save-indicator" class="text-green-600 text-[10px] font-bold opacity-0 transition-opacity uppercase tracking-widest" style="opacity: 0;">
                             Modifications enregistrées
                         </span>
-                        <div id="save-section" class="mt-8 flex justify-between items-center no-print">
-                    <button onclick="resetDataWithAuth()" class="text-red-600 text-sm font-bold">Vider la base</button>
-                    <button onclick="downloadSelf()" class="bg-slate-200 px-6 py-3 rounded-2xl text-sm font-bold">Exporter .html</button>
+                      <button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
+                            Exporter le fichier source (.html)
+                        </button>
 				</div>
                     </div>
 
