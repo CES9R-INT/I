@@ -2300,11 +2300,12 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                         <span id="save-indicator" class="text-green-600 text-[10px] font-bold opacity-0 transition-opacity uppercase tracking-widest" style="opacity: 0;">
                             Modifications enregistrées
                         </span>
-                      <button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
+				<button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
                             Exporter le fichier source (.html)
                         </button>
-				</div>
+				      </div>
                     </div>
+			 	</div>
 
             <div id="content-view" class="hidden">
                 <div id="translated-table-container"><table class="w-full text-sm text-left"><thead><tr class="bg-slate-100/50 border-b uppercase text-[10px] tracking-widest text-slate-600 font-bold">
