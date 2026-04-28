@@ -2992,14 +2992,35 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 }
 
 function downloadSelf() {
-            const html = document.documentElement.outerHTML;
-            const newHtml = html.replace(/const INITIAL_DATA = .*?;/, `const INITIAL_DATA = ${JSON.stringify(data)};`);
-            const blob = new Blob([newHtml], { type: 'text/html' });
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(blob);
-            a.download = 'Tarifs_Export_Source.html';
-            a.click();
-        }
+    // 1. Récupérer le contenu HTML complet
+    let html = document.documentElement.outerHTML;
+
+    // 2. Préparer les données (on échappe les caractères problématiques)
+    // On s'assure que 'data' existe bien dans votre scope global
+    const dataString = JSON.stringify(data).replace(/</g, '\\u003c');
+
+    // 3. Remplacement ciblé
+    // On cherche "const INITIAL_DATA = " suivi de n'importe quoi jusqu'au prochain ";"
+    const regex = /const INITIAL_DATA = [\s\S]*?;/;
+    const newHtml = html.replace(regex, `const INITIAL_DATA = ${dataString};`);
+
+    // 4. Création et téléchargement du Blob
+    const blob = new Blob([newHtml], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Tarifs_Export_Source.html';
+    
+    document.body.appendChild(a); // Nécessaire sur certains navigateurs
+    a.click();
+    
+    // Nettoyage
+    setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }, 0);
+}
 
         function copyWA() {
             const output = document.getElementById('wa-output');
