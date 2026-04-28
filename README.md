@@ -2819,76 +2819,177 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
 
         function closeEditModal() { document.getElementById('pwd-modal-edit').classList.add('hidden'); }
 
-        async function switchTab(lang) {
-            document.querySelectorAll('#tabs button').forEach(b => b.classList.remove('tab-active'));
-            ['content-edit', 'content-view', 'content-wa'].forEach(id => document.getElementById(id).classList.add('hidden'));
-
-            if (lang === 'edit') {
-                document.getElementById('tab-edit').classList.add('tab-active');
-                document.getElementById('content-edit').classList.remove('hidden');
-                renderEditor();
-            } else if (lang === 'wa') {
-                document.getElementById('tab-wa').classList.add('tab-active');
-                document.getElementById('content-wa').classList.remove('hidden');
-                await renderWhatsApp(currentLang);
-            } else {
-                currentLang = lang;
-                document.getElementById('tab-' + lang).classList.add('tab-active');
-                document.getElementById('content-view').classList.remove('hidden');
-                await renderListView(lang);
-            }
-        }
-
-        async function renderListView(lang) {
-            const container = document.getElementById('translated-table-container');
-            container.innerHTML = `<div class="p-20 text-center text-slate-500 animate-pulse font-bold uppercase tracking-widest text-xs">Cesar AI traduction...</div>`;
-            const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
-            if (rows.length === 0) return container.innerHTML = "<div class='p-12 text-center text-slate-400 font-medium bg-white/50 rounded-lg'>Tableau vide ou sans prix.</div>";
-
-            const l = labels[lang];
-            let html = `<table class="w-full text-sm text-left"><thead><tr class="bg-slate-100/50 border-b uppercase text-[10px] tracking-widest text-slate-600 font-bold">
-                <th class="p-4">${l.product}</th><th class="p-4">${l.desc}</th><th class="p-4">${l.calibre}</th><th class="p-4">${l.origine}</th><th class="p-4 text-right">${l.price}</th><th class="p-4">${l.notes}</th>
-            </tr></thead><tbody>`;
-            
-            for (let row of rows) {
-                html += `<tr class="border-b hover:bg-white/40 transition-colors">
-                    <td class="p-4 font-bold text-slate-800">${await translate(row.product, lang)}</td>
-                    <td class="p-4 text-slate-700">${await translate(row.desc, lang)}</td>
-                    <td class="p-4 text-slate-600">${await translate(row.calibre, lang)}</td>
-                    <td class="p-4 text-slate-600">${await translate(row.origine, lang)}</td>
-                    <td class="p-4 text-right font-black text-blue-600">${row.price.toFixed(2)} € / ${await translate(row.unit, lang)}</td>
-                    <td class="p-4 text-[11px] italic text-slate-500">${await translate(row.notes, lang)}</td>
-                </tr>`;
-            }
-            container.innerHTML = html + "</tbody></table>";
-        }
-
         async function renderWhatsApp(lang) {
-            const output = document.getElementById('wa-output');
-            output.value = "Traduction en cours...";
-            let text = `*OFFRE DU JOUR - ${new Date().toLocaleDateString()}*\n--------------------------\n\n`;
-            const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
+    const output = document.getElementById('wa-output');
+    output.value = "Mise en forme en cours...";
+    
+    // Messages selon la langue
+    const greetings = {
+        'fr': 'Bonjour',
+        'en': 'Good morning',
+        'it': 'Buongiorno',
+        'de': 'Guten Morgen'
+    };
+    
+    const dailyOffer = {
+        'fr': 'OFFRE DU JOUR',
+        'en': 'DAILY OFFER',
+        'it': 'OFFERTA DEL GIORNO',
+        'de': 'TAGESANGEBOT'
+    };
+    
+    const priceDeparture = {
+        'fr': 'Prix départ Perpignan',
+        'en': 'Prices departure Perpignan',
+        'it': 'Prezzi partenza Perpignan',
+        'de': 'Preise ab Perpignan'
+    };
+    
+    const greeting = greetings[lang] || greetings['fr'];
+    const offerTitle = dailyOffer[lang] || dailyOffer['fr'];
+    const priceText = priceDeparture[lang] || priceDeparture['fr'];
+    
+    let text = `${greeting} !\n\n`;
+    text += `*${offerTitle} - ${new Date().toLocaleDateString()}*\n`;
+    text += `📲 [https://ces9r-int.github.io/I/]\n`;
+    text += `📍 _${priceText}_\n`;
+    text += `--------------------------\n\n`;
+    
+    const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
 
-            for (let row of rows) {
-                const prod = await translate(row.product, lang);
-                const desc = await translate(row.desc, lang);
-                const cal = await translate(row.calibre, lang);
-                const ori = await translate(row.origine, lang);
+    // Définition des catégories de produits
+    const fruits = [
+        'ORANGE', 'MANDARINE', 'CITRON', 'PAMPLEMOUSSE', 'CLEMENTINE',
+        'POMME', 'POIRE', 'BANANE', 'KIWI', 'ANANAS', 'MANGUE', 'AVOCAT',
+        'RAISIN', 'PECHE', 'NECTARINE', 'ABRICOT', 'PRUNE', 'CERISE',
+        'FRAISE', 'FRAMBOISE', 'MYRTILLE', 'MELON', 'PASTEQUE', 'FRUIT',
+        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES', 'NADORCOTT'
+    ];
+    
+    const legumes = [
+        'TOMATE', 'CONCOMBRE', 'POIVRON', 'PIMENT', 'AUBERGINE', 'COURGETTE',
+        'HARICOT', 'CHOU', 'BROCOLI', 'CHOUFLEUR',
+        'ROMANESCO', 'EPINARD', 'CAROTTE', 'OIGNON', 'AIL', 'POIREAU',
+        'CELERI', 'BETTERAVE', 'NAVET', 'RADIS', 'ARTICHAUT', 'ASPERGE',
+        'KAPIA', 'PALERMO', 'SWEETBITE', 'CORNE', 'BROCOL!S',
+        'COURGETTES'
+    ];
+    
+    const salades = [
+        'SALADE', 'LAITUE', 'ICEBERG', 'ROQUETTE', 'MAIS', 'ENDIVE',
+        'SCAROLE', 'FRISEE', 'BATAVIA', 'FEUILLE', 'MESCLUN',
+        'POUSSES', 'GERME', , 'BROCOL!S', 'CHOUFLEUR'
+    ];
+
+    // Fonction pour déterminer la catégorie d'un produit
+    function getProductCategory(productName) {
+        const name = productName.toUpperCase().trim();
+        
+        // Vérifier d'abord les salades
+        for (let salade of salades) {
+            if (name.includes(salade)) return 'SALADES';
+        }
+        
+        for (let fruit of fruits) {
+            if (name.includes(fruit)) return 'FRUITS';
+        }
+        
+        for (let legume of legumes) {
+            if (name.includes(legume)) return 'LEGUMES';
+        }
+        
+        return 'AUTRES';
+    }
+
+    // Fonction pour obtenir le drapeau selon l'origine
+    function getFlag(origine) {
+        const flags = {
+            'MAROC': '🇲🇦',
+            'MAROCCO': '🇲🇦',
+            'ESPAGNE': '🇪🇸',
+            'ESPAGNA': '🇪🇸',
+            'SPAGNA': '🇪🇸',
+            'FRANCE': '🇫🇷',
+            'ITALIE': '🇮🇹',
+            'ITALIA': '🇮🇹',
+            'PORTUGAL': '🇵🇹',
+            'ALLEMAGNE': '🇩🇪',
+            'BELGIQUE': '🇧🇪',
+            'PAYS-BAS': '🇳🇱',
+            'TURQUIE': '🇹🇷',
+            'GRÈCE': '🇬🇷'
+        };
+        return flags[origine] || '🏳️';
+    }
+
+    // Première étape : Regrouper par ORIGINE
+    const groupedByOrigin = {};
+    
+    for (let row of rows) {
+        const ori = (row.origine || 'AUTRE').trim().toUpperCase();
+        if (!groupedByOrigin[ori]) {
+            groupedByOrigin[ori] = [];
+        }
+        groupedByOrigin[ori].push(row);
+    }
+
+    // Trier les origines (MAROC en premier, ESPAGNE ensuite)
+    const sortedOrigins = Object.keys(groupedByOrigin).sort((a, b) => {
+        if (a === 'MAROC') return -1;
+        if (b === 'MAROC') return 1;
+        if (a === 'ESPAGNE') return -1;
+        if (b === 'ESPAGNE') return 1;
+        return a.localeCompare(b);
+    });
+
+    // Construire le texte
+    for (let origine of sortedOrigins) {
+        const flag = getFlag(origine);
+        const translatedOrigine = await translate(origine, lang);
+        text += `${flag} *${translatedOrigine}*\n`;
+        
+        // Pour cette origine, regrouper par PRODUIT
+        const groupedByProduct = {};
+        const originRows = groupedByOrigin[origine];
+        
+        for (let row of originRows) {
+            const productKey = (row.product || 'AUTRE').trim().toUpperCase();
+            if (!groupedByProduct[productKey]) {
+                groupedByProduct[productKey] = [];
+            }
+            groupedByProduct[productKey].push(row);
+        }
+        
+        // Trier les produits : FRUITS d'abord, puis LEGUMES, puis SALADES, puis AUTRES
+        const sortedProducts = Object.keys(groupedByProduct).sort((a, b) => {
+            const catA = getProductCategory(a);
+            const catB = getProductCategory(b);
+            
+            const order = { 'FRUITS': 1, 'LEGUMES': 2, 'SALADES': 3, 'AUTRES': 4 };
+            
+            return (order[catA] || 4) - (order[catB] || 4) || a.localeCompare(b);
+        });
+        
+        for (let productName of sortedProducts) {
+            const translatedProduct = await translate(productName, lang);
+            text += `  → *${translatedProduct}*\n`;
+            
+            // Afficher les calibres/désignations (sans notes)
+            for (let row of groupedByProduct[productName]) {
+                const cal = row.calibre || row.desc || '';
                 const unit = await translate(row.unit, lang);
-                const not = await translate(row.notes, lang);
-
-                let line = `*${prod}*`;
-                if(desc) line += ` (${desc})`;
-                if(cal) line += ` (${cal})`;
-                if(ori) line += ` [${ori}]`;
-                line += `: *${row.price.toFixed(2)}€ / ${unit}*`;
-                if(not) line += ` _(${not})_`;
+                
+                let line = `    ${cal || '-'} : *${row.price.toFixed(2)}€ / ${unit}*`;
                 
                 text += line + `\n`;
             }
-            output.value = rows.length > 0 ? text : "Rien à exporter.";
         }
-
+        
+        text += `\n`;
+    }
+    
+    output.value = rows.length > 0 ? text : "Rien à exporter.";
+}
         function copyWA() {
             const output = document.getElementById('wa-output');
             output.select();
