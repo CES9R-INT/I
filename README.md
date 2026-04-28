@@ -2301,7 +2301,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                             Modifications enregistrées
                         </span>
 				<button onclick="downloadSelf()" class="bg-slate-200 text-slate-700 px-4 py-2 rounded-lg text-[10px] transition uppercase tracking-widest font-bold hover:bg-slate-300">
-                            Exporter le fichier source (.html)
+                      Exporter le fichier source (.html)
                         </button>
 				      </div>
                     </div>
@@ -2990,6 +2990,17 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
     
     output.value = rows.length > 0 ? text : "Rien à exporter.";
 }
+
+function downloadSelf() {
+            const html = document.documentElement.outerHTML;
+            const newHtml = html.replace(/const INITIAL_DATA = .*?;/, `const INITIAL_DATA = ${JSON.stringify(data)};`);
+            const blob = new Blob([newHtml], { type: 'text/html' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'Tarifs_Export_Source.html';
+            a.click();
+        }
+
         function copyWA() {
             const output = document.getElementById('wa-output');
             output.select();
