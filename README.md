@@ -2682,6 +2682,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
                 tr.innerHTML = `
                     <td class="p-2"><input class="input-cell font-bold text-slate-800" value="${row.product || ''}" oninput="updateDataByRowId('${row.id}', 'product', this.value)"></td>
                     <td class="p-2"><input class="input-cell" value="${row.desc || ''}" placeholder="..." oninput="updateDataByRowId('${row.id}', 'desc', this.value)"></td>
+		   <td class="p-2"><input class="input-cell text-slate-600" value="${row.calibre || ''}" 	    oninput="updateDataByRowId('${row.id}', 'calibre', this.value)"></td>
                     <td class="p-2"><input class="input-cell text-slate-600" value="${row.calibre || ''}" oninput="updateDataByRowId('${row.id}', 'calibre', this.value)"></td>
                     <td class="p-2"><input class="input-cell text-slate-600" value="${row.origine || ''}" oninput="updateDataByRowId('${row.id}', 'origine', this.value)"></td>
                     <td class="p-2"><input type="number" class="input-cell text-right font-bold text-blue-700" value="${row.price || 0}" step="0.01" oninput="updateDataByRowId('${row.id}', 'price', this.value)"></td>
@@ -2787,7 +2788,7 @@ G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;O
             }
         }
 
-        async function renderListView(lang) {
+         async function renderListView(lang) {
             const container = document.getElementById('translated-table-container');
             container.innerHTML = `<div class="p-20 text-center text-slate-500 animate-pulse font-bold uppercase tracking-widest text-xs">Cesar AI traduction...</div>`;
             const rows = data.filter(r => (r.desc || r.product) && (parseFloat(r.price) > 0));
@@ -2825,7 +2826,7 @@ async function renderWhatsApp(lang) {
     const dailyOffer = {
         'fr': 'OFFRE DU JOUR',
         'en': 'DAILY OFFER',
-        'it': 'OFFERTA DEL GIORNO',
+        'it': 'LISTINO PREZZI',
         'de': 'TAGESANGEBOT'
     };
     
@@ -2854,7 +2855,7 @@ async function renderWhatsApp(lang) {
         'POMME', 'POIRE', 'BANANE', 'KIWI', 'ANANAS', 'MANGUE', 'AVOCAT',
         'RAISIN', 'PECHE', 'NECTARINE', 'ABRICOT', 'PRUNE', 'CERISE',
         'FRAISE', 'FRAMBOISE', 'MYRTILLE', 'MELON', 'PASTEQUE', 'FRUIT',
-        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES', 'NADORCOTT'
+        'PÊCHE', 'POIRES', 'ABRICOTS', 'NECTARINES', 'NADORCOTT', "ABRICOTS"
     ];
     
     const legumes = [
@@ -2965,19 +2966,42 @@ async function renderWhatsApp(lang) {
             const translatedProduct = await translate(productName, lang);
             text += `  → *${translatedProduct}*\n`;
             
-            // Afficher les calibres/désignations (sans notes)
-            for (let row of groupedByProduct[productName]) {
-                const cal = row.calibre || row.desc || '';
-                const unit = await translate(row.unit, lang);
-                
-                let line = `    ${cal || '-'} : *${row.price.toFixed(2)}€ / ${unit}*`;
-                
-                text += line + `\n`;
-            }
+           // Afficher les calibres, descriptions et notes
+for (let row of groupedByProduct[productName]) {
+    const cal = row.calibre || '';
+    const desc = row.desc || '';
+    const unit = await translate(row.unit, lang);
+    const translatedDesc = desc ? await translate(desc, lang) : '';
+    
+    // Construire la ligne avec calibre + description
+    let line = `    `;
+    
+    // Ajouter le calibre s'il existe
+    if (cal) {
+        line += `${cal}`;
+    }
+    
+    // Ajouter la description si elle existe et différente du calibre
+    if (translatedDesc && translatedDesc !== cal) {
+        if (cal) line += ` - `;
+        line += `${translatedDesc}`;
+    }
+    
+    // Si ni calibre ni description, afficher un tiret
+    if (!cal && !translatedDesc) {
+        line += `-`;
+    }
+    
+    // Ajouter le prix
+    line += ` : *${row.price.toFixed(2)}€ / ${unit}*`;
+    
+    text += line + `\n`;
+}
         }
         
         text += `\n`;
     }
+
     
     output.value = rows.length > 0 ? text : "Rien à exporter.";
 }
